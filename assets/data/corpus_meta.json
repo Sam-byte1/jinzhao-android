@@ -1,54 +1,183 @@
 {
   "source": "知乎整理者统计口径（用户提供）",
-  "totalPoems": 145,
+  "totalPoems": 126,
   "pre1949Count": 64,
-  "post1949Count": 81,
+  "post1949Count": 62,
   "publishedByMaoHimself": 39,
   "publishedAfterDeathByAuthorities": 11,
-  "scatteredInPressLettersEtc": 95,
+  "scatteredInPressLettersEtc": 76,
   "totalCharacterCount": 9027,
   "characterCountNote": "不含词牌名、标题、写作日期、副题/说明文字，不含组诗组词里的“其一”“其二”等字样，也不含萧瑜、罗章龙、乔冠华合写并续李白诗合计 17 句 129 字符",
   "ciPaiUsage": [
-    { "cipai": "卜算子", "count": 2, "forms": 2 },
-    { "cipai": "采桑子", "count": 1, "forms": 1 },
-    { "cipai": "蝶恋花", "count": 2, "forms": 1 },
-    { "cipai": "归国谣", "count": 1, "forms": 1 },
-    { "cipai": "贺新郎", "count": 3, "forms": 3 },
-    { "cipai": "浣溪沙", "count": 2, "forms": 1 },
-    { "cipai": "减字木兰花", "count": 2, "forms": 2 },
-    { "cipai": "浪淘沙", "count": 1, "forms": 1 },
-    { "cipai": "临江仙", "count": 1, "forms": 1 },
-    { "cipai": "满江红", "count": 2, "forms": 2 },
-    { "cipai": "念奴娇", "count": 5, "forms": 3 },
-    { "cipai": "菩萨蛮", "count": 2, "forms": 1 },
-    { "cipai": "沁园春", "count": 2, "forms": 1 },
-    { "cipai": "清平乐", "count": 5, "forms": 2 },
-    { "cipai": "如梦令", "count": 2, "forms": 2 },
-    { "cipai": "十六字令", "count": 11, "forms": null },
-    { "cipai": "水调歌头", "count": 2, "forms": 1 },
-    { "cipai": "诉衷情", "count": 1, "forms": 1 },
-    { "cipai": "西江月", "count": 2, "forms": 1 },
-    { "cipai": "忆秦娥", "count": 2, "forms": 1 },
-    { "cipai": "渔家傲", "count": 2, "forms": 1 },
-    { "cipai": "虞美人", "count": 1, "forms": 1 }
+    {
+      "cipai": "卜算子",
+      "count": 2,
+      "forms": 2
+    },
+    {
+      "cipai": "采桑子",
+      "count": 1,
+      "forms": 1
+    },
+    {
+      "cipai": "蝶恋花",
+      "count": 2,
+      "forms": 1
+    },
+    {
+      "cipai": "归国谣",
+      "count": 1,
+      "forms": 1
+    },
+    {
+      "cipai": "贺新郎",
+      "count": 3,
+      "forms": 3
+    },
+    {
+      "cipai": "浣溪沙",
+      "count": 2,
+      "forms": 1
+    },
+    {
+      "cipai": "减字木兰花",
+      "count": 2,
+      "forms": 2
+    },
+    {
+      "cipai": "浪淘沙",
+      "count": 1,
+      "forms": 1
+    },
+    {
+      "cipai": "临江仙",
+      "count": 1,
+      "forms": 1
+    },
+    {
+      "cipai": "满江红",
+      "count": 2,
+      "forms": 2
+    },
+    {
+      "cipai": "念奴娇",
+      "count": 3,
+      "forms": null
+    },
+    {
+      "cipai": "菩萨蛮",
+      "count": 2,
+      "forms": 1
+    },
+    {
+      "cipai": "沁园春",
+      "count": 2,
+      "forms": 1
+    },
+    {
+      "cipai": "清平乐",
+      "count": 3,
+      "forms": null
+    },
+    {
+      "cipai": "如梦令",
+      "count": 1,
+      "forms": null
+    },
+    {
+      "cipai": "十六字令",
+      "count": 3,
+      "forms": null
+    },
+    {
+      "cipai": "水调歌头",
+      "count": 2,
+      "forms": 1
+    },
+    {
+      "cipai": "诉衷情",
+      "count": 1,
+      "forms": 1
+    },
+    {
+      "cipai": "西江月",
+      "count": 2,
+      "forms": 1
+    },
+    {
+      "cipai": "忆秦娥",
+      "count": 2,
+      "forms": 1
+    },
+    {
+      "cipai": "渔家傲",
+      "count": 2,
+      "forms": 1
+    },
+    {
+      "cipai": "虞美人",
+      "count": 1,
+      "forms": 1
+    }
   ],
-  "ciTotalCount": 54,
-  "ciPaiMostUsed": ["十六字令", "念奴娇", "清平乐"],
+  "ciTotalCount": 41,
+  "ciPaiMostUsed": [
+    "贺新郎",
+    "念奴娇",
+    "清平乐",
+    "十六字令"
+  ],
   "poemFormUsage": [
-    { "form": "杂言诗", "count": 8 },
-    { "form": "四言诗", "count": 11 },
-    { "form": "五言诗", "count": 9 },
-    { "form": "六言诗", "count": 2 },
-    { "form": "七言诗", "count": 5 },
-    { "form": "五古", "count": 2 },
-    { "form": "五绝", "count": 1 },
-    { "form": "五律", "count": 6 },
-    { "form": "七古", "count": 2 },
-    { "form": "七绝", "count": 21 },
-    { "form": "七律", "count": 24 }
+    {
+      "form": "杂言诗",
+      "count": 8
+    },
+    {
+      "form": "四言诗",
+      "count": 11
+    },
+    {
+      "form": "五言诗",
+      "count": 9
+    },
+    {
+      "form": "六言诗",
+      "count": 2
+    },
+    {
+      "form": "七言诗",
+      "count": 5
+    },
+    {
+      "form": "五古",
+      "count": 2
+    },
+    {
+      "form": "五绝",
+      "count": 1
+    },
+    {
+      "form": "五律",
+      "count": 6
+    },
+    {
+      "form": "七古",
+      "count": 2
+    },
+    {
+      "form": "七绝",
+      "count": 21
+    },
+    {
+      "form": "七律",
+      "count": 24
+    }
   ],
   "shiTotalCount": 91,
-  "shiFormMostUsed": ["七律", "七绝"],
+  "shiFormMostUsed": [
+    "七律",
+    "七绝"
+  ],
   "disputedWorks": [
     {
       "title": "满江红·庆祝我国第一次核试验成功",
@@ -57,6 +186,17 @@
     {
       "title": "卜算子·悼国际共产主义战士艾地同志",
       "note": "整理者按语：有可能是陈明远仿作，待考"
+    },
+    {
+      "title": "诉衷情·赠周总理",
+      "note": "该篇最早见于1986年一部纪实文学作品，作者自述系据传闻写入、未经本人或权威档案证实，未见于正式出版的《毛泽东诗词集》，真实性存疑。"
+    },
+    {
+      "title": "忆秦娥·悼念周恩来同志",
+      "note": "该篇未见于权威档案或正式出版物确认为毛泽东所作，真实性存疑。"
     }
-  ]
+  ],
+  "disputedWorksNote": "前两条为知乎整理者原始按语；后两条为2026年内容补全阶段核实后新增标注的存疑篇目（证据尚不充分，仅为\"可能是他人仿作、尚无定论\"，予以保留并在条目背景中说明）。另有19首经核实证据比较确凿（档案查无、官方辟谣平台辟谣、专家认定不可能出自毛泽东手笔）的网传伪托诗词，已于同期从数据库中整体移除，不再收录。",
+  "shiFormUsageNoteCaveat": "本次移除19首篇目后，poemFormUsage / shiTotalCount / shiFormMostUsed 未重新核算——原统计口径对诗体做过归并映射（例如把具体的「五言绝句」「七言古诗」「祭文」「儿歌」等原始 category 值，归并进「五绝」「七古」等粗分类），这套映射规则未留档，无法仅凭 poems.json 的 category 字段原样复原，为避免编造错误数字，这三项暂保留历史数值，待人工用原方法重新核对。",
+  "totalCharacterCountNoteCaveat": "totalCharacterCount 字段未随本次19首篇目的移除重新核算——原统计口径的具体排除规则（标题/副题/组诗编号/联句等如何计入）未完整留档，为避免用不确定的方法编造新数字，这里暂保留移除前的历史数值，供后续人工重新核对。"
 }
