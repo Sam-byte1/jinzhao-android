@@ -1,0 +1,18 @@
+<svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="180" fill="#E2D7BD"/>
+  <g opacity=".5" fill="#F2ECDC">
+    <circle cx="40" cy="30" r="1.4"/><circle cx="260" cy="24" r="1.4"/><circle cx="220" cy="140" r="1.4"/>
+    <circle cx="280" cy="80" r="1.4"/><circle cx="30" cy="110" r="1.4"/>
+  </g>
+  <path d="M150,172 C158,140 140,118 152,92 C163,68 148,50 160,24" stroke="#A47C3E" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M152,92 C176,86 186,66 208,56" stroke="#A47C3E" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M160,24 C170,15 180,17 186,6" stroke="#A47C3E" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <g>
+    <g transform="translate(160,24)"><circle cx="0" cy="-6" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle r="1.8" fill="#A47C3E"/></g>
+    <g transform="translate(186,6)"><circle cx="0" cy="-6" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle r="1.8" fill="#A47C3E"/></g>
+    <g transform="translate(208,56)"><circle cx="0" cy="-6" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle r="1.8" fill="#A47C3E"/></g>
+    <g transform="translate(152,92)"><circle cx="0" cy="-6" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle r="1.8" fill="#A47C3E"/></g>
+    <g transform="translate(140,118)"><circle cx="0" cy="-6" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle r="1.8" fill="#A47C3E"/></g>
+    <g transform="translate(150,172)"><circle cx="0" cy="-6" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-4" cy="5" r="3.1" fill="#AC3B2A" opacity=".85"/><circle cx="-6" cy="-2" r="3.1" fill="#AC3B2A" opacity=".85"/><circle r="1.8" fill="#A47C3E"/></g>
+  </g>
+</svg>

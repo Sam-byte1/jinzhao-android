@@ -1,0 +1,5620 @@
+[
+  {
+    "seq": 1,
+    "id": "p001",
+    "title": "儿歌·应舞狮",
+    "category": "儿歌",
+    "cipai": null,
+    "date": "1902年正月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "狮子眼鼓鼓，擦菜子煮豆腐。",
+        "酒放热气烧，肉放烂些煮。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 2,
+    "id": "p002",
+    "title": "五古·井",
+    "category": "五古",
+    "cipai": null,
+    "date": "1906年秋",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "天井四四方，周围是高墙。",
+        "清清见卵石，小鱼囿中央。",
+        "只喝井里水，永远养不长。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 3,
+    "id": "p003",
+    "title": "五古·咏指甲花",
+    "category": "五古",
+    "cipai": null,
+    "date": "1906年夏",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "百花皆竞春，指甲独静眠。",
+        "春季叶始生，炎夏花正鲜。",
+        "叶小枝又弱，种类多且妍。",
+        "万草被日出，惟婢傲火天。",
+        "渊明独爱菊，敦颐好青莲。",
+        "我独爱指甲，取其志更坚。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 4,
+    "id": "p004",
+    "title": "杂言诗·耕田乐",
+    "category": "杂言诗",
+    "cipai": null,
+    "date": "1907年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "耕田乐，天天有事做。",
+        "近冲一墩田，近水再墩望，",
+        "多年副产积满仓。",
+        "农事毕，读书甚馨香，坐待时机自主张。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 5,
+    "id": "p005",
+    "title": "七绝·改西乡隆盛诗赠父亲",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1910年秋",
+    "pre1949": true,
+    "subtitle": "赠父亲",
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "孩儿立志出乡关，学不成名誓不还。",
+        "埋骨何须桑梓地，人生无处不青山！"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 6,
+    "id": "p006",
+    "title": "七绝·咏蛙",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1910年秋",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "独坐池塘如虎踞，绿杨树下养精神。",
+        "春来我不先开口，哪个虫儿敢作声？"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 7,
+    "id": "p007",
+    "title": "五言诗·登高泛海",
+    "category": "五言诗",
+    "cipai": null,
+    "date": "1913年10月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "登祝融之峰，一览众山小；",
+        "泛黄勃之海，启瞬江湖失。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 8,
+    "id": "p008",
+    "title": "五言排律·湘江漫游联句（残篇）",
+    "category": "五言排律",
+    "cipai": null,
+    "date": "1914年秋",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": true,
+    "coauthorNote": "与萧瑜联句，现存为残篇，逐句作者见原文标注",
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "晚霭峰间起，（萧瑜）",
+        "归人江上行。（萧瑜）",
+        "云流千里远，（萧瑜）",
+        "人对一帆轻。（毛泽东）",
+        "落日荒林暗，（毛泽东）",
+        "寒钟古寺生。（萧瑜）",
+        "深林归倦鸟，（萧瑜）",
+        "高阁倚佳人。（毛泽东）"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 9,
+    "id": "p009",
+    "title": "四言诗·明耻篇，题志",
+    "category": "四言诗",
+    "cipai": null,
+    "date": "1915年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "五月七日，民国奇耻。",
+        "何以报仇？在我学子！"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 10,
+    "id": "p010",
+    "title": "五古·挽易昌陶君",
+    "category": "五古",
+    "cipai": null,
+    "date": "1915年6月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "去去思君深，思君君不来。",
+        "愁杀芳年友，悲叹有余哀。",
+        "衡阳雁声彻，湘滨春溜回。",
+        "感物念所欢，踯躅城南隈。",
+        "城隈草萋萋，涔泪浸双题。",
+        "采采余孤景，日落衡云西。",
+        "方期沆瀁游，零落匪所思。",
+        "永诀从今始，午夜惊鸣鸡。",
+        "鸣鸡一声唱，汗漫东皋上。",
+        "冉冉望君来，握手珠眶涨。",
+        "关山蹇骥足，飞飙拂灵帐。",
+        "我怀郁如焚，放歌倚列嶂。",
+        "列嶂青且蒨，愿言试长剑。",
+        "东海有岛夷，北山尽仇怨。",
+        "荡涤谁氏子，安得辞浮贱。",
+        "子期竟早亡，牙琴从此绝。",
+        "琴绝最伤情，朱华春不荣。",
+        "后来有千里，谁与共平生。",
+        "望灵荐杯酒，惨淡看铭旌。",
+        "惆怅中何寄？江天水一泓。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 11,
+    "id": "p011",
+    "title": "杂言诗·游泳启事",
+    "category": "杂言诗",
+    "cipai": null,
+    "date": "1915年夏",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "铁路之旁兮，水面汪洋。",
+        "深浅合度兮，生命无妨。",
+        "凡我同志兮，携手同行。",
+        "晚餐之后兮，游泳一场。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 12,
+    "id": "p012",
+    "title": "五律·登云麓宫联句",
+    "category": "五律",
+    "cipai": null,
+    "date": "1916年冬",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": true,
+    "coauthorNote": "联句，具体合作者原文未注明",
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "共泛朱张渡，层冰涨橘汀。",
+        "鸟啼枫径寂，木落翠微冥。",
+        "攀险呼俦侣，盘空识健翎。",
+        "赫曦联韵在，千载德犹馨。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 13,
+    "id": "p013",
+    "title": "七古·自信人生",
+    "category": "七古",
+    "cipai": null,
+    "date": "1917年夏",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": "残句",
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "自信人生二百年，会当水击三千里。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 14,
+    "id": "p014",
+    "title": "杂言诗·意志之锻炼",
+    "category": "杂言诗",
+    "cipai": null,
+    "date": "1917年4月1日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "夫力拔山气盖世，猛烈而已；",
+        "不斩楼兰誓不还，不畏而已；",
+        "化家为国，敢为而已；",
+        "八年于外，三过其门而不入，耐久而已。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 15,
+    "id": "p015",
+    "title": "七绝·赠刘翰林",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1917年夏",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": true,
+    "coauthorNote": "与萧瑜联句，逐句作者见原文标注",
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "翻山渡水之名郡，（毛泽东）",
+        "竹杖草履谒学尊。（萧瑜）",
+        "途见白云如晶海，（萧瑜）",
+        "沾衣晨露浸饿身。（毛泽东）"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 16,
+    "id": "p016",
+    "title": "五言诗·云封桥锁",
+    "category": "五言诗",
+    "cipai": null,
+    "date": "1917年秋",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": "残句",
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "云封狮固楼，桥锁玉潭舟。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 17,
+    "id": "p017",
+    "title": "七律·骤雨东风（又题：游学记景）",
+    "category": "七律",
+    "cipai": null,
+    "date": "1916年至1917年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": "原始资料收录了同一首诗的两个文字版本：一版题作《游学记景》，中间两句缺失（原文以方框标出）；另一版题作《骤雨东风》，文字更完整。此条以更完整的《骤雨东风》为正文，两版本均保留在 variants 中。",
+    "variants": [
+      {
+        "label": "游学记景（缺两句）",
+        "stanzas": [
+          [
+            "骤雨东风过远湾，滂然遥接石龙关。",
+            "□□□□□□□，□□□□□□□。",
+            "野渡苍松横古木，断桥流水动连环。",
+            "客行此去遵何路？坐眺长亭意转闲。"
+          ]
+        ]
+      },
+      {
+        "label": "骤雨东风",
+        "stanzas": [
+          [
+            "骤雨东风过远湾，滂然遥接石龙关。",
+            "荒村孤岭传幽怨，千里愁云羞日颜。",
+            "野渡苍松横古木，断桥流水动连环。",
+            "客行此去遵何路？坐眺长亭意转闲。"
+          ]
+        ]
+      }
+    ],
+    "stanzas": [
+      [
+        "骤雨东风过远湾，滂然遥接石龙关。",
+        "荒村孤岭传幽怨，千里愁云羞日颜。",
+        "野渡苍松横古木，断桥流水动连环。",
+        "客行此去遵何路？坐眺长亭意转闲。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 18,
+    "id": "p018",
+    "title": "杂言诗·河出潼关",
+    "category": "杂言诗",
+    "cipai": null,
+    "date": "1917年至1918年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "河出潼关，因有太华抵抗，而水力益增其奔猛。",
+        "风回三峡，因有巫山为隔，而风力益增其怒号。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 19,
+    "id": "p019",
+    "title": "四言诗·奋斗",
+    "category": "四言诗",
+    "cipai": null,
+    "date": "1917年至1918年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "与天奋斗，其乐无穷！",
+        "与地奋斗，其乐无穷！",
+        "与人奋斗，其乐无穷！"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 20,
+    "id": "p020",
+    "title": "七古·送纵宇一郎东行",
+    "category": "七古",
+    "cipai": null,
+    "date": "1918年4月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "云开衡岳积阴止，天马凤凰春树里。",
+        "年少峥嵘屈贾才，山川奇气曾钟此。",
+        "君行吾为发浩歌，鲲鹏击浪从兹始。",
+        "洞庭湘水涨连天，艟艨巨舰直东指。",
+        "无端散出一天愁，幸被东风吹万里。",
+        "丈夫何事足萦怀，要将宇宙看稊米。",
+        "沧海横流安足虑，世事纷纭从君理。",
+        "管却自家身与心，胸中日月常新美。",
+        "名世于今五百年，诸公碌碌皆余子。",
+        "平浪宫前友谊多，崇明对马衣带水。",
+        "东瀛濯剑有书还，我返自崖君去矣。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 21,
+    "id": "p021",
+    "title": "归国谣·今宵月",
+    "category": "词",
+    "cipai": "归国谣",
+    "date": "1918年春",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": "现存为残篇",
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "直把天涯都照彻，清光不令青山失。",
+        "清溪却向青滩泄，鸡声歇，马嘶人语长亭白。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 22,
+    "id": "p022",
+    "title": "七绝·过魏都与罗章龙联句",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1918年8月17日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": true,
+    "coauthorNote": "与罗章龙联句，逐句作者见原文标注",
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "横槊赋诗意飞扬，（罗章龙）",
+        "《自明本志》好文章。（毛泽东）",
+        "萧条异代西田墓，（毛泽东）",
+        "铜雀荒沦落夕阳。（罗章龙）"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 23,
+    "id": "p023",
+    "title": "五言诗·苍山辞祖国",
+    "category": "五言诗",
+    "cipai": null,
+    "date": "1919年3月12日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": "残句",
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "苍山辞祖国，弱水望邻封。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 24,
+    "id": "p024",
+    "title": "祭母文",
+    "category": "祭文",
+    "cipai": null,
+    "date": "1918年10月8日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": "原始列表中此篇排在第 24 条，但落款日期早于第 23 条，顺序沿用整理者原始编号，未做调整。",
+    "variants": null,
+    "stanzas": [
+      [
+        "呜呼吾母，遽然而死。寿五十三，生有七子。",
+        "七子余三，即东民覃。其他不育，二女三男。",
+        "育吾兄弟，艰辛备历。摧折作磨，因此遘疾。",
+        "中间万万，皆伤心史。不忍卒书，待徐温吐。",
+        "今则欲言，只有两端。一则盛德，一则恨偏。",
+        "吾母高风，首推博爱。远近亲疏，一皆覆载。",
+        "恺恻慈祥，感动庶汇。爱力所及，原本真诚。",
+        "不作诳言，不存欺心。整饬成性，一丝不诡。",
+        "手泽所经，皆有条理。头脑精密，劈理分情。",
+        "事无遗算，物无遁形。洁净之风，传遍戚里。",
+        "不染一尘，身心表里。五德荦荦，乃其大端。",
+        "合其人格，如在上焉。恨偏所在，三纲之末。",
+        "有志未伸，有求不获。精神痛苦，以此为卓。",
+        "天乎人欤？倾地一角。次则儿辈，育之成行。",
+        "如果未熟，介在青黄。病时揽手，酸心结肠。",
+        "但呼儿辈，各务为良。又次所怀，好亲至爱。",
+        "或属素恩，或多劳瘁。大小亲疏，均待报赉。",
+        "总兹所述，盛德所辉。以秉悃忱，则效不违。",
+        "致于所恨，必补遗缺。念兹在兹，此心不越。",
+        "养育深恩，春晖朝霭。报之何时？精禽大海。",
+        "呜呼吾母，母终未死。躯壳虽隳，灵则万古。",
+        "有生一日，皆报恩时。有生一日，皆伴亲时。",
+        "今也言长，时则苦短。惟挈大端，置其粗浅。",
+        "此时家奠，尽此一觞。后有言陈，与日俱长。",
+        "尚飨！"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 25,
+    "id": "p025",
+    "title": "新体诗·颂赵女士的人格",
+    "category": "新体诗",
+    "cipai": null,
+    "date": "1919年11月18日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "不自由，无宁死。",
+        "雪一般的刀上面，染了怪红的鲜血。",
+        "柑子园尘秽街中被血洒满，顿化成了庄严的天衢。",
+        "赵女士的人格也随之涌现出来，顿然光焰万丈。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 26,
+    "id": "p026",
+    "title": "虞美人·枕上",
+    "category": "词",
+    "cipai": "虞美人",
+    "date": "1920年",
+    "pre1949": true,
+    "subtitle": "赠杨开慧",
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "堆来枕上愁何状？江海翻波浪。",
+        "夜长天色怎难明？无奈披衣起坐薄寒中。"
+      ],
+      [
+        "晓来百念皆灰烬，倦极身无凭。",
+        "一钩残月向西流，对此不抛眼泪也无由。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 27,
+    "id": "p027",
+    "title": "贺新郎·别友",
+    "category": "词",
+    "cipai": "贺新郎",
+    "date": "1923年",
+    "pre1949": true,
+    "subtitle": "赠杨开慧",
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "挥手从兹去。",
+        "更哪堪凄然相向，苦情重诉。",
+        "眼角眉梢都似恨，热泪欲零还住。",
+        "知误会前番书语。",
+        "过眼滔滔云共雾，算人间知己吾和汝。",
+        "人有病，天知否？"
+      ],
+      [
+        "今朝霜重东门路，",
+        "照横塘半天残月，凄清如许。",
+        "汽笛一声肠已断，从此天涯孤旅。",
+        "凭割断愁丝恨缕。",
+        "要似昆仑崩绝壁，又恰像台风扫寰宇。",
+        "重比翼，和云翥。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 28,
+    "id": "p028",
+    "title": "沁园春·长沙",
+    "category": "词",
+    "cipai": "沁园春",
+    "date": "1925年秋",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "独立寒秋，湘江北去，橘子洲头。",
+        "看万山红遍，层林尽染；漫江碧透，百舸争流。",
+        "鹰击长空，鱼翔浅底，万类霜天竞自由。",
+        "怅寥廓，问苍茫大地，谁主沉浮？"
+      ],
+      [
+        "携来百侣曾游。忆往昔峥嵘岁月稠。",
+        "恰同学少年，风华正茂；书生意气，挥斥方遒。",
+        "指点江山，激扬文字，粪土当年万户侯。",
+        "曾记否，到中流击水，浪遏飞舟？"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "百舸争流",
+        "d": "舸，大船；许多船只争相行驶，形容江面繁忙、生机勃勃的景象。"
+      },
+      {
+        "w": "怅寥廓",
+        "d": "怅，惆怅感慨；寥廓，指宇宙天地的广阔辽远。"
+      },
+      {
+        "w": "峥嵘岁月稠",
+        "d": "峥嵘，不平凡、不寻常；稠，多而密。指不平凡的往事很多。"
+      },
+      {
+        "w": "挥斥方遒",
+        "d": "挥斥，奔放、无拘无束；遒，强劲有力。形容意气奔放、精力旺盛。"
+      },
+      {
+        "w": "粪土当年万户侯",
+        "d": "把当时的达官显贵看得如同粪土，形容蔑视权贵的豪迈气概。"
+      },
+      {
+        "w": "中流击水",
+        "d": "在江水中流搏击风浪，典出相传孔子或祖逖「中流击楫」一类意象，这里借指青年学子在湘江中流游泳、搏击风浪的豪情，也象征立志有为、勇立潮头。"
+      },
+      {
+        "w": "浪遏飞舟",
+        "d": "遏，阻止。激起的波浪几乎能阻挡疾驶的船只，形容搏击江流时气势之大。"
+      }
+    ],
+    "vernacular": "独自一人站在深秋时节，湘江向北流去，我站在橘子洲头。看万千山峰全都变成红色，层层树林好像染过一样；满江江水碧绿清澈，无数船只争相行驶。雄鹰在广阔的天空奋力搏击，鱼儿在清澈的水中自在畅游，世间万物都在这秋天里争着过自由自在的生活。面对这辽阔的宇宙，我不禁惆怅感慨，想问一问：这苍茫大地，究竟谁来主宰兴衰沉浮？<br><br>曾经我和许多同伴来这里游览。回忆起往昔，那些不平凡的岁月是多么稠密充实。那时同学们正值青春年少，风华正茂；大家意气风发、无拘无束，谈笑纵横。评点国家大事，写下激昂文字，把当年那些达官显贵看得如同粪土一般。可还记得吗，我们曾在江水中流搏击风浪，激起的波浪几乎能阻挡飞驰的船只？",
+    "background": "1925年秋，毛泽东从韶山前往广州主持农民运动讲习所，途经长沙，重游橘子洲，面对湘江秋景，回忆起青年时期在长沙求学、投身革命活动的岁月，写下这首词。当时国共合作的大革命运动正蓬勃发展，词中既有对壮阔自然的描绘，也寄托了他对国家前途、青年担当的深沉思考。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 29,
+    "id": "p029",
+    "title": "菩萨蛮·黄鹤楼",
+    "category": "词",
+    "cipai": "菩萨蛮",
+    "date": "1927年春",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "茫茫九派流中国，沉沉一线穿南北。",
+        "烟雨莽苍苍，龟蛇锁大江。"
+      ],
+      [
+        "黄鹤知何去？剩有游人处。",
+        "把酒酹滔滔，心潮逐浪高！"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "九派",
+        "d": "指长江及其支流众多，泛指长江水系。"
+      },
+      {
+        "w": "沉沉一线",
+        "d": "指纵贯南北的铁路干线（京汉、粤汉铁路），像一条线贯穿南北大地。"
+      },
+      {
+        "w": "龟蛇锁大江",
+        "d": "龟山、蛇山隔江对峙，好像锁住了长江，描写武汉一带的地理形势。"
+      },
+      {
+        "w": "把酒酹滔滔",
+        "d": "酹，把酒洒在地上，古人用以祭奠或抒发感怀；这里指举杯将酒洒向滔滔江水，以寄托心中的感慨与忧思。"
+      },
+      {
+        "w": "心潮逐浪高",
+        "d": "心中的思绪情感像江水的波浪一样起伏激荡。"
+      }
+    ],
+    "vernacular": "茫茫的长江水系奔流在中国大地上，一条铁路线沉沉地纵贯南北。烟雨笼罩中一片苍茫，龟山和蛇山隔江对峙，好像把这浩荡的长江锁住了一样。<br><br>黄鹤如今飞到哪里去了呢？这里只剩下游人登临凭吊的黄鹤楼了。我举杯将酒洒向这滔滔江水，心中的情潮也随着江浪一起翻腾激荡！",
+    "background": "1927年春，正值北伐战争取得阶段性胜利、而大革命局势又已危机四伏之际，毛泽东途经武汉登临黄鹤楼，面对长江天堑和动荡的时局，写下这首词。苍茫的江景与「心潮逐浪高」的感慨，透露出他对革命前途的深沉忧思。这首词后来收入1957年《诗刊》发表的毛泽东诗词十八首之中。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 30,
+    "id": "p030",
+    "title": "西江月·秋收起义",
+    "category": "词",
+    "cipai": "西江月",
+    "date": "1927年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "军叫工农革命，旗号镰刀斧头。",
+        "匡庐一带不停留，要向潇湘直进。"
+      ],
+      [
+        "地主重重压迫，农民个个同仇。",
+        "秋收时节暮云愁，霹雳一声暴动。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 31,
+    "id": "p031",
+    "title": "西江月·井冈山",
+    "category": "词",
+    "cipai": "西江月",
+    "date": "1928年九月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "山下旌旗在望，山头鼓角相闻。",
+        "敌军围困万千重，我自岿然不动。"
+      ],
+      [
+        "早已森严壁垒，更加众志成城。",
+        "黄洋界上炮声隆，报道敌军宵遁。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "旌旗",
+        "d": "泛指军队的旗帜，这里指红军队伍。"
+      },
+      {
+        "w": "鼓角相闻",
+        "d": "战鼓与号角的声音此起彼伏、互相呼应，指战场上的信号联络。"
+      },
+      {
+        "w": "岿然不动",
+        "d": "形容像高山一样屹立不动，比喻镇定自若、不为所动。"
+      },
+      {
+        "w": "壁垒",
+        "d": "军营的防御工事。"
+      },
+      {
+        "w": "众志成城",
+        "d": "大家团结一心，力量如同坚固的城墙。"
+      },
+      {
+        "w": "宵遁",
+        "d": "趁着夜色逃跑。"
+      }
+    ],
+    "vernacular": "山下红旗隐约可见，山头战鼓号角的声音此起彼伏、互相呼应。敌军把我们重重包围，我们却岿然不动、毫不惊慌。<br><br>我们早已筑起森严的防御工事，更加众志成城、团结一心。黄洋界上传来隆隆的炮声，那是在报告敌人已经连夜逃跑的消息。",
+    "background": "1928年8月，国民党军队趁红四军主力远在湘南之机，集中兵力进犯井冈山根据地，留守部队依托黄洋界天险击退敌军多次进攻，取得了黄洋界保卫战的胜利。同年九月，毛泽东率部回师井冈山途中得知这一战果，写下此词，歌颂根据地军民同心保卫根据地的英勇斗争。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 32,
+    "id": "p032",
+    "title": "四言韵语·红四军司令部布告",
+    "category": "四言韵语",
+    "cipai": null,
+    "date": "1929年1月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "红军宗旨，民权革命。赣西一军，声威远震。",
+        "此番计划，分兵前进。官佐兵伕，服从命令。",
+        "平买平卖，事实为证。乱烧乱杀，在所必禁。",
+        "全国各地，压迫太甚。工人农人，十分苦痛。",
+        "土豪劣绅，横行乡镇。重息重租，人人怨愤。",
+        "白军士兵，饥寒交并。小资产者，税捐极重。",
+        "洋货越多，国货受困。帝国主义，哪个不恨？",
+        "军民匪党，完全反动。口是心非，不能过硬。",
+        "蒋桂冯阎，同床异梦。冲突已起，军阀倒运。",
+        "饭可充饥，药能医病。共党主张，极为公正。",
+        "地主田地，农民收种。债不要还，租不要送。",
+        "增加工钱，老板担任。八时工作，恰好相称。",
+        "国队待遇，亟须改订。发给田地，士兵有份。",
+        "敌方官兵，准其投顺。以前行为，可以不问。",
+        "累进税法，最为适用。苛税苛捐，扫除干净。",
+        "城市商人，积铢累寸。只要服从，余皆不论。",
+        "对待外人，必须严峻。工厂银行，没收归并。",
+        "外资外债，概不承认。外兵外舰，不准入境。",
+        "打倒列强，人人高兴。打倒军阀，除恶务尽。",
+        "统一中华，举国称庆。满蒙回藏，章程自定。",
+        "国民政府，一群恶棍。合力铲除，肃清乱政。",
+        "全国工农，风发雷奋。夺取政权，为期日近。",
+        "革命成功，尽在民众。布告四方，大家起劲。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 33,
+    "id": "p033",
+    "title": "清平乐·蒋桂战争",
+    "category": "词",
+    "cipai": "清平乐",
+    "date": "1929年秋",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "风云突变，军阀重开战。",
+        "洒向人间都是怨，一枕黄粱再现。"
+      ],
+      [
+        "红旗跃过汀江，直下龙岩上杭。",
+        "收拾金瓯一片，分田分地真忙。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "风云突变",
+        "d": "比喻局势骤然发生巨大变化。"
+      },
+      {
+        "w": "一枕黄粱",
+        "d": "化用「黄粱一梦」的典故，比喻军阀混战争权夺利、到头来终是一场虚妄，徒增灾难。"
+      },
+      {
+        "w": "汀江、龙岩、上杭",
+        "d": "均为福建西部（闽西）地名，是红四军挥师南下、开辟根据地所经之地。"
+      },
+      {
+        "w": "金瓯",
+        "d": "古代盛酒的器皿，常用来比喻国家疆土的完整，这里指红军开辟、巩固的根据地版图。"
+      }
+    ],
+    "vernacular": "局势忽然风云突变，各路军阀又一次大打出手，重新开战。这场战争给人间带来的只有仇怨，就像一场争权夺利的黄粱美梦再次上演。<br><br>而我们的红军乘机跃过汀江，一路南下，直取龙岩、上杭。把这一片片根据地收拾、巩固起来，到处都在热火朝天地分田分地闹革命。",
+    "background": "1929年，国民党新军阀蒋介石与桂系军阀爆发「蒋桂战争」，国民党内部混战牵制了对中央苏区的「围剿」力量。毛泽东、朱德领导的红四军抓住这一有利时机，挥师入闽，攻克龙岩、上杭，开辟和巩固了闽西革命根据地，并在当地大力推进土地革命。这首词正是对这段历史的记录与歌颂。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 34,
+    "id": "p034",
+    "title": "采桑子·重阳",
+    "category": "词",
+    "cipai": "采桑子",
+    "date": "1929年10月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "人生易老天难老，岁岁重阳。",
+        "今又重阳，战地黄花分外香。"
+      ],
+      [
+        "一年一度秋风劲，不似春光。",
+        "胜似春光，寥廓江天万里霜。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "人生易老天难老",
+        "d": "化用李贺「天若有情天亦老」之意，感叹人生短暂而天地自然却亘古长存。"
+      },
+      {
+        "w": "重阳",
+        "d": "农历九月初九，中国传统节日，有登高、赏菊、饮菊花酒等习俗。"
+      },
+      {
+        "w": "战地黄花",
+        "d": "战场上盛开的菊花，黄花即菊花。"
+      },
+      {
+        "w": "寥廓",
+        "d": "形容江天辽阔高远的样子。"
+      }
+    ],
+    "vernacular": "人的一生容易衰老，而天地自然却难以衰老，年年都会迎来重阳佳节。今天又逢重阳，战场上盛开的菊花显得格外芳香。<br><br>一年一度的秋风猛烈地吹来，这秋色虽不像春光那样明媚，却比春光更加壮丽动人——你看那辽阔的江天，万里霜色，是何等开阔雄浑的景象。",
+    "background": "1929年重阳节前后，毛泽东在福建上杭养病期间，据考正值红四军处于古田会议召开前、党内思想路线争论与部队建设的关键阶段。他借重阳登高、赏菊的传统节令，写下这首词，以战地菊花和辽阔秋色，抒发虽身处逆境却乐观豁达、斗志昂扬的情怀。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 35,
+    "id": "p035",
+    "title": "如梦令·元旦",
+    "category": "词",
+    "cipai": "如梦令",
+    "date": "1930年1月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "宁化、清流、归化，路隘林深苔滑。",
+        "今日向何方，直指武夷山下。",
+        "山下山下，风展红旗如画。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "宁化、清流、归化",
+        "d": "均为福建西部的县名，是红军行军途经之地。"
+      },
+      {
+        "w": "路隘林深苔滑",
+        "d": "形容行军路途的艰险——道路狭窄、森林幽深、青苔湿滑。"
+      },
+      {
+        "w": "直指",
+        "d": "径直奔向、目标明确地前进。"
+      },
+      {
+        "w": "武夷山",
+        "d": "位于福建西北部、闽赣交界处的山脉，是此次行军的目的地。"
+      }
+    ],
+    "vernacular": "红军队伍行经宁化、清流、归化一带，道路狭窄、丛林幽深、青苔湿滑，行军十分艰险。今天要往哪里进发呢？目标明确——径直奔向武夷山下。向着山下进发啊向着山下进发，迎风招展的红旗美得像一幅画。",
+    "background": "1929年底至1930年初，红四军在古田会议确立正确建军原则后，向闽西、赣南一带转移，开辟和扩大革命根据地。1930年1月，毛泽东随军经过闽西山区向武夷山方向进发，沿途虽道路艰险，但部队士气高昂，于是写下这首小令，记录行军途中的艰辛与豪情。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 36,
+    "id": "p036",
+    "title": "减字木兰花·广昌路上",
+    "category": "词",
+    "cipai": "减字木兰花",
+    "date": "1930年2月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "漫天皆白，雪里行军情更迫。",
+        "头上高山，风卷红旗过大关。"
+      ],
+      [
+        "此行何去？",
+        "赣江风雪迷漫处。",
+        "命令昨颁，十万工农下吉安。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "情更迫",
+        "d": "行军的形势更加紧张急迫。"
+      },
+      {
+        "w": "大关",
+        "d": "指行军路上山势险峻的关隘。"
+      },
+      {
+        "w": "赣江风雪迷漫处",
+        "d": "点明部队此行的目的地在赣江一带，风雪笼罩，前路苍茫。"
+      },
+      {
+        "w": "十万工农",
+        "d": "指由工人、农民组成的红军队伍，这里借指红一方面军。"
+      }
+    ],
+    "vernacular": "漫天都是白雪，风雪中行军，情势更加紧迫。头顶是高耸的山峰，猎猎红旗迎风卷过险要的关隘。这一路要往哪里去？是去赣江边风雪弥漫的地方。昨天刚刚颁布命令，十万工农红军正向吉安进发。",
+    "background": "1930年2月，红一方面军在毛泽东、朱德率领下由闽西向赣南转移，奉命进军吉安，途中正值雨雪交加。毛泽东在风雪行军途中写下此词，记录了这段艰苦而昂扬的行军历程。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 37,
+    "id": "p037",
+    "title": "蝶恋花·从汀州向长沙",
+    "category": "词",
+    "cipai": "蝶恋花",
+    "date": "1930年7月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "六月天兵征腐恶，万丈长缨要把鲲鹏缚。",
+        "赣水那边红一角，偏师借重黄公略。"
+      ],
+      [
+        "百万工农齐踊跃，席卷江西直捣湘和鄂。",
+        "国际悲歌歌一曲，狂飙为我从天落。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "天兵",
+        "d": "这里借指红军，夸张地形容其如天兵天将般声势浩大。"
+      },
+      {
+        "w": "腐恶",
+        "d": "腐朽邪恶的势力，指当时国民党的反动统治。"
+      },
+      {
+        "w": "长缨",
+        "d": "长绳，这里比喻红军的力量足以将强敌捆缚制服。"
+      },
+      {
+        "w": "鲲鹏",
+        "d": "本是《庄子》中展翅高飞的大鸟大鱼，这里反用其意，比喻看似强大、实则外强中干的敌人。"
+      },
+      {
+        "w": "偏师",
+        "d": "配合主力作战的部分兵力，这里指黄公略率领的红三军。"
+      },
+      {
+        "w": "国际悲歌",
+        "d": "指《国际歌》，当时国际共产主义运动广为传唱的战歌。"
+      }
+    ],
+    "vernacular": "六月，革命的天兵出征讨伐腐朽邪恶的势力，要用万丈长缨把看似强大的敌人捆缚住。赣江那边已经红遍了一片根据地，还要借助黄公略所率偏师助一臂之力。千百万工农群众齐声响应、踊跃参军，红军要席卷江西，直捣湖南、湖北。一曲《国际歌》唱起，仿佛狂风骤雨为我们从天而降，声势愈发浩大。",
+    "background": "1930年夏，红军由福建汀州一带出发，向江西、湖南方向发展，与黄公略率领的红三军会合后声势大振，一度逼近长沙。此词写于行军途中，展现了红军由南向北、席卷两湖的凌厉攻势与乐观豪情。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 38,
+    "id": "p038",
+    "title": "渔家傲·反第一次大“围剿”",
+    "category": "词",
+    "cipai": "渔家傲",
+    "date": "1931年春",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "万木霜天红烂漫，天兵怒气冲霄汉。",
+        "雾满龙冈千嶂暗，齐声唤，前头捉了张辉瓒。"
+      ],
+      [
+        "二十万军重入赣，风烟滚滚来天半。",
+        "唤起工农千百万，同心干，不周山下红旗乱。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "万木霜天红烂漫",
+        "d": "寒霜时节草木本应萧瑟，这里却以漫山红遍的热烈景象反衬战场上旗帜与战斗的炽烈气氛。"
+      },
+      {
+        "w": "龙冈",
+        "d": "地名，在江西永丰县境内，是反第一次大'围剿'的主战场。"
+      },
+      {
+        "w": "张辉瓒",
+        "d": "国民党军第十八师师长，此役在龙冈被红军全歼所部并生擒。"
+      },
+      {
+        "w": "不周山",
+        "d": "化用《淮南子》共工怒触不周山的神话典故，这里借指天翻地覆的革命斗争场面。"
+      }
+    ],
+    "vernacular": "霜天里万木本已萧瑟，却红得格外绚烂，如天兵般的红军怒气冲天。浓雾笼罩着龙冈，层层山峦一片昏暗，只听得战士们齐声呼喊——前方已经活捉了张辉瓒！敌人又调集二十万大军重新扑向江西，烟尘滚滚弥漫半空。千百万工农群众被唤起斗志，齐心协力干革命，红旗在天翻地覆的战场上漫卷飞舞。",
+    "background": "1930年底至1931年初，国民党调集约十万兵力对中央苏区发动第一次大'围剿'，红军在毛泽东、朱德指挥下于龙冈一带设伏，全歼国民党军第十八师、活捉师长张辉瓒，取得反'围剿'首战大捷。此词即为庆祝、记录这场胜利而作。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 39,
+    "id": "p039",
+    "title": "渔家傲·反第二次大“围剿”",
+    "category": "词",
+    "cipai": "渔家傲",
+    "date": "1931年夏",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "白云山头云欲立，白云山下呼声急，枯木朽株齐努力。",
+        "枪林逼，飞将军自重霄入。"
+      ],
+      [
+        "七百里驱十五日，赣水苍茫闽山碧，横扫千军如卷席。",
+        "有人泣，为营步步嗟何及！"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "白云山",
+        "d": "地名，在江西东固地区，是反第二次大'围剿'的战场之一。"
+      },
+      {
+        "w": "枯木朽株",
+        "d": "本指衰朽的树木，这里反衬装备简陋却士气高昂、奋力作战的红军和苏区军民。"
+      },
+      {
+        "w": "飞将军",
+        "d": "借用汉代名将李广的称号，这里形容红军作战神速、来去如飞。"
+      },
+      {
+        "w": "七百里驱十五日",
+        "d": "指红军半个月内连续转战七百余里，连打胜仗，横扫敌军。"
+      },
+      {
+        "w": "步步为营",
+        "d": "指国民党军采取的稳扎稳打战术，词中以'为营步步'的倒装暗含反讽，极言其在红军机动战术面前疲于应付。"
+      }
+    ],
+    "vernacular": "白云山头乌云欲立，山下杀声四起，哪怕武器简陋，军民也都齐心努力作战。在枪林弹雨步步逼近之际，红军如飞将军一般神速出击。半个月里转战七百里，赣江两岸苍茫辽阔，闽地山峦一片碧绿，红军如卷席一般横扫千军。敌营中有人忍不住哭泣，哀叹自己'步步为营'的战术怎么也追不上红军的脚步。",
+    "background": "1931年夏，国民党调集约二十万兵力发动第二次大'围剿'，采取稳扎稳打、步步为营的战术。红军在毛泽东、朱德指挥下由西向东横扫，半月内连打多场胜仗，转战七百余里，彻底粉碎了第二次'围剿'。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 40,
+    "id": "p040",
+    "title": "六言诗·苏维埃政府布告(节录)",
+    "category": "六言诗",
+    "cipai": null,
+    "date": "1931年12月19日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "军阀豪绅地主，到处压迫穷人。",
+        "利用国民政府，要捐要税不停。",
+        "地主白占土地，厂主垄断资本。",
+        "大家要免痛苦，只有参加革命。",
+        "穷人一致奋起，组织工农红军。",
+        "豪绅地主土地，一律分给农民。",
+        "免除苛捐杂税，都是有吃有剩。",
+        "工人每日工作，只做八个时辰。",
+        "商人服从法令，生意由你经营。",
+        "各地工农群众，赶快参加革命。",
+        "建立工农政府，快把地主田分。",
+        "工人组织工会，快同厂主斗争。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 41,
+    "id": "p041",
+    "title": "菩萨蛮·大柏地",
+    "category": "词",
+    "cipai": "菩萨蛮",
+    "date": "1933年夏",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "赤橙黄绿青蓝紫，谁持彩练当空舞？",
+        "雨后复斜阳，关山阵阵苍。"
+      ],
+      [
+        "当年鏖战急，弹洞前村壁。",
+        "装点此关山，今朝更好看。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "彩练",
+        "d": "彩色的绸带，这里比喻雨后天空出现的彩虹。"
+      },
+      {
+        "w": "鏖战",
+        "d": "激烈的战斗。"
+      },
+      {
+        "w": "弹洞",
+        "d": "枪弹留下的洞痕，指村墙上残留的弹孔。"
+      },
+      {
+        "w": "装点此关山",
+        "d": "意为当年战斗留下的痕迹，如今反而成了装点关山的风景。"
+      }
+    ],
+    "vernacular": "赤橙黄绿青蓝紫，是谁拿着这条七彩绸带在天空中舞动？雨后斜阳映照，关山显得一片苍茫。当年这里曾经激烈鏖战，村前的墙壁上至今留着累累弹孔。如今这些弹痕反倒为关山增添了别样的风景，今天看来更加好看。",
+    "background": "大柏地位于江西瑞金以北，1929年2月红四军曾在此与追击的国民党军激战并取得胜利。1933年夏，毛泽东重经此地，触景生情，将昔日战场的创伤转化为雨后彩虹般壮丽的审美意象，写下这首词。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 42,
+    "id": "p042",
+    "title": "清平乐·会昌",
+    "category": "词",
+    "cipai": "清平乐",
+    "date": "1934年夏",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "东方欲晓，莫道君行早。",
+        "踏遍青山人未老，风景这边独好。"
+      ],
+      [
+        "会昌城外高峰，颠连直接东溟。",
+        "战士指看南粤，更加郁郁葱葱。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "东方欲晓",
+        "d": "东方天色将要破晓。"
+      },
+      {
+        "w": "莫道君行早",
+        "d": "化用'莫道君行早，更有早行人'的俗语，意为不要说自己起得够早，还有人起得更早、走得更远。"
+      },
+      {
+        "w": "颠连",
+        "d": "山峰连绵起伏的样子。"
+      },
+      {
+        "w": "东溟",
+        "d": "东海，这里泛指遥远的东方大海。"
+      },
+      {
+        "w": "南粤",
+        "d": "泛指广东一带的南方地区。"
+      }
+    ],
+    "vernacular": "东方天色将要破晓，不要说你起得已经够早了，还有人比你动身更早。踏遍了青山也依然豪情不老，这边的风景独一无二地好。会昌城外群峰连绵起伏，一直延伸到遥远的东海。战士们远眺指点南粤的方向，那里的草木更显得郁郁葱葱。",
+    "background": "1934年夏，毛泽东在会昌（今江西会昌县）养病期间常于清晨登山远眺。当时第五次反'围剿'战事失利，中央苏区日渐缩小，形势严峻；据毛泽东本人后来的自注，此词写作时心情是'苍凉'的，但词句本身仍展现出踏遍青山、乐观豁达的革命豪情。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 43,
+    "id": "p043",
+    "title": "十六字令·其一",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1934年3月至1935年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·三首",
+    "groupLabel": "其一",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "山，快马加鞭未下鞍。",
+        "惊回首，离天三尺三。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "快马加鞭",
+        "d": "骑着快马还要再加鞭驱赶，形容行军速度极快、一刻不停。"
+      },
+      {
+        "w": "离天三尺三",
+        "d": "夸张的说法，形容山势极高，仿佛离天只有三尺三寸。"
+      }
+    ],
+    "vernacular": "山啊，骑着快马加鞭飞驰而过，顾不上停下来卸鞍歇息。猛然回头一看，才惊觉这山有多高——仿佛离天只有三尺三寸。",
+    "background": "这是《十六字令三首》中的第一首，据考写于红军长征转战湘黔滇、翻越崇山峻岭期间（1934年至1935年间）。此阕着重写山势之高、行军之疾，以“快马加鞭”“未下鞍”的动态场景，衬托山的险峻与红军急行军的紧张节奏。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 44,
+    "id": "p044",
+    "title": "十六字令·其二",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1934年3月至1935年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·三首",
+    "groupLabel": "其二",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "山，倒海翻江卷巨澜。",
+        "奔腾急，万马战犹酣。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "倒海翻江",
+        "d": "形容山势连绵起伏、气势磅礴，如大海江河翻腾一般。"
+      },
+      {
+        "w": "万马战犹酣",
+        "d": "比喻群山起伏跌宕的态势，如同千军万马正酣战厮杀，场面壮阔激烈。"
+      }
+    ],
+    "vernacular": "山啊，连绵起伏，像是把江海都掀翻搅动起来，卷起巨大的波澜。奔腾向前，气势急促，仿佛千军万马正酣战不休。",
+    "background": "《十六字令三首》中的第二首，与其一同作于长征翻越千山万岭途中。此阕侧重描写群山连绵、气势奔腾的动态美，把静止的山峦想象成翻江倒海、万马奔腾的战场景象，一般认为暗合长征途中红军连续作战、一往无前的气概。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 45,
+    "id": "p045",
+    "title": "十六字令·其三",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1934年3月至1935年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·三首",
+    "groupLabel": "其三",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "山，刺破青天锷未残。",
+        "天欲堕，赖以拄其间。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "锷未残",
+        "d": "锷，刀剑的刃；形容山峰如刀剑般尖锐刺入青天，剑刃却毫无损缺，形容山势险峻挺拔。"
+      },
+      {
+        "w": "天欲堕，赖以拄其间",
+        "d": "化用古代“天柱”的神话想象，形容群山仿佛是支撑天空不致塌陷的柱石。"
+      }
+    ],
+    "vernacular": "山啊，像利剑一样刺破青天，剑刃却丝毫没有损缺。天若是要塌陷下来，正是靠着这些山在中间支撑着。",
+    "background": "《十六字令三首》中的第三首，同样作于长征翻山越岭途中，与前两首合为一组。此阕借古代神话里“天柱”的意象，赋予山以擎天支柱般的雄伟力量，是三阕中气势最为雄浑的一首，常被解读为对红军中流砥柱般精神的象征。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 46,
+    "id": "p046",
+    "title": "歌谣诗·洛甫摔跤",
+    "category": "歌谣诗",
+    "cipai": null,
+    "date": "1935年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "洛甫洛甫真英豪，不会行军会摔跤。",
+        "四脚朝天摔得巧，沒伤胳膊沒伤脑。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 47,
+    "id": "p047",
+    "title": "忆秦娥·娄山关",
+    "category": "词",
+    "cipai": "忆秦娥",
+    "date": "1935年2月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "西风烈，长空雁叫霜晨月。",
+        "霜晨月，马蹄声碎，喇叭声咽。"
+      ],
+      [
+        "雄关漫道真如铁，而今迈步从头越。",
+        "从头越，苍山如海，残阳如血。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "西风烈",
+        "d": "西风猛烈，点明季节（农历正月）与清晨行军环境的苦寒。"
+      },
+      {
+        "w": "马蹄声碎，喇叭声咽",
+        "d": "马蹄声细碎杂沓，军号声低沉呜咽，写出拂晓急行军、战斗将起的紧张肃杀气氛。"
+      },
+      {
+        "w": "雄关漫道真如铁",
+        "d": "雄关，指娄山关；漫道，莫说、不要说；意为莫说雄关坚固如铁难以跨越。"
+      },
+      {
+        "w": "从头越",
+        "d": "重新迈步跨越，既指再度翻越险关，也暗含重整旗鼓、从头再来之意。"
+      },
+      {
+        "w": "苍山如海，残阳如血",
+        "d": "青苍的山峦起伏连绵如大海波涛，天边落日殷红似血，描绘登临娄山关后极目远眺、苍凉悲壮的壮阔景象。"
+      }
+    ],
+    "vernacular": "西风猛烈地刮着，辽阔的天空中大雁鸣叫，一弯残月挂在霜冷的清晨。霜冷的清晨里，马蹄声细碎杂沓，军号声低沉呜咽。<br><br>人们都说雄关像铁一样坚固难越，而如今我们要重新迈开脚步，从头跨越它。从头跨越这险关，只见青苍的山峦像大海一样起伏连绵，天边的落日殷红似血。",
+    "background": "1935年2月，红军长征途中二渡赤水后回师遵义，在娄山关与敌军展开激烈争夺并取得重要胜利，据考这是长征以来红军的一次关键战役。一般认为毛泽东在战后登临娄山关，触景生情写下此词：上阕写拂晓行军的苍凉肃杀，下阕写跨越雄关后苍凉与豪迈交织的心境。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 48,
+    "id": "p048",
+    "title": "四言诗·嘤其鸣矣",
+    "category": "四言诗",
+    "cipai": null,
+    "date": "1935年春",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": "原文无题，以首句为题",
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "嘤其鸣矣，求其友声。",
+        "暴虎入门，懦夫奋臂。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 49,
+    "id": "qlcz",
+    "title": "七律·长征",
+    "category": "七律",
+    "cipai": null,
+    "date": "1935年10月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "红军不怕远征难，万水千山只等闲。",
+        "五岭逶迤腾细浪，乌蒙磅礴走泥丸。",
+        "金沙水拍云崖暖，大渡桥横铁索寒。",
+        "更喜岷山千里雪，三军过后尽开颜。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "等闲",
+        "d": "平平常常，不放在眼里。"
+      },
+      {
+        "w": "逶迤",
+        "d": "弯弯曲曲、连绵不绝的样子，这里形容五岭山脉。"
+      },
+      {
+        "w": "磅礴",
+        "d": "气势雄伟广大，这里形容乌蒙山。"
+      },
+      {
+        "w": "走泥丸",
+        "d": "像滚动的泥丸一样渺小，比喻红军眼中巨大的乌蒙山也不过如此。"
+      },
+      {
+        "w": "云崖暖",
+        "d": "形容巧渡金沙江时峭壁在阳光下显得温暖，也暗含胜利后的喜悦。"
+      },
+      {
+        "w": "铁索寒",
+        "d": "指飞夺泸定桥时铁索桥寒气逼人，暗示战斗的惊险。"
+      }
+    ],
+    "vernacular": "红军不害怕远征路上的艰难险阻，千山万水只当作平平常常的事。绵延的五岭山脉在红军眼中只是翻腾的细小波浪，雄伟的乌蒙山也不过像滚动的泥丸一样渺小。金沙江边峭壁在暖阳下泛着光，大渡河上的泸定桥铁索寒气逼人。更让人欣喜的是千里岷山白雪皑皑，翻越之后全军将士个个笑逐颜开。",
+    "background": "1935年10月，中央红军经过二万五千里长征，即将翻越岷山、到达陕北根据地。毛泽东回顾长征路上的千难万险，写下此诗，表达红军不畏艰险、乐观豪迈的精神风貌。",
+    "contentStatus": "researched",
+    "illuKey": "march"
+  },
+  {
+    "seq": 50,
+    "id": "p050",
+    "title": "念奴娇·昆仑",
+    "category": "词",
+    "cipai": "念奴娇",
+    "date": "1935年10月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "横空出世，莽昆仑，阅尽人间春色。",
+        "飞起玉龙三百万，搅得周天寒彻。",
+        "夏日消溶，江河横溢，人或为鱼鳖。",
+        "千秋功罪，谁人曾与评说？"
+      ],
+      [
+        "而今我谓昆仑：不要这高，不要这多雪。",
+        "安得倚天抽宝剑，把汝裁为三截？",
+        "一截遗欧，一截赠美，一截还东国。",
+        "太平世界，环球同此凉热。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "横空出世",
+        "d": "形容昆仑山凌空矗立、气势磅礴，仿佛横亘天际、拔地而起。"
+      },
+      {
+        "w": "玉龙三百万",
+        "d": "比喻漫天飞舞的皑皑白雪，像三百万条白色玉龙在空中翻飞。"
+      },
+      {
+        "w": "周天寒彻",
+        "d": "整个天地都被寒气浸透，形容漫天风雪之下昆仑山威势逼人、寒气彻骨。"
+      },
+      {
+        "w": "人或为鱼鳖",
+        "d": "形容夏日冰雪消融后江河横溢、洪水泛滥，百姓深受水患之苦，如同困于水中的鱼鳖。"
+      },
+      {
+        "w": "千秋功罪",
+        "d": "千百年来昆仑山的功过是非——它既以冰雪哺育江河，又在消融时酿成水患，功过是非难以简单评说。"
+      },
+      {
+        "w": "倚天抽宝剑",
+        "d": "凭倚天空之势拔出宝剑，这里借指改造自然、重整山河的宏大抱负。"
+      }
+    ],
+    "vernacular": "昆仑山凌空矗立，气势磅礴，阅尽了人间春色变幻。漫天风雪像三百万条玉龙腾空飞舞，把整个天地都搅得寒气彻骨。可一到夏天冰雪消融，江河便泛滥横溢，百姓深受水患之苦，如同困在水中的鱼鳖一般。千百年来昆仑的功过是非，又有谁曾真正评说过呢？<br><br>如今我要对昆仑说：不需要你这么高，也不需要你积这么多雪。怎样才能倚仗天空之势抽出一把宝剑，把你裁成三段？一段留给欧洲，一段赠给美洲，一段还给我们东方的祖国。这样，整个世界就能太平安定，全球同享一样的清凉与温暖。",
+    "background": "1935年10月，中央红军长征翻越岷山一带的雪山之后写下此词。毛泽东面对终年积雪、气候酷寒却又给下游带来水患的昆仑山，生发出改造自然、造福天下苍生的宏大想象，借昆仑抒发革命者胸怀天下、追求世界大同的理想。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 51,
+    "id": "p051",
+    "title": "清平乐·六盘山",
+    "category": "词",
+    "cipai": "清平乐",
+    "date": "1935年10月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "天高云淡，望断南飞雁。",
+        "不到长城非好汉，屈指行程二万。"
+      ],
+      [
+        "六盘山上高峰，红旗漫卷西风。",
+        "今日长缨在手，何时缚住苍龙？"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "望断南飞雁",
+        "d": "目送南飞的大雁直至看不见，形容登高望远、思绪悠远。"
+      },
+      {
+        "w": "不到长城非好汉",
+        "d": "以长城比喻必达的目标，表达不达目的誓不罢休的坚定意志，后成为广为流传的名句。"
+      },
+      {
+        "w": "长缨在手",
+        "d": "长缨原指长绳，典出西汉终军请缨的故事；这里比喻革命武装力量已在掌握之中。"
+      },
+      {
+        "w": "苍龙",
+        "d": "传说中的猛兽，这里比喻敌对势力；“缚住苍龙”意为彻底制服、战胜敌人。"
+      }
+    ],
+    "vernacular": "天空高远，白云清淡，目送南飞的大雁渐渐消失在天际。不能到达长城就算不上真正的好汉，屈指算来，长征已经走过了两万里路程。<br><br>登上六盘山的高峰，红旗在猎猎西风中漫天舒展。今天革命的长缨已经紧握在手，什么时候才能彻底降伏那凶恶的敌人呢？",
+    "background": "1935年10月，中央红军翻越长征途中最后一座高山六盘山，即将抵达陕北根据地、长征即将胜利结束之际写下此词。词中既有登高望远的开阔心境，也饱含长征即将胜利的喜悦，以及对彻底战胜敌人、争取革命最终胜利的坚定信念。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 52,
+    "id": "p052",
+    "title": "六言诗·给彭德怀同志",
+    "category": "六言诗",
+    "cipai": null,
+    "date": "1935年10月",
+    "pre1949": true,
+    "subtitle": "赠彭德怀",
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "山高路远坑深，大军纵横驰奔。",
+        "谁敢横刀立马？惟我彭大将军！"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 53,
+    "id": "qyc-xue",
+    "title": "沁园春·雪",
+    "category": "词",
+    "cipai": "沁园春",
+    "date": "1936年2月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "北国风光，千里冰封，万里雪飘。",
+        "望长城内外，惟余莽莽；大河上下，顿失滔滔。",
+        "山舞银蛇，原驰蜡象，欲与天公试比高。",
+        "须晴日，看红装素裹，分外妖娆。"
+      ],
+      [
+        "江山如此多娇，引无数英雄竞折腰。",
+        "惜秦皇汉武，略输文采；唐宗宋祖，稍逊风骚。",
+        "一代天骄，成吉思汗，只识弯弓射大雕。",
+        "俱往矣，数风流人物，还看今朝。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "莽莽",
+        "d": "原指草木茂密，这里形容雪后原野苍茫辽阔的样子。"
+      },
+      {
+        "w": "顿失滔滔",
+        "d": "黄河因严寒骤然冰封，失去了奔腾咆哮的气势。"
+      },
+      {
+        "w": "红装素裹",
+        "d": "红日与白雪交相辉映，形容霞光映雪的绚丽景象。"
+      },
+      {
+        "w": "折腰",
+        "d": "倾倒、折服，这里指英雄豪杰为壮丽江山所倾倒。"
+      },
+      {
+        "w": "风骚",
+        "d": "原指《诗经·国风》与《楚辞·离骚》，后泛指文采。"
+      },
+      {
+        "w": "风流人物",
+        "d": "指能建功立业、引领时代的杰出人物。"
+      }
+    ],
+    "vernacular": "北方的风光啊，千里冰封雪飘，一片苍茫。望着长城内外，只剩下白茫茫的一片；黄河上下，奔腾的水流顿时失去了往日的汹涌。群山像银蛇一样舞动，高原像白象一样奔跑，仿佛要和老天爷比一比谁更高。等到晴天的时候，红日白雪交相辉映，分外娇艳动人。<br><br>江山如此美丽多娇，引得无数英雄豪杰为之倾倒、争相建功立业。可惜秦始皇、汉武帝，文采略显不足；唐太宗、宋太祖，诗词才华也稍逊一筹。一代天骄成吉思汗，也只懂得拉弓射大雕。这些人物都已成为过去，真正杰出的人物，还要看今天。",
+    "background": "1936年2月，毛泽东率红军东征途中，在陕西清涧县袁家沟驻留时所作。一场大雪之后，他登高远望黄土高原的雪景，借景抒怀，展现出博大的胸襟与历史眼光。1945年重庆谈判期间，这首词公开发表，一时轰动文坛。",
+    "contentStatus": "researched",
+    "illuKey": "snow"
+  },
+  {
+    "seq": 54,
+    "id": "p054",
+    "title": "临江仙·给丁玲同志",
+    "category": "词",
+    "cipai": "临江仙",
+    "date": "1936年12月底",
+    "pre1949": true,
+    "subtitle": "赠丁玲",
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "壁上红旗飘落照，西风漫卷孤城。",
+        "保安人物一时新。",
+        "洞中开宴会，招待出牢人。"
+      ],
+      [
+        "纤笔一枝谁与似？三千毛瑟精兵。",
+        "阵图开向陇山东。",
+        "昨天文小姐，今日武将军。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 55,
+    "id": "p055",
+    "title": "祭黄帝陵",
+    "category": "祭文",
+    "cipai": null,
+    "date": "1936年4月6日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": "中华民国26年4月5日，苏维埃政府主席毛泽东、人民抗日红军总司令朱德敬派代表林祖涵，以鲜花时果之仪致祭于我中华民族始祖轩辕黄帝之陵。",
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": "标题处年份（1936年）与正文落款「中华民国26年4月5日」（即1937年）不一致，原始资料如此，未擅自改动，留待后续核实。",
+    "variants": null,
+    "stanzas": [
+      [
+        "赫赫始祖，吾华肇造。",
+        "胄衍祀绵，岳峨河浩。",
+        "聪明睿知，光被遐荒。",
+        "建此伟业，雄立东方。",
+        "世变沧桑，中更蹉跌。",
+        "越数千年，强邻蔑德。",
+        "琉台不守，三韩为墟。",
+        "辽海燕冀，汉奸何多！",
+        "以地事敌，敌欲岂足？",
+        "人执笞绳，我为奴辱。",
+        "懿维我祖，命世之英。",
+        "涿鹿奋战，区宇以宁。",
+        "岂其苗裔，不武如斯：",
+        "泱泱大国，让其沦胥？",
+        "东等不才，剑屦俱奋。",
+        "万里崎岖，为国效命。",
+        "频年苦斗，备历险夷。",
+        "匈奴未灭，何以家为？",
+        "各党各界，团结坚固。",
+        "不论军民，不分贫富。",
+        "民族阵线，救国良方。",
+        "四万万众，坚决抵抗。",
+        "民主共和，改革内政。",
+        "亿兆一心，战则必胜。",
+        "还我河山，卫我国权。",
+        "此物此志，永矢勿谖。",
+        "经武整军，昭告列祖。",
+        "实鉴临之，皇天后土。",
+        "尚飨！"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 56,
+    "id": "p056",
+    "title": "四言诗·题《中国妇女》之出版",
+    "category": "四言诗",
+    "cipai": null,
+    "date": "1937年6月1日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "妇女解放，突起异军。",
+        "两万万众，奋发为雄。",
+        "男女并驾，如日方东。",
+        "以此制敌，何敌不倾？",
+        "到之之法，艰苦斗争。",
+        "世无难事，有志竟成。",
+        "有妇人焉，如旱望云。",
+        "此编之作，伫看风行。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 57,
+    "id": "p057",
+    "title": "四言诗·改江淹《别赋》",
+    "category": "四言诗",
+    "cipai": null,
+    "date": "1939年6月1日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "春草碧色，春水绿波。",
+        "送君延安，快如之何！"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 58,
+    "id": "p058",
+    "title": "五律·悼戴安澜将军",
+    "category": "五律",
+    "cipai": null,
+    "date": "1942年",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "外侮需人御，将军赋采薇。",
+        "师称机械化，勇夺虎罴威。",
+        "浴血东瓜守，驱倭棠吉归。",
+        "沙场竟殒命，壮志也无违。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 59,
+    "id": "p059",
+    "title": "七律·忆重庆谈判",
+    "category": "七律",
+    "cipai": null,
+    "date": "1945年8月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "有田有地皆吾主，无法无天是尔民。",
+        "重庆有官皆墨吏，延安无土不黄金。",
+        "炸桥挖路为团结，夺地争城是斗争。",
+        "遍地哀鸿遍地血，无非一念救苍生。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 60,
+    "id": "p060",
+    "title": "五言韵语·为《中国青年》复刊题词",
+    "category": "五言韵语",
+    "cipai": null,
+    "date": "1945年10月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "军队向前进，生产长一寸。",
+        "加强纪律性，革命无不胜。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 61,
+    "id": "p061",
+    "title": "五律·张冠军道中",
+    "category": "五律",
+    "cipai": null,
+    "date": "1947年4月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "朝雾弥琼宇，征马嘶北风。",
+        "露温尖难染，霜笼鸦不惊。",
+        "戍衣犹铁甲，须眉等银冰。",
+        "踟蹰张冠道，恍若塞上行。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 62,
+    "id": "p062",
+    "title": "五律·喜闻捷报",
+    "category": "五律",
+    "cipai": null,
+    "date": "1947年9月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": "中秋步运河上，闻西北野战军收复蟠龙作。",
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "秋风度河上，大野入苍穹。",
+        "佳令随人至，明月傍云生。",
+        "故里鸿音绝，妻儿信未通。",
+        "满宇频翘望，凯歌奏边城。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 63,
+    "id": "p063",
+    "title": "七律·人民解放军占领南京",
+    "category": "七律",
+    "cipai": null,
+    "date": "1949年4月",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "钟山风雨起苍黄，百万雄师过大江。",
+        "虎踞龙盘今胜昔，天翻地覆慨而慷。",
+        "宜将剩勇追穷寇，不可沽名学霸王。",
+        "天若有情天亦老，人间正道是沧桑。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "钟山风雨起苍黄",
+        "d": "钟山（紫金山，南京的象征）风云突变、天色仓皇昏暗，比喻国民党政权风雨飘摇、土崩瓦解的局势。"
+      },
+      {
+        "w": "虎踞龙盘",
+        "d": "形容南京地势险要、气势雄伟，典出诸葛亮称南京\"钟山龙蟠，石头虎踞\"。"
+      },
+      {
+        "w": "宜将剩勇追穷寇",
+        "d": "应该趁着剩余的勇气乘胜追击败逃的敌人，不能让其喘息。"
+      },
+      {
+        "w": "不可沽名学霸王",
+        "d": "\"霸王\"指项羽，楚汉相争时他曾在鸿门宴上放走刘邦，垓下兵败后又不肯渡江东山再起，终致身死国灭；\"沽名\"指为了博取虚名的\"仁义\"而坐失良机，此句意为不能像项羽那样为求虚名而错失歼敌时机。"
+      },
+      {
+        "w": "天若有情天亦老",
+        "d": "化用唐代李贺《金铜仙人辞汉歌》句意，指即便上天有感情，看到世事剧变也会因此衰老，以此强调历史变迁之剧烈。"
+      },
+      {
+        "w": "人间正道是沧桑",
+        "d": "人世间的正常规律就是沧海桑田般的巨大变化，意指新旧更替是历史发展的必然。"
+      }
+    ],
+    "vernacular": "南京城头风云突变，天色仓皇；人民解放军百万雄师横渡长江天险。虎踞龙盘的南京古城，如今气象远胜往昔，这是一场天翻地覆的变革，怎能不令人感慨激昂。应该趁着余勇追歼穷途末路的敌人，不能学项羽那样为了沽名钓誉而放虎归山、错失良机。即便苍天有情，看到人间这般巨变恐怕也会因此衰老；人世间沧海桑田般的变迁，正是历史发展的必然规律。",
+    "background": "1949年4月23日，人民解放军百万雄师横渡长江，攻克国民党政权的统治中心南京，国民党在大陆的统治随之土崩瓦解。毛泽东闻讯后写下此诗，借南京的历史形胜和项羽鸿门宴、兵败乌江的典故，表达要将革命进行到底、乘胜追击、不给敌人喘息机会的主张。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 64,
+    "id": "p064",
+    "title": "七律·和柳亚子先生",
+    "category": "七律",
+    "cipai": null,
+    "date": "1949年4月29日",
+    "pre1949": true,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "饮茶粤海未能忘，索句渝洲叶正黄。",
+        "三十一年还旧国，落花时节读华章。",
+        "牢骚太盛防肠断，风物长宜放眼量。",
+        "莫道昆明池水浅，观鱼胜过富春江。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "饮茶粤海",
+        "d": "指1926年毛泽东与柳亚子在广州相识、品茶论诗的往事。"
+      },
+      {
+        "w": "索句渝洲",
+        "d": "指1945年重庆谈判期间，柳亚子向毛泽东索求诗作、以诗唱和之事（当时毛泽东写下《沁园春·雪》等作品）。"
+      },
+      {
+        "w": "三十一年还旧国",
+        "d": "一般认为指1918年毛泽东第一次离开湖南赴北京，到1949年中共中央迁入北平，前后恰好相隔三十一年；\"旧国\"指北平（旧日的国都）。具体所指学界也有不同考证说法。"
+      },
+      {
+        "w": "牢骚太盛防肠断",
+        "d": "劝诫友人不要因一时牢骚而过度伤怀、郁结于心。"
+      },
+      {
+        "w": "风物长宜放眼量",
+        "d": "劝人看待事物和时局的发展变化，应该放宽眼界、看得长远。"
+      },
+      {
+        "w": "观鱼胜过富春江",
+        "d": "\"昆明池\"指北京颐和园的昆明湖；此句化用东汉隐士严子陵在富春江垂钓、拒绝出仕的典故，意为劝友人不必效仿古人归隐江湖，新中国的事业天地更为广阔。"
+      }
+    ],
+    "vernacular": "想当年在广州饮茶论诗的情景至今难忘，重庆谈判时你向我索诗唱和，正值秋叶泛黄的时节。如今历经三十一年，终于重返旧都北平，在这落花时节读到你写的诗篇。可不要因为一时牢骚太盛而伤心断肠，看待世事风物应该放宽眼界、看得长远些。不要说颐和园的昆明湖水浅，在这里观鱼赏景，也远胜过效仿严子陵在富春江归隐垂钓啊。",
+    "background": "1949年，爱国诗人柳亚子随中共中央迁至北平后，因个人境遇与职务安排产生牢骚，一度情绪低落、流露归隐之意，写诗向毛泽东倾诉。毛泽东以此诗相和，追忆两人自1926年广州相识、1945年重庆唱和以来的情谊，劝慰柳亚子放宽心胸、不计一时得失，留在新中国的建设事业中继续发挥所长。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 65,
+    "id": "p065",
+    "title": "五言绝句·赞“密使1号”",
+    "category": "五言绝句",
+    "cipai": null,
+    "date": "1950年1月上旬",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "惊涛拍孤岛，碧波映天晓。",
+        "虎穴藏忠魂，曙光迎来早。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 66,
+    "id": "p066",
+    "title": "浣溪沙·和柳亚子先生",
+    "category": "词",
+    "cipai": "浣溪沙",
+    "date": "1950年10月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": "1950年国庆观剧，柳亚子先生即席赋浣溪沙，因步其韵奉和。",
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "长夜难明赤县天，",
+        "百年魔怪舞翩跹，",
+        "人民五亿不团圆。"
+      ],
+      [
+        "一唱雄鸡天下白，",
+        "万方乐奏有于阗，",
+        "诗人兴会更无前。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "长夜难明赤县天",
+        "d": "比喻旧中国长期处于黑暗统治之下、看不到光明。\"赤县\"是中国的古称，源自战国邹衍\"赤县神州\"之说。"
+      },
+      {
+        "w": "百年魔怪舞翩跹",
+        "d": "近百年来，帝国主义、封建主义、官僚资本主义等各种反动腐朽势力猖獗横行。"
+      },
+      {
+        "w": "人民五亿不团圆",
+        "d": "旧中国战乱频仍、山河破碎，使得数亿人民无法安居团圆。"
+      },
+      {
+        "w": "一唱雄鸡天下白",
+        "d": "化用唐代李贺《致酒行》\"雄鸡一声天下白\"句意，比喻新中国的成立如雄鸡报晓，扫除黑暗、迎来光明。"
+      },
+      {
+        "w": "万方乐奏有于阗",
+        "d": "万方齐奏欢乐的乐曲，其中就有来自于阗（古西域地名，今新疆和田一带）的乐舞，象征各民族大团结、共庆新中国成立。"
+      }
+    ],
+    "vernacular": "漫漫长夜里，这片赤县神州的天空迟迟不见光明，近百年来各种魑魅魍魉般的反动势力横行肆虐，使得亿万人民饱受离散之苦、无法团圆。<br><br>如今一声雄鸡高唱，天下终于迎来光明；举国上下万方欢庆、载歌载舞，连遥远的于阗边陲也奏起了欢乐的乐章；诗人的雅兴豪情，更是前所未有地高涨。",
+    "background": "据考，1950年国庆节期间，毛泽东与柳亚子等共同观看文艺演出，柳亚子即席赋《浣溪沙》一首抒发新中国成立后的喜悦之情，毛泽东依其原韵即席奉和，写下此词。词中回顾旧中国的苦难岁月，歌咏新中国成立、人民当家作主、各民族大团结的新气象。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 67,
+    "id": "p067",
+    "title": "浣溪沙·和柳亚子先生（又一首）",
+    "category": "词",
+    "cipai": "浣溪沙",
+    "date": "1950年11月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "颜斶齐王名命前，",
+        "多年矛盾廓无边，",
+        "而今一扫纪新元。"
+      ],
+      [
+        "最喜诗人高唱至，",
+        "正和前线捷音联，",
+        "妙香山上战旗妍。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "颜斶",
+        "d": "战国时期齐国高士，《战国策》记载他当面对齐宣王说\"士贵耳，王者不贵\"，坚持士人应有独立的人格尊严、不盲从权贵。"
+      },
+      {
+        "w": "颜斶齐王名命前",
+        "d": "借颜斶的典故，喻指旧时代里士人名分与君命孰先孰后的纠结和困境，如今已有了新的安顿。"
+      },
+      {
+        "w": "多年矛盾廓无边",
+        "d": "多年来积压、挥之不去的社会矛盾（如阶级对立、新旧观念冲突等），\"廓\"即扫清、廓清之意。"
+      },
+      {
+        "w": "一扫纪新元",
+        "d": "新中国的成立把旧有的矛盾一扫而空，开启了崭新的历史纪元。"
+      },
+      {
+        "w": "妙香山",
+        "d": "朝鲜著名高山，位于今朝鲜平安北道，这里代指抗美援朝战场。"
+      },
+      {
+        "w": "战旗妍",
+        "d": "形容前线传来的胜利捷报振奋人心，连战旗都显得格外鲜艳美好。"
+      }
+    ],
+    "vernacular": "颜斶当年敢对齐王直言\"士贵耳，王者不贵\"，道出了士人名分与君命孰先孰后的千古命题；而多年来积压的重重矛盾，如今新中国的成立已将其一扫而空，开启了崭新的纪元。<br><br>最令人欣喜的是，诗人您引吭高唱、兴会正浓之时，恰好与前线传来的胜利捷报交相辉映，朝鲜妙香山上，战旗也显得分外鲜艳动人。",
+    "background": "这首词写于1950年11月，紧接上一首《浣溪沙·和柳亚子先生》，仍是与柳亚子的唱和之作，但缘由不同：此时正值中国人民志愿军入朝作战、抗美援朝战争初期，前线传来捷报。毛泽东在词中将与诗友唱和的兴致同前线将士的胜利消息联系在一起，抒发新旧交替、举国同庆的情怀。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 68,
+    "id": "p068",
+    "title": "浪淘沙·北戴河",
+    "category": "词",
+    "cipai": "浪淘沙",
+    "date": "1954年夏",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "大雨落幽燕，白浪滔天，秦皇岛外打鱼船。",
+        "一片汪洋都不见，知向谁边？"
+      ],
+      [
+        "往事越千年，魏武挥鞭，东临碣石有遗篇。",
+        "萧瑟秋风今又是，换了人间。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "幽燕",
+        "d": "古地名，泛指今河北北部、渤海湾一带地区（战国时属燕国，后称幽州），这里指北戴河所在地区。"
+      },
+      {
+        "w": "秦皇岛",
+        "d": "河北省沿海城市，北戴河即位于其境内，相传秦始皇曾在此求仙入海，故得名。"
+      },
+      {
+        "w": "魏武挥鞭",
+        "d": "指三国时期魏武帝曹操，他曾率军北征乌桓，班师途中登临碣石山（近北戴河）写下《观沧海》等诗篇，\"挥鞭\"喻指其统兵征战、意气风发的气概。"
+      },
+      {
+        "w": "东临碣石有遗篇",
+        "d": "化用曹操《观沧海》\"东临碣石，以观沧海\"的名句，\"遗篇\"即指曹操流传下来的这首诗作。"
+      },
+      {
+        "w": "萧瑟秋风今又是",
+        "d": "化用曹操《观沧海》中\"秋风萧瑟，洪波涌起\"之句，意为同样的萧瑟秋风年年吹拂至今。"
+      }
+    ],
+    "vernacular": "大雨倾盆落在幽燕大地，白浪滔天，秦皇岛外打鱼的船只在这样的风浪中，渺茫得仿佛都望不见踪影，不知此刻正漂向何方。<br><br>千年的往事已然远去，想当年魏武帝曹操率军东征、挥鞭北指，登临碣石山东望大海，留下了千古传诵的诗篇。如今同样萧瑟的秋风依旧年年吹起，可人间却早已换了天地，今非昔比。",
+    "background": "1954年夏，毛泽东在河北北戴河避暑，适逢暴雨大作、海浪汹涌，由眼前景象联想到千余年前曹操北征乌桓、在附近的碣石山写下《观沧海》一诗的往事，借古喻今，抒发时移世易、古今对照的历史感慨。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 69,
+    "id": "p069",
+    "title": "七律·和周世钊同志",
+    "category": "七律",
+    "cipai": null,
+    "date": "1955年10月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "春江浩荡暂徘徊，又踏层峰望眼开。",
+        "风起绿洲吹浪去，雨从青野上山来。",
+        "尊前谈笑人依旧，域外鸡虫事可哀。",
+        "莫叹韶华容易逝，卅年仍到赫曦台。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "周世钊",
+        "d": "毛泽东在湖南第一师范求学时的同窗挚友，后长期从事教育工作，两人情谊深厚，常有诗词唱和。"
+      },
+      {
+        "w": "域外鸡虫事",
+        "d": "化用杜甫\"鸡虫得失无了时\"之意，指国际上一些患得患失、无谓纷争的琐事。"
+      },
+      {
+        "w": "尊前谈笑人依旧",
+        "d": "在酒樽前谈笑风生的老朋友依然如故，指与周世钊久别重逢、情谊不减当年。"
+      },
+      {
+        "w": "韶华",
+        "d": "美好的青春年华。"
+      },
+      {
+        "w": "赫曦台",
+        "d": "位于湖南长沙岳麓山一带，相传朱熹、张栻曾在此观日出、讲学论道，\"赫曦\"意为红日初升、光辉灿烂。"
+      }
+    ],
+    "vernacular": "浩荡的春江水暂且停下徘徊，我又一次登上层峦叠嶂，放眼望去豁然开朗。山风吹过绿洲，卷起层层波浪远去；雨丝从青翠的原野一路飘洒上山来。在酒樽前谈笑风生的老朋友还是当年的模样，倒是国外那些患得患失、鸡虫之争般的琐事令人感慨。不必感叹美好的青春年华容易逝去，三十年过去了，我们还能重新登上赫曦台叙旧论今。",
+    "background": "1955年10月，毛泽东回到阔别已久的湖南，与在湖南第一师范求学时的老同学周世钊重逢唱和，此诗即为酬答之作。诗中既有重游故地、登高望远的畅快，也流露出对老友情谊历久弥新的珍重，以及对域外纷争的淡然态度。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 70,
+    "id": "p070",
+    "title": "五律·看山",
+    "category": "五律",
+    "cipai": null,
+    "date": "1955年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "三上北高峰，杭州一望空。",
+        "飞凤亭边树，桃花岭上风。",
+        "热来寻扇子，冷去对美人。",
+        "一片飘颻下，欢迎有晚鹰。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 71,
+    "id": "p071",
+    "title": "七绝·莫干山",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1955年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "翻身复进七人房，回首峰峦入莽苍。",
+        "四十八盘才走过，风驰又已到钱塘。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 72,
+    "id": "p072",
+    "title": "七绝·五云山",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1955年11月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "五云山上五云飞，远接群峰近拂堤。",
+        "若问杭州何处好，此中听得野莺啼。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 73,
+    "id": "p073",
+    "title": "水调歌头·游泳",
+    "category": "词",
+    "cipai": "水调歌头",
+    "date": "1956年6月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "才饮长沙水，又食武昌鱼。",
+        "万里长江横渡，极目楚天舒。",
+        "不管风吹浪打，胜似闲庭信步，今日得宽余。",
+        "子在川上曰：逝者如斯夫！"
+      ],
+      [
+        "风樯动，龟蛇静，起宠图。",
+        "一桥飞架南北，天堑变通途。",
+        "更立西江石壁，截断巫山云雨，高峡出平湖。",
+        "神女应无恙，当惊世界殊。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "子在川上曰：逝者如斯夫",
+        "d": "典出《论语·子罕》，孔子在河边感叹时光像流水一样一去不返，这里借古语抒发不畏时光流逝、勇于搏击向前的豪迈心境。"
+      },
+      {
+        "w": "龟蛇",
+        "d": "指武汉长江两岸的龟山和蛇山。"
+      },
+      {
+        "w": "天堑变通途",
+        "d": "天堑指长江天险，通途指畅通无阻的道路，指长江大桥建成后南北往来不再受阻。"
+      },
+      {
+        "w": "西江石壁",
+        "d": "指设想在长江三峡筑坝拦水。"
+      },
+      {
+        "w": "巫山云雨",
+        "d": "典出宋玉《高唐赋》楚王与巫山神女的传说，这里借指三峡一带的云雨水患，“截断”即指修坝控制水患。"
+      },
+      {
+        "w": "神女应无恙，当惊世界殊",
+        "d": "神女指传说中的巫山女神，意为即便她还在，见到眼前的巨变恐怕也会大吃一惊。"
+      }
+    ],
+    "vernacular": "刚喝过长沙的水，又吃了武昌的鱼。我在万里长江上横渡，纵目远眺辽阔的楚天。任凭风吹浪打，我却走得如同在庭院里散步一样从容不迫，今天觉得格外轻松自在。孔子曾在河边感叹：“流逝的时光就像这江水一样啊！”<br><br>江面上风帆摇动，龟山、蛇山静静矗立，正酝酿着一幅宏伟的蓝图。一座大桥飞架长江南北，天险从此变成坦途。还要在长江上游筑起坚固的石壁，截断巫山的云雨，让三峡变成高峡平湖。巫山神女若还在，见到这人间巨变，想必也会大吃一惊吧。",
+    "background": "1956年6月，毛泽东在武汉三次横渡长江后写下此词。当时武汉长江大桥正在建设中（1955年开工，1957年建成），词中“一桥飞架南北”即指此事；“更立西江石壁……高峡出平湖”则是对日后在长江三峡筑坝的一种展望，并非当时已经完工。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 74,
+    "id": "p074",
+    "title": "蝶恋花·答李淑一",
+    "category": "词",
+    "cipai": "蝶恋花",
+    "date": "1957年5月11日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "我失骄杨君失柳，杨柳轻飏直上重霄九。",
+        "问讯吴刚何所有，吴刚捧出桂花酒。"
+      ],
+      [
+        "寂寞嫦娥舒广袖，万里长空且为忠魂舞。",
+        "忽报人间曾伏虎，泪飞顿作倾盆雨。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "骄杨",
+        "d": "毛泽东对亡妻杨开慧的称呼，“骄”是对她革命精神与品格的珍视与赞美。杨开慧1930年就义。"
+      },
+      {
+        "w": "柳",
+        "d": "指李淑一的丈夫柳直荀，与杨开慧同为早年牺牲的革命者，1932年遇害。"
+      },
+      {
+        "w": "重霄九",
+        "d": "九重云霄，极言天之高远。"
+      },
+      {
+        "w": "吴刚、桂花酒",
+        "d": "神话中在月宫伐桂的仙人吴刚，这里想象两位忠魂魂归月宫，吴刚捧出桂花美酒款待他们。"
+      },
+      {
+        "w": "嫦娥、广袖",
+        "d": "神话中的月宫仙子嫦娥，“舒广袖”指她舒展长袖为忠魂起舞。"
+      },
+      {
+        "w": "伏虎",
+        "d": "比喻打倒反动势力、推翻旧社会，一般认为暗指革命胜利、新中国的建立。"
+      }
+    ],
+    "vernacular": "我失去了骄傲的杨（杨开慧），您也失去了柳（柳直荀），他们的英魂轻盈飘荡，径直飞上九重云霄。向月宫里的吴刚询问那里有些什么，吴刚捧出桂花美酒来款待忠魂。寂寞的嫦娥也舒展长袖，为这两位忠魂的英灵翩翩起舞。忽然听说人间已经打倒了猛虎，两位忠魂激动得泪如倾盆大雨洒落人间。",
+    "background": "1957年，李淑一（杨开慧生前好友，丈夫柳直荀亦为革命烈士）曾寄给毛泽东一首悼念柳直荀的词作，毛泽东写下此词作答，将对亡妻杨开慧与对烈士柳直荀的怀念并写一处，寄托深切的悼念与崇敬之情。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 75,
+    "id": "p075",
+    "title": "七绝·观潮",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1957年9月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "千里波涛滚滚来，雪花飞向钓鱼台。",
+        "人山纷赞阵容阔，铁马从容杀敌回。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 76,
+    "id": "p076",
+    "title": "五言韵语·两个泥菩萨",
+    "category": "五言韵语",
+    "cipai": null,
+    "date": "1957年11月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "两个泥菩萨，一起都打碎。",
+        "用水一调和，再来做两个。",
+        "我身上有你，你身上有我。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 77,
+    "id": "p077",
+    "title": "七绝·刘蕡",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1958年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "千载长天起大云，中唐俊伟有刘蕡。",
+        "孤鸿铩羽悲鸣镝，万马齐喑叫一声。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 78,
+    "id": "p078",
+    "title": "七绝·改梅白《夜登重庆枇杷山》",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1958年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "我来高处欲乘风，暮色苍茫一望中。",
+        "百万银灯摇倒影，嘉陵江似水晶宫。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 79,
+    "id": "p079",
+    "title": "七律·送瘟神·其一",
+    "category": "七律",
+    "cipai": null,
+    "date": "1958年7月1日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": "读6月30日人民日报，余江县消灭了血吸虫。浮想联翩，夜不能寐。微风拂煦，旭日临窗。遥望南天，欣然命笔。",
+    "groupTitle": "七律·送瘟神·二首",
+    "groupLabel": "其一",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "绿水青山枉自多，华佗无奈小虫何！",
+        "千村薜荔人遗矢，万户萧疏鬼唱歌。",
+        "坐地日行八万里，巡天遥看一千河。",
+        "牛郎欲问瘟神事，一样悲欢逐逝波。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 80,
+    "id": "p080",
+    "title": "七律·送瘟神·其二",
+    "category": "七律",
+    "cipai": null,
+    "date": "1958年7月1日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "七律·送瘟神·二首",
+    "groupLabel": "其二",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "春风杨柳万千条，六亿神州尽舜尧。",
+        "红雨随心翻作浪，青山着意化为桥。",
+        "天连五岭银锄落，地动三河铁臂摇。",
+        "借问瘟君欲何往，纸船明烛照天烧。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 81,
+    "id": "p081",
+    "title": "四言韵语·养生十六字诀",
+    "category": "四言韵语",
+    "cipai": null,
+    "date": "1958年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "遇事不怒，基本吃素。",
+        "多多散步，劳逸适度。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 82,
+    "id": "p082",
+    "title": "七绝·仿陆放翁《示儿》诗",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1958年12月21日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "人类而今上太空，但悲不见五洲同。",
+        "愚公尽扫饕蚊日，公祭毋忘告马翁。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 83,
+    "id": "p083",
+    "title": "七律·到韶山",
+    "category": "七律",
+    "cipai": null,
+    "date": "1959年6月25日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": "1959年6月25日到韶山。离别这个地方已有32周年了。",
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "别梦依稀咒逝川，故园三十二年前。",
+        "红旗卷起农奴戟，黑手高悬霸主鞭。",
+        "为有牺牲多壮志，敢教日月换新天。",
+        "喜看稻菽千重浪，遍地英雄下夕烟。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "别梦依稀咒逝川",
+        "d": "离别故乡多年后梦境依稀浮现，怨恨光阴如流水般一去不返，化用孔子“逝者如斯夫”之叹。"
+      },
+      {
+        "w": "农奴戟",
+        "d": "指农民、农奴揭竿而起时手中的武器，象征被压迫者奋起反抗。"
+      },
+      {
+        "w": "黑手高悬霸主鞭",
+        "d": "反动统治者高高举起压迫人民的皮鞭，比喻旧社会地主豪强对农民的残酷统治。"
+      },
+      {
+        "w": "稻菽千重浪",
+        "d": "稻田里层层叠叠、随风起伏的庄稼如波浪一般，形容丰收的景象。"
+      }
+    ],
+    "vernacular": "离别故乡的梦境依稀浮现，不禁怨恨光阴如流水般一去不返，算来离开这片生我养我的故园已经三十二年了。当年农民们举起反抗的武器揭竿而起，反动统治者却高悬皮鞭残酷镇压。正因为有无数先烈怀着崇高的牺牲精神，才换来了翻天覆地的新天地。如今欣喜地看到家乡稻田里层层庄稼随风起伏如浪涛，傍晚时分，劳作的英雄儿女们披着余晖归来，到处是一派兴旺景象。",
+    "background": "1959年6月25日，毛泽东回到阔别32年的故乡韶山。此诗追忆当年离乡投身革命的历程、缅怀为革命牺牲的乡亲，也描绘了家乡在新中国成立后呈现出的崭新面貌。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 84,
+    "id": "p084",
+    "title": "七律·登庐山",
+    "category": "七律",
+    "cipai": null,
+    "date": "1959年7月1日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "一山飞峙大江边，跃上葱茏四百旋。",
+        "冷眼向洋看世界，热风吹雨洒江天。",
+        "云横九派浮黄鹤，浪下三吴起白烟。",
+        "陶令不知何处去，桃花源里可耕田？"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "一山飞峙大江边",
+        "d": "形容庐山拔地而起、矗立在长江边，气势飞动。"
+      },
+      {
+        "w": "四百旋",
+        "d": "形容登山道路盘旋曲折、层层迂回，泛指山势险峻、路途悠长，并非确切数字。"
+      },
+      {
+        "w": "冷眼向洋看世界",
+        "d": "以冷静、审视的眼光看待海外风云变幻的世界局势。"
+      },
+      {
+        "w": "九派",
+        "d": "指长江流经九江一带、支流众多的河道，这里泛指长江。"
+      },
+      {
+        "w": "三吴",
+        "d": "古代地理概念，泛指长江下游江南一带。"
+      },
+      {
+        "w": "陶令、桃花源",
+        "d": "陶令指东晋诗人陶渊明（曾任彭泽令），“桃花源”典出其《桃花源记》中描绘的理想化世外田园，这里设问陶渊明若在，能否在此地寻得他笔下的桃花源。"
+      }
+    ],
+    "vernacular": "庐山一峰凌空飞起，矗立在大江边上，山路盘旋曲折，一路攀登直上苍翠的山巅。我以冷静的目光审视着海洋彼岸风云变幻的世界，任凭热风骤雨洒落在这江天之间。放眼望去，长江九派上空云雾缭绕，仿佛黄鹤浮游其间；浪涛奔涌向下游三吴之地，激起片片白烟。不知陶渊明如今身在何处，这庐山脚下的桃花源里，是否也能耕种劳作、安居乐业？",
+    "background": "1959年7月1日，毛泽东登临庐山时所作。诗中既描绘了庐山雄奇壮丽的景色，也借“冷眼向洋看世界”抒发了纵览风云、放眼天下的豪情。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 85,
+    "id": "p085",
+    "title": "七言诗·赫鲁晓夫访美",
+    "category": "七言诗",
+    "cipai": null,
+    "date": "1959年10月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "西海如今出圣人，涂脂抹粉上豪门。",
+        "一辆汽车几间屋，三头黄犊半盘银。",
+        "举世劳民同主子，万年宇宙绝纷争。",
+        "列宁火焰成灰烬，人类从此入大同。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 86,
+    "id": "p086",
+    "title": "七绝·到钱塘",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1959年11月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": "文字与第71首《七绝·莫干山》高度近似（首句「翻身跃入」对应「翻身复进」），原始资料两首并列收录，未做合并处理。",
+    "variants": null,
+    "stanzas": [
+      [
+        "翻身跃入七人房，回首峰恋入莽苍。",
+        "四十八盘才走过，风驰又已到钱塘。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 87,
+    "id": "p087",
+    "title": "七律·改鲁迅诗",
+    "category": "七律",
+    "cipai": null,
+    "date": "1959年12月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "曾惊秋肃临天下，竟遣春温上舌端。",
+        "尘海苍茫沉百感，金风萧瑟走高官。",
+        "喜攀飞翼通身暧，苦坠空云半截寒。",
+        "悚听自吹皆圣绩，起看敌焰正阑干。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 88,
+    "id": "p088",
+    "title": "七律·读报有感（一）",
+    "category": "七律",
+    "cipai": null,
+    "date": "1959年12月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "反苏忆昔闹群蛙，今日欣看大反华。",
+        "恶煞腐心兴鼓吹，凶神张口吐烟霞。",
+        "神州岂止千里恶，赤县原藏万种邪。",
+        "遍寻全球侵略者，惟馀此处一孤家。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 89,
+    "id": "p089",
+    "title": "七律·读报",
+    "category": "七律",
+    "cipai": null,
+    "date": "1959年12月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "托洛斯基到远东，不和不战逞英雄。",
+        "列宁竟抛头颅后，叶督该拘大鹫峰。",
+        "敢向邻居试螳臂，只缘自己是狂峰。",
+        "人人尽说西方好，独惜神州出蠢虫。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 90,
+    "id": "p090",
+    "title": "七律·读报有感（二）",
+    "category": "七律",
+    "cipai": null,
+    "date": "1960年6月13日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "托洛斯基返故居，不战不和欲何如？",
+        "青云飘下能言鸟，黑海翻起愤怒鱼。",
+        "爱丽舍宫唇发黑，戴维营里面施朱。",
+        "新闻岁岁寻常出，独有今年出得殊。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 91,
+    "id": "p091",
+    "title": "七律·答友人",
+    "category": "七律",
+    "cipai": null,
+    "date": "1961年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "九嶷山上白云飞，帝子乘风下翠微。",
+        "斑竹一枝千滴泪，红霞万朵百重衣。",
+        "洞庭波涌连天雪，长岛人歌动地诗。",
+        "我欲因之梦寥廓，芙蓉国里尽朝晖。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "九嶷山、帝子",
+        "d": "九嶷山在今湖南永州，相传舜帝南巡崩于苍梧、葬于九嶷山；“帝子”指舜的两位妃子娥皇、女英，传说她们闻讯赶来，泪洒湘竹，最终投湘水而死，化为湘水女神。"
+      },
+      {
+        "w": "斑竹",
+        "d": "又称“湘妃竹”，相传因娥皇、女英的眼泪洒落竹上而留下斑点，故名。"
+      },
+      {
+        "w": "洞庭波涌连天雪",
+        "d": "形容洞庭湖波涛汹涌、浪花如雪，气势浩大。"
+      },
+      {
+        "w": "芙蓉国",
+        "d": "湖南的古称与美称，因湖南多生木芙蓉而得名，这里泛指湖南大地。"
+      }
+    ],
+    "vernacular": "九嶷山上白云飘飞，娥皇、女英两位帝子乘风从青翠的山间飘然而下。湘妃竹上点点泪痕，仿佛千行泪滴；天边红霞万朵，犹如百重锦绣衣裳。洞庭湖上波涛汹涌，浪花如雪直连天际；湘江两岸人们放声歌唱，歌声震动大地。我愿借着这壮阔的景象，梦游寥廓的天地，只见芙蓉国（湖南大地）里处处朝霞满天、一片光辉。",
+    "background": "1961年，毛泽东写给友人的赠答之作。诗中借舜帝二妃娥皇、女英（湘妃）的传说与湘江、九嶷山一带的意象，寄托对家乡湖南的深情与对未来光明前景的展望，具体赠答对象与写作细节史料记载不一，据考多认为与友人间诗词唱和有关。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 92,
+    "id": "p092",
+    "title": "七绝·为女民兵题照",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1961年2月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "飒爽英姿五尺枪，曙光初照演兵场。",
+        "中华儿女多奇志，不爱红装爱武装。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "飒爽英姿",
+        "d": "形容精神焕发、英武矫健的姿态。"
+      },
+      {
+        "w": "五尺枪",
+        "d": "泛指步枪，这里形容女民兵持枪操练的英武形象。"
+      },
+      {
+        "w": "红装",
+        "d": "指女性艳丽的妆饰装扮。"
+      },
+      {
+        "w": "武装",
+        "d": "这里指军装戎装，与“红装”相对，表达投身军事训练、保家卫国的志向。"
+      }
+    ],
+    "vernacular": "英姿飒爽的女民兵们手持钢枪，在曙光初照的操练场上训练。中华好儿女大多志向不凡，比起艳丽的红妆，她们更爱戎装上身、保家卫国。",
+    "background": "1961年2月，毛泽东为一张女民兵持枪操练的照片题诗，赞美新中国女性投身军事训练、保家卫国的精神风貌，是当时提倡“全民皆兵”的时代风貌写照。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 93,
+    "id": "p093",
+    "title": "七绝·为李进同志题所摄庐山仙人洞照",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1961年9月9日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "暮色苍茫看劲松，乱云飞渡仍从容。",
+        "天生一个仙人洞，无限风光在险峰。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "劲松",
+        "d": "苍劲挺拔的松树，象征坚韧不拔的品格。"
+      },
+      {
+        "w": "乱云飞渡",
+        "d": "乱云匆匆飘过天空，形容风云变幻、局势动荡。"
+      },
+      {
+        "w": "仙人洞",
+        "d": "庐山著名景点，相传为八仙之一吕洞宾修炼之处，此处既写实景也暗含下句“险峰”的象征意味。"
+      },
+      {
+        "w": "险峰",
+        "d": "险峻的山峰，比喻充满风险与挑战的境地。"
+      }
+    ],
+    "vernacular": "暮色苍茫之中，远望那苍劲挺拔的松树；乱云匆匆掠过天空，松树却依然从容不迫。天然生成的仙人洞令人神往，而无限壮美的风光，正藏在那险峻的山峰之上。",
+    "background": "1961年9月，庐山召开中央工作会议期间，摄影师李进（即江青）拍摄了一张仙人洞劲松的照片，毛泽东见后题写此诗相赠。诗中以乱云、劲松、险峰起兴，常被解读为借景言志，寄托在动荡局势中处变不惊、于险境中见风光的胸怀。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 94,
+    "id": "p094",
+    "title": "七绝·屈原",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1961年秋",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "屈子当年赋楚骚，手中握有杀人刀。",
+        "文萧太盛椒兰少，一跃冲向万里涛。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 95,
+    "id": "p095",
+    "title": "七绝·纪念鲁迅八十寿辰·其一",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1961年9月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "七绝·纪念鲁迅八十寿辰·二首",
+    "groupLabel": "其一",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "博大胆识铁石坚，刀光剑影任翔旋。",
+        "龙华喋血不眠夜，犹制小诗赋管弦。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 96,
+    "id": "p096",
+    "title": "七绝·纪念鲁迅八十寿辰·其二",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1961年9月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "七绝·纪念鲁迅八十寿辰·二首",
+    "groupLabel": "其二",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "鉴湖越台名士乡，忧忡为国痛断肠。",
+        "剑南歌接秋风吟，一例氤氲入诗囊。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 97,
+    "id": "p097",
+    "title": "七律·和郭沫若同志",
+    "category": "七律",
+    "cipai": null,
+    "date": "1961年11月17日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "一从大地起风雷，便有精生白骨堆。",
+        "僧是愚氓犹可训，妖为鬼蜮必成灾。",
+        "金猴奋起千钧棒，玉宇澄清万里埃。",
+        "今日欢呼孙大圣，只缘妖雾又重来。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "精生白骨堆",
+        "d": "化用《西游记》“三打白骨精”的故事，白骨精从尸骸中幻化出精怪，比喻伪装巧妙、本质邪恶的敌人。"
+      },
+      {
+        "w": "僧是愚氓犹可训",
+        "d": "僧指唐僧，这里比喻是非不分、受蒙蔽的愚昧之人，虽犯糊涂但尚可教育挽回。"
+      },
+      {
+        "w": "妖为鬼蜮",
+        "d": "鬼蜮，阴险害人的鬼怪，这里比喻隐藏很深、必定作恶的敌人。"
+      },
+      {
+        "w": "金猴奋起千钧棒",
+        "d": "金猴指孙悟空，千钧棒即如意金箍棒，这里借孙悟空奋起挥棒降妖，比喻敢于斗争、神通广大的革命力量奋起扫除邪恶。"
+      },
+      {
+        "w": "玉宇",
+        "d": "天空，这里指整个天下、世界。"
+      },
+      {
+        "w": "孙大圣",
+        "d": "孙悟空的尊称，这里喻指能够降妖除魔、扫清障碍的力量。"
+      }
+    ],
+    "vernacular": "自从天地间刮起这场风雷变革以来，便总有精怪从白骨堆中幻化而生。糊涂的“唐僧”虽然愚昧，却还可以教育挽救；而阴险的妖魔鬼怪，却终将酿成祸患。金猴奋起挥舞千钧棒，扫荡天地间的尘埃，还天下一个清明。今天人们欢呼孙悟空的归来，只因为妖雾又一次卷土重来。",
+    "background": "1961年10月，郭沫若在观看浙江绍剧团演出的《孙悟空三打白骨精》后赋诗感怀，毛泽东读后依韵奉和，写下这首七律。彼时国际共产主义运动内部存在路线分歧与论争，一般认为，诗中借“白骨精”“妖雾”等意象，也寄托了毛泽东对当时国际形势中是非、敌我问题的思考。这首诗是毛泽东与郭沫若诗词唱和中流传最广的一首。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 98,
+    "id": "bsz-ym",
+    "title": "卜算子·咏梅",
+    "category": "词",
+    "cipai": "卜算子",
+    "date": "1961年12月",
+    "pre1949": false,
+    "subtitle": "读陆游咏梅词，反其意而用之",
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "风雨送春归，飞雪迎春到。",
+        "已是悬崖百丈冰，犹有花枝俏。"
+      ],
+      [
+        "俏也不争春，只把春来报。",
+        "待到山花烂漫时，她在丛中笑。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "悬崖百丈冰",
+        "d": "形容环境极其严寒恶劣。"
+      },
+      {
+        "w": "俏",
+        "d": "俊俏、挺拔的样子，这里形容梅花在严寒中依然美丽坚韧。"
+      },
+      {
+        "w": "烂漫",
+        "d": "山花盛开、绚丽多彩的样子。"
+      },
+      {
+        "w": "丛中笑",
+        "d": "梅花在百花丛中欣慰地微笑，比喻甘做铺垫、不争名利的胸怀。"
+      }
+    ],
+    "vernacular": "风雨送走了春天，飞雪又迎来了春天的脚步。悬崖边上已结了百丈坚冰，可梅花的枝头依然俊俏绽放。她俏丽却不与百花争春，只是把春天的消息传递给大家。等到满山的鲜花烂漫盛开时，她却在花丛中欣慰地笑了。",
+    "background": "1961年，正值国家面临严峻困难时期，毛泽东读到南宋诗人陆游情调感伤低沉的《卜算子·咏梅》，有感而发，反用其意重新填词，借梅花傲雪绽放、不与百花争春的品格，表达乐观坚韧、甘于奉献的精神。",
+    "contentStatus": "researched",
+    "illuKey": "plum"
+  },
+  {
+    "seq": 99,
+    "id": "p099",
+    "title": "七律·冬云",
+    "category": "七律",
+    "cipai": null,
+    "date": "1962年12月26日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "雪压冬云白絮飞，万花纷谢一时稀。",
+        "高天滚滚寒流急，大地微微暖气吹。",
+        "独有英雄驱虎豹，更无豪杰怕熊罴。",
+        "梅花欢喜漫天雪，冻死苍蝇未足奇。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "冬云",
+        "d": "冬天的云层，这里象征严寒、肃杀的外部环境。"
+      },
+      {
+        "w": "虎豹、熊罴",
+        "d": "凶猛的野兽，比喻强敌或凶险的局势。"
+      },
+      {
+        "w": "梅花欢喜漫天雪",
+        "d": "化用梅花傲雪绽放的传统意象，比喻革命者不畏严寒、愈挫愈勇。"
+      },
+      {
+        "w": "冻死苍蝇未足奇",
+        "d": "苍蝇比喻不堪一击的宵小之辈，严寒中被冻死不足为奇。"
+      }
+    ],
+    "vernacular": "大雪压着冬天的云层，漫天飞舞着白色的雪絮，百花都已凋谢，此刻格外稀少冷清。高空中寒流滚滚、来势汹汹，而大地深处却也微微透出一丝暖意。唯有真正的英雄才敢于驱赶虎豹般的强敌，没有一个豪杰会惧怕凶猛的熊罴。梅花反倒在漫天风雪中欢喜绽放，至于那些不堪一击的“苍蝇”，冻死在严寒里也没什么好奇怪的。",
+    "background": "1962年12月，正值国内经历严重经济困难、国际上又面临多重压力的时期，毛泽东写下此诗。诗中以“冬云”“寒流”喻外部严峻形势，以“梅花”喻革命者不畏艰险、越是严寒越显风骨的精神，情绪基调昂扬坚定。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 100,
+    "id": "p100",
+    "title": "满江红·和郭沫若同志",
+    "category": "词",
+    "cipai": "满江红",
+    "date": "1963年1月9日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "小小寰球，有几个苍蝇碰壁。",
+        "嗡嗡叫，几声凄厉，几声抽泣。",
+        "蚂蚁缘槐夸大国，蚍蜉撼树谈何易。",
+        "正西风落叶下长安，飞鸣镝。"
+      ],
+      [
+        "多少事，从来急；天地转，光阴迫。",
+        "一万年太久，只争朝夕。",
+        "四海翻腾云水怒，五洲震荡风雷激。",
+        "要扫除一切害人虫，全无敌。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "苍蝇碰壁",
+        "d": "比喻一些跳梁小丑般的敌对势力到处碰壁、成不了气候。"
+      },
+      {
+        "w": "蚂蚁缘槐夸大国",
+        "d": "化用“南柯一梦”典故（淳于棼梦入蚁国“大槐安国”），比喻某些势力自我夸大、不自量力。"
+      },
+      {
+        "w": "蚍蜉撼树",
+        "d": "典出韩愈《调张籍》“蚍蜉撼大树，可笑不自量”，指小小的蚍蜉想要摇动大树，比喻不自量力。"
+      },
+      {
+        "w": "西风落叶下长安",
+        "d": "化用古典诗词常见的萧瑟意象，这里喻指某种政治势力的没落衰败。"
+      },
+      {
+        "w": "只争朝夕",
+        "d": "抓紧最短暂的时间，形容只争分夺秒、刻不容缓的紧迫感。"
+      }
+    ],
+    "vernacular": "小小的地球上，不过有几只苍蝇到处碰壁。它们嗡嗡乱叫，一会儿凄厉尖叫，一会儿又像在抽泣。有的像爬上槐树就自夸“大国”的蚂蚁，有的像想要摇动大树的蚍蜉，实在是不自量力。正当西风卷起落叶、一派衰败景象之时，战斗的号角已经吹响。<br><br>天下的事，向来紧迫；天地在转动，光阴在催逼。一万年太长久了，我们只争分夺秒。四海翻腾、云水怒涌，五洲震荡、风雷激荡。要扫除世间一切害人的虫豸，所向无敌。",
+    "background": "1963年1月，毛泽东读到郭沫若此前所作《满江红》后依韵奉和，这是继《七律·和郭沫若同志》之后两人的又一次诗词唱和。当时中国在国际上面临来自多方的批评与压力，一般认为词中“苍蝇碰壁”“蚂蚁缘槐”“蚍蜉撼树”等意象，是对相关国际势力、言论的回应与讥讽。“一万年太久，只争朝夕”后来成为广为传诵的名句，表达只争分夺秒、积极进取的精神。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 101,
+    "id": "p101",
+    "title": "杂言诗·八连颂",
+    "category": "杂言诗",
+    "cipai": null,
+    "date": "1963年8月1日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "好八连，天下传。",
+        "为什么？意志坚。",
+        "为人民，几十年。",
+        "拒腐蚀，永不沾。",
+        "因此叫，好八连。",
+        "解放军，要学习。",
+        "全军民，要自立。",
+        "不怕压，不怕迫。",
+        "不怕刀，不怕戟。",
+        "不怕鬼，不怕魅。",
+        "不怕帝，不怕贼。",
+        "奇儿女，如松柏。",
+        "上参天，傲霜雪。",
+        "纪律好，如坚壁。",
+        "军事好，如霹雳。",
+        "政治好，称第一。",
+        "思想好，能分析。",
+        "分析好，大有益。",
+        "益在哪？团结力。",
+        "军民团结如一人，",
+        "试看天下谁能敌。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 102,
+    "id": "p102",
+    "title": "七律·吊罗荣桓同志",
+    "category": "七律",
+    "cipai": null,
+    "date": "1963年12月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "记得当年草上飞，红军队里每相违。",
+        "长征不是难堪日，战锦方为大问题。",
+        "斥鷃每闻欺大鸟，昆鸡长笑老鹰非。",
+        "君今不幸离人世，国有疑难可问谁？"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 103,
+    "id": "p103",
+    "title": "贺新郎·读史",
+    "category": "词",
+    "cipai": "贺新郎",
+    "date": "1964年春",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "人猿相揖别。",
+        "只几个石头磨过，小儿时节。",
+        "铜铁炉中翻火焰，为问何时猜得？",
+        "不过几千寒热。",
+        "人世难逢开口笑，上疆场彼此弯弓月。",
+        "流遍了，郊原血。"
+      ],
+      [
+        "一篇读罢头飞雪，",
+        "但记得斑斑点点，几行陈迹。",
+        "五帝三皇神圣事，骗了无涯过客。",
+        "有多少风流人物？",
+        "盗跖庄蹻流誉后，更陈王奋起挥黄铖。",
+        "歌未竟，东方白。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 104,
+    "id": "p104",
+    "title": "七绝·贾谊",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "贾生才调世无伦，哭泣情怀吊屈文。",
+        "梁王堕马寻常事，何用哀伤付一生。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 105,
+    "id": "p105",
+    "title": "七律·咏贾谊",
+    "category": "七律",
+    "cipai": null,
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "少年倜傥廊庙才，斗志未酬事堪哀。",
+        "胸罗文章兵百万，胆照华国树千台。",
+        "雄英无计倾圣主，高节终竟受疑猜。",
+        "千古同异长沙傅，空白汩罗步尘埃。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 106,
+    "id": "p106",
+    "title": "十六字令·龙",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·八首",
+    "groupLabel": "龙",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "龙，隐雾驱云驾长风，",
+        "骤雨霁，天际起霓虹。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 107,
+    "id": "p107",
+    "title": "十六字令·灯",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·八首",
+    "groupLabel": "灯",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "灯，黑沉迷途指归程，",
+        "红光闪，万众获重生。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 108,
+    "id": "p108",
+    "title": "十六字令·泉",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·八首",
+    "groupLabel": "泉",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "泉，杳然无底是灵源，",
+        "清澈澈，谁人藏心间。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 109,
+    "id": "p109",
+    "title": "十六字令·水",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·八首",
+    "groupLabel": "水",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "水，群众饥渴饮且醉，",
+        "被颠倒，从此夜生辉。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 110,
+    "id": "p110",
+    "title": "十六字令·雷",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·八首",
+    "groupLabel": "雷",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "雷，孤夜深深独不寐，",
+        "隆隆轰，斩断万年碑。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 111,
+    "id": "p111",
+    "title": "十六字令·秋",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·八首",
+    "groupLabel": "秋",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "秋，百花杀尽犹未休，",
+        "狂飙动，神州落荒流。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 112,
+    "id": "p112",
+    "title": "十六字令·枪",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·八首",
+    "groupLabel": "枪",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "枪，荧光冥冥过冷芒，",
+        "忽而怒，平地三尺浪。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 113,
+    "id": "p113",
+    "title": "十六字令·花",
+    "category": "词",
+    "cipai": "十六字令",
+    "date": "1964年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": "十六字令·八首",
+    "groupLabel": "花",
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "花，可怜羞弱不胜压，",
+        "昨夜雪，娇藏在冰崖。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 114,
+    "id": "p114",
+    "title": "减字木兰花·经长沙忆往",
+    "category": "词",
+    "cipai": "减字木兰花",
+    "date": "1964年秋",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "四五十年，风雨如晦不重见。",
+        "过眼飞云，横竖茫茫一线天。"
+      ],
+      [
+        "休要夸口，豪杰劫后是民愿，",
+        "海天环顾，一路走来一路烟。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 115,
+    "id": "p115",
+    "title": "满江红·庆祝我国第一次核试验成功",
+    "category": "词",
+    "cipai": "满江红",
+    "date": "1964年10月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": true,
+    "disputedNote": "整理者按语：有可能是陈明远仿作，待考",
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "小丑下台，应欢送，礼炮轰隆。",
+        "原子弹说爆就爆，其乐无穷。",
+        "十年丑史归尘土，一阵惊雷卷巨风。",
+        "笑老修大势去矣，敲丧钟。"
+      ],
+      [
+        "忆往昔，来势汹；众喽罗，瞎起哄。",
+        "君不见，人民自古是英雄。",
+        "螳臂挡车千钧力，庄生梦蝶一场空。",
+        "看东方，火炬赤旗舞，万里红。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 116,
+    "id": "p116",
+    "title": "念奴娇·井冈山",
+    "category": "词",
+    "cipai": "念奴娇",
+    "date": "1965年5月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "参天万木，千百里，飞上南天奇岳。",
+        "故地重来何所见，多了楼台亭阁。",
+        "五井碑前，黄洋界上，车子飞如跃。",
+        "江山如画，古代曾云海绿。"
+      ],
+      [
+        "弹指三十八年，人间变了，似天渊翻覆。",
+        "犹记当时烽火里，九死一生如昨。",
+        "独有豪情，天际悬明月，风雷磅礴。",
+        "一声鸡唱，万怪烟消云落。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 117,
+    "id": "p117",
+    "title": "水调歌头·重上井冈山",
+    "category": "词",
+    "cipai": "水调歌头",
+    "date": "1965年5月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "久有凌云志，重上井冈山。",
+        "千里来寻故地，旧貌变新颜。",
+        "到处莺歌燕舞，更有潺潺流水，高路入云端。",
+        "过了黄洋界，险处不须看。"
+      ],
+      [
+        "风雷动，旌旗奋，是人寰。",
+        "三十八年过去，弹指一挥间。",
+        "可上九天揽月，可下五洋捉鳖，谈笑凯歌还。",
+        "世上无难事，只要肯登攀。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "凌云志",
+        "d": "形容远大的志向，如直上云霄。"
+      },
+      {
+        "w": "故地",
+        "d": "这里指井冈山，毛泽东早年建立革命根据地之处。"
+      },
+      {
+        "w": "黄洋界",
+        "d": "井冈山著名隘口，1928年曾在此打退敌军进攻（参见《西江月·井冈山》“黄洋界上炮声隆”）。"
+      },
+      {
+        "w": "可上九天揽月，可下五洋捉鳖",
+        "d": "夸张的想象，分别指飞上最高天空摘取月亮、潜入最深海洋捕捉鳖，比喻敢于克服一切困难、实现宏大理想的气魄。"
+      },
+      {
+        "w": "只要肯登攀",
+        "d": "强调只要有决心和毅力去努力攀登，再难的事也能做成。"
+      }
+    ],
+    "vernacular": "早就怀着直冲云霄的志向，如今重新登上井冈山。跋涉千里来寻访这片故地，旧时的模样已经变成了崭新的景象。一路上到处莺歌燕舞，还有潺潺的流水，高高的山路直插云端。走过了黄洋界，那些曾经险峻的地方如今也不必再放在眼里。<br><br>风雷激荡，旌旗飞扬，这就是人间。三十八年过去了，不过弹指一挥间。我们可以飞上九天摘取月亮，也可以潜入五洋捕捉鳖怪，谈笑之间就能凯旋归来。世上没有难办的事，只要肯下决心去攀登。",
+    "background": "1965年5月，毛泽东重新登上阔别38年的井冈山，追忆当年创建革命根据地、1928年黄洋界保卫战等往事，感慨今昔巨变，写下这首词。“世上无难事，只要肯登攀”后来成为广泛流传、激励人心的名句。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 118,
+    "id": "p118",
+    "title": "七律·洪都",
+    "category": "七律",
+    "cipai": null,
+    "date": "1965年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "到得洪都又一年，祖生击楫至今传。",
+        "闻鸡久听南天雨，立马曾挥北地鞭。",
+        "鬓雪飞来成废料，彩云长在有新天。",
+        "年年后浪推前浪，江草江花处处鲜。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 119,
+    "id": "p119",
+    "title": "五律·西行",
+    "category": "五律",
+    "cipai": null,
+    "date": "1965年7月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "万里西行急，乘风御太空。",
+        "不因鹏翼展，哪得鸟途通。",
+        "海酿千钟酒，山栽万仞葱。",
+        "风雷驱大地，是处有亲朋。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 120,
+    "id": "p120",
+    "title": "念奴娇·鸟儿问答",
+    "category": "词",
+    "cipai": "念奴娇",
+    "date": "1965年秋",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "鲲鹏展翅，九万里，翻动扶摇羊角。",
+        "背负青天朝下看，都是人间城郭。",
+        "炮火连天，弹痕遍地，吓倒蓬间雀。",
+        "怎么得了，哎呀我要飞跃。"
+      ],
+      [
+        "借问君去何方？雀儿答道：有仙山琼阁。",
+        "不见前年秋月朗，订了三家条约。",
+        "还有吃的，土豆烧熟了，再加牛肉。",
+        "不须放屁，试看天地翻覆。"
+      ]
+    ],
+    "gloss": [
+      {
+        "w": "鲲鹏",
+        "d": "化用《庄子·逍遥游》中展翅高飞、志向远大的神鸟，这里比喻有宏大理想、敢于斗争的力量。"
+      },
+      {
+        "w": "扶摇、羊角",
+        "d": "都是古代形容盘旋而上的狂风的说法，这里形容鲲鹏乘风而起、直冲云霄的气势。"
+      },
+      {
+        "w": "蓬间雀",
+        "d": "栖息在蓬蒿杂草间的小麻雀，与鲲鹏形成对比，比喻目光短浅、一遇风吹草动就惊慌失措的人或势力。"
+      },
+      {
+        "w": "仙山琼阁",
+        "d": "传说中神仙居住的美妙宫阁，这里是雀儿想象中安逸避难的“世外桃源”，带有讽刺意味。"
+      },
+      {
+        "w": "三家条约",
+        "d": "据考指1963年美、英、苏三国在莫斯科签订的《部分禁止核试验条约》，当时中国对该条约持批评立场，词中借雀儿之口暗讽有关方面以此条约为“安身之所”。"
+      },
+      {
+        "w": "土豆烧熟了，再加牛肉",
+        "d": "雀儿所向往的“好日子”，是一种带有调侃意味的、安于现状享乐的生活理想。"
+      }
+    ],
+    "vernacular": "大鹏鸟展翅高飞，一飞就是九万里，乘着盘旋而起的狂风扶摇直上。它背负青天俯瞰下方，看到的都是人间的城池街市。地面上炮火连天、弹痕遍地，吓坏了躲在蓬蒿草丛间的小麻雀。小麻雀惊慌地说：“这可怎么得了，哎呀我得赶紧飞走躲一躲。”<br><br>大鹏问它：“你要飞到哪里去呀？”麻雀回答说：“我要去仙山琼阁躲一躲。你没看见前年那个月明之夜，几个大国不是订了条约嘛。那里还有吃的呢，土豆烧熟了，再加上牛肉，日子过得挺安逸。”大鹏答道：“少说这些没用的话，且看天地要如何翻覆巨变吧。”",
+    "background": "1965年，毛泽东以寓言问答体写下这首词，借“鲲鹏”与“蓬间雀”的对话，影射当时复杂的国际局势。词中“三家条约”一句，据考与1963年美、英、苏三国签订的《部分禁止核试验条约》有关，当时中国对该条约持批评态度。这是毛泽东诗词中少见的以寓言对话形式呈现的讽喻之作，语言诙谐犀利。",
+    "contentStatus": "researched",
+    "illuKey": null
+  },
+  {
+    "seq": 121,
+    "id": "p121",
+    "title": "卜算子·悼国际共产主义战士艾地同志",
+    "category": "词",
+    "cipai": "卜算子",
+    "date": "1965年12月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": true,
+    "disputedNote": "整理者按语：有可能是陈明远仿作，待考",
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "疏枝立寒窗，笑在百花前。",
+        "奈何笑容难为久，春来反凋残。"
+      ],
+      [
+        "残固不堪残，何须自寻烦？",
+        "花落自有花开日，蓄芳待来年。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 122,
+    "id": "p122",
+    "title": "七律·有所思",
+    "category": "七律",
+    "cipai": null,
+    "date": "1966年6月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "正是神都有事时，又来南国踏芳枝。",
+        "青松怒向苍天发，败叶纷随碧水驰。",
+        "一阵风雷惊世界，满街红绿走旌旗。",
+        "凭阑静听瀟瀟雨，故国人民有所思。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 123,
+    "id": "p123",
+    "title": "杂言诗·盛名之下",
+    "category": "杂言诗",
+    "cipai": null,
+    "date": "1966年7月8日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "峣峣者易折，皎皎者易污，",
+        "阳春白雪，和者盖寡。",
+        "盛名之下，其实难副。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 124,
+    "id": "p124",
+    "title": "七绝·炮打司令部",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1966年8月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "人民胜利今何在？满路新贵满目衰。",
+        "核弹高置昆仑巅，摧尽腐朽方释怀。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 125,
+    "id": "p125",
+    "title": "七律·将革命进行到底",
+    "category": "七律",
+    "cipai": null,
+    "date": "1967年夏",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "古今多少苍茫事，前车历历未能忘，",
+        "鸿门宴上宽纵敌，乌江边头何仓皇。",
+        "秀全空坐失良机，天京终于烟灰场，",
+        "急世英雄行大劫，莫顾尘界百创伤。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 126,
+    "id": "p126",
+    "title": "如梦令·韶山冲",
+    "category": "词",
+    "cipai": "如梦令",
+    "date": "1969年1月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "扶桑，丰田，龙潭，幼年凫游星汉。",
+        "而今何处循？梦不见横须贺。",
+        "何处？何处？无奈石灯阑珊。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 127,
+    "id": "p127",
+    "title": "清平乐·警觉苏修",
+    "category": "词",
+    "cipai": "清平乐",
+    "date": "1969年5月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "穷发之北，海波泛荒垂。",
+        "熊罴向我蹲且嚎，懦者肝胆破碎。"
+      ],
+      [
+        "勇士团结一心，暂缓同室搏命。",
+        "苏修贼心不死，我辈岂是南明。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 128,
+    "id": "p128",
+    "title": "念奴娇·长征",
+    "category": "词",
+    "cipai": "念奴娇",
+    "date": "1970年1月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "万里气势，不逶迤，烽烟五津动摇。",
+        "雪山绝境，荒草地，四散溃逃几国焘。",
+        "娄山关后，不为人知，",
+        "阴谋出年少。回首如今多劳？"
+      ],
+      [
+        "看我宝刀，永无宁日好。",
+        "早年空空多浪费，而今点石金。",
+        "老骥伏枥，变本加厉，做事要彻底。",
+        "江山已定，谁人敢论功高？"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 129,
+    "id": "p129",
+    "title": "清平乐·视察",
+    "category": "词",
+    "cipai": "清平乐",
+    "date": "1971年8月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "南巡万里，不觉忆古帝。",
+        "威加海内有余风，秦皇，隋炀，康熙。"
+      ],
+      [
+        "彼辈功业为己，我今操劳社稷，",
+        "踏破官僚机器，挥斥资产阶级。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 130,
+    "id": "p130",
+    "title": "念奴娇·有感观菊",
+    "category": "词",
+    "cipai": "念奴娇",
+    "date": "1971年秋",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "山野索居，不孤寂，指点神州八亿。",
+        "洪波涌起落千枝，一花留在天际。",
+        "潇洒顾盼，无人四季，",
+        "春情暗自起，谁说众叛亲？"
+      ],
+      [
+        "而今更纯，革命混水，严冬方显松柏意。",
+        "激流出固舟，运筹池畔，",
+        "并非索居，折断霸王钩。",
+        "批儒评法，不惜衣宽人瘦。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 131,
+    "id": "p131",
+    "title": "七绝·读《红楼梦》",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1971年",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "杰作红楼传千古，影映封建斥王侯。",
+        "自古忠臣多逆子，唯有宝黛入神州。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 132,
+    "id": "p132",
+    "title": "七绝·戏改杜甫《咏怀古迹》其三",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1971年9月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "群山万壑赴荆门，生长林彪尚有村。",
+        "一去紫台连朔漠，独留青冢向黄昏。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 133,
+    "id": "p133",
+    "title": "七绝·戏改李攀龙《怀明卿》",
+    "category": "七绝",
+    "cipai": null,
+    "date": null,
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": "原始资料未单独标注日期；文字与下一首《林彪事件》高度相近（第三句「稿卧」疑为「高卧」之讹），两首并列收录，未做合并或改字处理。",
+    "variants": null,
+    "stanzas": [
+      [
+        "豫章西望彩云间，九派长江九叠山。",
+        "稿卧不须窥石镜，秋风怒在叛徒颜。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 134,
+    "id": "p134",
+    "title": "七绝·林彪事件",
+    "category": "七绝",
+    "cipai": null,
+    "date": "1972年10月2日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "豫章西望彩云间，九派长江九叠山。",
+        "高卧不须窥石镜，秋风怒在叛徒颜。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 135,
+    "id": "p135",
+    "title": "四言诗·赠尼克松",
+    "category": "四言诗",
+    "cipai": null,
+    "date": "1972年",
+    "pre1949": false,
+    "subtitle": "赠尼克松",
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "老叟坐凳",
+        "嫦娥奔月",
+        "走马观花"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 136,
+    "id": "p136",
+    "title": "七言诗·续乔冠华诗",
+    "category": "七言诗",
+    "cipai": null,
+    "date": "1973年4月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": true,
+    "coauthorNote": "与乔冠华联句，逐句作者见原文标注",
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "八重樱下廖公子，五月花中韩大哥。（乔冠华）",
+        "莫道敝人功业小，北京卖报赚钱多。（毛泽东）"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 137,
+    "id": "p137",
+    "title": "五言韵语·呈郭老",
+    "category": "五言韵语",
+    "cipai": null,
+    "date": "1973年5月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "郭老从韩退，不及柳宗元。",
+        "名曰共产党，崇拜孔二先。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 138,
+    "id": "p138",
+    "title": "五言韵语·大事不讨论",
+    "category": "五言韵语",
+    "cipai": null,
+    "date": "1973年7月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "大事不讨论，小事天天送。",
+        "此调不改正，势必出修正。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 139,
+    "id": "p139",
+    "title": "七言古诗·续李白《梁甫吟》",
+    "category": "七言古诗",
+    "cipai": null,
+    "date": "1973年7月4日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": true,
+    "coauthorNote": "前六句为李白《梁甫吟》原句，后两句为毛泽东续句，逐句作者见原文标注",
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "君不见高阳酒徒起草中，长揖山东隆准公。（李白）",
+        "入门不拜骋雄辩，两女辍洗来趋风。（李白）",
+        "东下齐城七十二，指挥楚汉如旋蓬。（李白）",
+        "不料韩信不听话，十万大军下历城。（毛泽东）",
+        "齐王火冒三千丈，抓了酒徒付鼎烹。（毛泽东）"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 140,
+    "id": "p140",
+    "title": "七律·读《封建论》——呈郭老",
+    "category": "七律",
+    "cipai": null,
+    "date": "1973年8月5日",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "劝君少骂秦始皇，焚坑事件要商量。",
+        "祖龙魂死业犹在，孔学名高实秕糠。",
+        "百代多行秦政治，十批不是好文章。",
+        "熟读唐人封建论，莫从子厚返文王。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 141,
+    "id": "p141",
+    "title": "诉衷情·赠周总理",
+    "category": "词",
+    "cipai": "诉衷情",
+    "date": "1974年",
+    "pre1949": false,
+    "subtitle": "赠周恩来",
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "父母忠贞为国酬，何曾怕断头？",
+        "如今天下红遍，江山靠谁守？"
+      ],
+      [
+        "业未就，身躯倦，鬓已秋；",
+        "你我之辈，忍将夙愿，付与东流？"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 142,
+    "id": "p142",
+    "title": "七律·改鲁迅《亥年残秋偶作》",
+    "category": "七律",
+    "cipai": null,
+    "date": "1974年底",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "曾经秋肃临天下，敢遣春温上笔端。",
+        "尘海苍茫沉百感，金风萧瑟走千官。",
+        "喜攀飞翼通身暖，若坠空云半截寒。",
+        "竦听荒鸡偏阒寂，起看星斗正阑干。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 143,
+    "id": "p143",
+    "title": "贺新郎·改张元千词悼董必武",
+    "category": "词",
+    "cipai": "贺新郎",
+    "date": "1975年4月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "梦绕神州路，怅秋风，连营画角，故宫离黍。",
+        "底事昆仑倾砥柱，九地黄流乱注？",
+        "聚万落千村狐兔。",
+        "天意从来高难问，况人情易老悲难诉。",
+        "更南浦，送君去。"
+      ],
+      [
+        "凉生柳岸催残暑，耿斜河，疏星淡月，断云微度。",
+        "万里江山知何处，回首对床夜语。",
+        "雁不到，书成谁与?",
+        "目尽青天怀今古，肯儿曹恩怨相尔汝!",
+        "君且去，休回顾。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 144,
+    "id": "p144",
+    "title": "忆秦娥·悼念周恩来同志",
+    "category": "词",
+    "cipai": "忆秦娥",
+    "date": "1976年1月",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "山河咽，拭泪无语心欲裂。",
+        "心欲裂，顿摧栋梁，痛失人杰。",
+        "江山如画忆丹心，宏图遗愿永不灭。",
+        "永不灭，新苗茁状，势与天接。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  },
+  {
+    "seq": 145,
+    "id": "p145",
+    "title": "四言诗·春日游花园小吟",
+    "category": "四言诗",
+    "cipai": null,
+    "date": "1976年春",
+    "pre1949": false,
+    "subtitle": null,
+    "preface": null,
+    "groupTitle": null,
+    "groupLabel": null,
+    "collaborative": false,
+    "coauthorNote": null,
+    "disputedAuthorship": false,
+    "disputedNote": null,
+    "dataNote": null,
+    "variants": null,
+    "stanzas": [
+      [
+        "今我来兮，杨柳依依。"
+      ]
+    ],
+    "gloss": [],
+    "vernacular": null,
+    "background": null,
+    "contentStatus": "pending",
+    "illuKey": null
+  }
+]

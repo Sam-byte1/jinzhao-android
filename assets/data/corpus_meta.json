@@ -1,0 +1,62 @@
+{
+  "source": "知乎整理者统计口径（用户提供）",
+  "totalPoems": 145,
+  "pre1949Count": 64,
+  "post1949Count": 81,
+  "publishedByMaoHimself": 39,
+  "publishedAfterDeathByAuthorities": 11,
+  "scatteredInPressLettersEtc": 95,
+  "totalCharacterCount": 9027,
+  "characterCountNote": "不含词牌名、标题、写作日期、副题/说明文字，不含组诗组词里的“其一”“其二”等字样，也不含萧瑜、罗章龙、乔冠华合写并续李白诗合计 17 句 129 字符",
+  "ciPaiUsage": [
+    { "cipai": "卜算子", "count": 2, "forms": 2 },
+    { "cipai": "采桑子", "count": 1, "forms": 1 },
+    { "cipai": "蝶恋花", "count": 2, "forms": 1 },
+    { "cipai": "归国谣", "count": 1, "forms": 1 },
+    { "cipai": "贺新郎", "count": 3, "forms": 3 },
+    { "cipai": "浣溪沙", "count": 2, "forms": 1 },
+    { "cipai": "减字木兰花", "count": 2, "forms": 2 },
+    { "cipai": "浪淘沙", "count": 1, "forms": 1 },
+    { "cipai": "临江仙", "count": 1, "forms": 1 },
+    { "cipai": "满江红", "count": 2, "forms": 2 },
+    { "cipai": "念奴娇", "count": 5, "forms": 3 },
+    { "cipai": "菩萨蛮", "count": 2, "forms": 1 },
+    { "cipai": "沁园春", "count": 2, "forms": 1 },
+    { "cipai": "清平乐", "count": 5, "forms": 2 },
+    { "cipai": "如梦令", "count": 2, "forms": 2 },
+    { "cipai": "十六字令", "count": 11, "forms": null },
+    { "cipai": "水调歌头", "count": 2, "forms": 1 },
+    { "cipai": "诉衷情", "count": 1, "forms": 1 },
+    { "cipai": "西江月", "count": 2, "forms": 1 },
+    { "cipai": "忆秦娥", "count": 2, "forms": 1 },
+    { "cipai": "渔家傲", "count": 2, "forms": 1 },
+    { "cipai": "虞美人", "count": 1, "forms": 1 }
+  ],
+  "ciTotalCount": 54,
+  "ciPaiMostUsed": ["十六字令", "念奴娇", "清平乐"],
+  "poemFormUsage": [
+    { "form": "杂言诗", "count": 8 },
+    { "form": "四言诗", "count": 11 },
+    { "form": "五言诗", "count": 9 },
+    { "form": "六言诗", "count": 2 },
+    { "form": "七言诗", "count": 5 },
+    { "form": "五古", "count": 2 },
+    { "form": "五绝", "count": 1 },
+    { "form": "五律", "count": 6 },
+    { "form": "七古", "count": 2 },
+    { "form": "七绝", "count": 21 },
+    { "form": "七律", "count": 24 }
+  ],
+  "shiTotalCount": 91,
+  "shiFormMostUsed": ["七律", "七绝"],
+  "disputedWorks": [
+    {
+      "title": "满江红·庆祝我国第一次核试验成功",
+      "note": "整理者按语：有可能是陈明远仿作，待考"
+    },
+    {
+      "title": "卜算子·悼国际共产主义战士艾地同志",
+      "note": "整理者按语：有可能是陈明远仿作，待考"
+    }
+  ]
+}
