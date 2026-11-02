@@ -1,7 +1,9 @@
 import 'dart:convert';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
+
 import 'poem.dart';
 
 class FeelNote {
@@ -11,8 +13,11 @@ class FeelNote {
   FeelNote({required this.id, required this.date, required this.text});
 
   Map<String, dynamic> toJson() => {'id': id, 'date': date, 'text': text};
-  factory FeelNote.fromJson(Map<String, dynamic> j) =>
-      FeelNote(id: j['id'] as int, date: j['date'] as String, text: j['text'] as String);
+  factory FeelNote.fromJson(Map<String, dynamic> j) => FeelNote(
+    id: j['id'] as int,
+    date: j['date'] as String,
+    text: j['text'] as String,
+  );
 }
 
 class PoemProgress {
@@ -35,21 +40,21 @@ class PoemProgress {
   }) : notes = notes ?? [];
 
   Map<String, dynamic> toJson() => {
-        'favorite': favorite,
-        'favoriteDate': favoriteDate,
-        'studyCount': studyCount,
-        'lastStudyDate': lastStudyDate,
-        'notes': notes.map((n) => n.toJson()).toList(),
-      };
+    'favorite': favorite,
+    'favoriteDate': favoriteDate,
+    'studyCount': studyCount,
+    'lastStudyDate': lastStudyDate,
+    'notes': notes.map((n) => n.toJson()).toList(),
+  };
   factory PoemProgress.fromJson(Map<String, dynamic> j) => PoemProgress(
-        favorite: j['favorite'] as bool? ?? false,
-        favoriteDate: j['favoriteDate'] as String?,
-        studyCount: j['studyCount'] as int? ?? 0,
-        lastStudyDate: j['lastStudyDate'] as String?,
-        notes: (j['notes'] as List? ?? [])
-            .map((n) => FeelNote.fromJson(n as Map<String, dynamic>))
-            .toList(),
-      );
+    favorite: j['favorite'] as bool? ?? false,
+    favoriteDate: j['favoriteDate'] as String?,
+    studyCount: j['studyCount'] as int? ?? 0,
+    lastStudyDate: j['lastStudyDate'] as String?,
+    notes: (j['notes'] as List? ?? [])
+        .map((n) => FeelNote.fromJson(n as Map<String, dynamic>))
+        .toList(),
+  );
 }
 
 Future<List<Poem>> loadPoemsFromAssets() async {
@@ -109,9 +114,18 @@ class AppState extends ChangeNotifier {
       favoriteDate: daysAgoLabel(6),
       studyCount: 2,
       lastStudyDate: daysAgoLabel(1),
-      notes: [FeelNote(id: 1, date: daysAgoLabel(6), text: '第一次完整读完，被"数风流人物，还看今朝"击中了。')],
+      notes: [
+        FeelNote(
+          id: 1,
+          date: daysAgoLabel(6),
+          text: '第一次完整读完，被"数风流人物，还看今朝"击中了。',
+        ),
+      ],
     );
-    progress['qlcz'] = PoemProgress(studyCount: 1, lastStudyDate: daysAgoLabel(3));
+    progress['qlcz'] = PoemProgress(
+      studyCount: 1,
+      lastStudyDate: daysAgoLabel(3),
+    );
     checkins[daysAgoKey(6)] = '读完《沁园春·雪》，查了背景资料。';
     checkins[daysAgoKey(3)] = '重读《七律·长征》。';
     checkins[daysAgoKey(1)] = '';
@@ -125,7 +139,8 @@ class AppState extends ChangeNotifier {
     await _prefs?.setString(_prefsKey, jsonEncode(data));
   }
 
-  PoemProgress progressFor(String id) => progress.putIfAbsent(id, () => PoemProgress());
+  PoemProgress progressFor(String id) =>
+      progress.putIfAbsent(id, () => PoemProgress());
 
   String _todayKey() {
     final d = DateTime.now();
@@ -168,7 +183,13 @@ class AppState extends ChangeNotifier {
 
   Future<void> addNote(String poemId, String text) async {
     final p = progressFor(poemId);
-    p.notes.add(FeelNote(id: DateTime.now().millisecondsSinceEpoch, date: _todayLabel(), text: text));
+    p.notes.add(
+      FeelNote(
+        id: DateTime.now().millisecondsSinceEpoch,
+        date: _todayLabel(),
+        text: text,
+      ),
+    );
     await _persist();
     notifyListeners();
   }
@@ -176,6 +197,16 @@ class AppState extends ChangeNotifier {
   Future<void> deleteNote(String poemId, int noteId) async {
     final p = progressFor(poemId);
     p.notes.removeWhere((n) => n.id == noteId);
+    await _persist();
+    notifyListeners();
+  }
+
+  /// 编辑已有感受记录；日期更新为编辑当天，视为"最后修改时间"。
+  Future<void> updateNote(String poemId, int noteId, String text) async {
+    final p = progressFor(poemId);
+    final idx = p.notes.indexWhere((n) => n.id == noteId);
+    if (idx == -1) return;
+    p.notes[idx] = FeelNote(id: noteId, date: _todayLabel(), text: text);
     await _persist();
     notifyListeners();
   }
@@ -192,8 +223,10 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
-  int get favoriteCount => poems.where((p) => progressFor(p.id).favorite).length;
-  int get studiedCount => poems.where((p) => progressFor(p.id).studyCount > 0).length;
+  int get favoriteCount =>
+      poems.where((p) => progressFor(p.id).favorite).length;
+  int get studiedCount =>
+      poems.where((p) => progressFor(p.id).studyCount > 0).length;
   int get researchedCount => poems.where((p) => p.isResearched).length;
 
   List<MapEntry<Poem, FeelNote>> get allNotesWithPoem {
