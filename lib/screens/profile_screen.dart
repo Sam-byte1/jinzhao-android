@@ -207,7 +207,7 @@ class ProfileScreen extends StatelessWidget {
   }
 
   Widget _fontChip(BuildContext context, AppColors c, FontPreference pref) {
-    final active = state.fontPreference == pref;
+    final active = state.resolveFontPreference(Responsive.isTablet(context)) == pref;
     return GestureDetector(
       onTap: () => state.setFontPreference(pref),
       child: Container(

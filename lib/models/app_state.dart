@@ -7,12 +7,13 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'poem.dart';
 
-/// 字体大小偏好：在设备自身的响应式缩放基础上再叠加一档，
-/// 默认档保持原来的"随屏幕宽度自动缩放"效果不变。
+/// 诗词阅读正文的字体大小偏好——只影响原文/词语解释/白话译文/创作背景，
+/// 不影响导航栏、按钮这些界面文案（见 Responsive.readingScale）。
 enum FontPreference {
   normal('默认'),
   medium('中号'),
-  large('大号');
+  large('大号'),
+  extraLarge('超大');
 
   final String label;
   const FontPreference(this.label);
@@ -85,7 +86,10 @@ class AppState extends ChangeNotifier {
   Map<String, PoemProgress> progress = {};
   Map<String, String?> checkins = {}; // dateKey(yyyy-MM-dd) -> note
   bool loaded = false;
-  FontPreference fontPreference = FontPreference.normal;
+  /// null = 用户还没手动选过，交给 [resolveFontPreference] 按设备给一个
+  /// 合理的默认值（平板默认"大号"，手机默认"默认"）。一旦用户点过任意
+  /// 一个档位（哪怕点的就是当前默认档），就会变成明确值并持久化下来。
+  FontPreference? fontPreference;
 
   SharedPreferences? _prefs;
 
@@ -109,12 +113,18 @@ class AppState extends ChangeNotifier {
         orElse: () => FontPreference.normal,
       );
     }
+    // 否则 fontPreference 保持 null，由 resolveFontPreference 按设备给默认值。
     for (final p in poems) {
       progress.putIfAbsent(p.id, () => PoemProgress());
     }
     loaded = true;
     notifyListeners();
   }
+
+  /// [isTablet] 由调用方传入（来自 Responsive.isTablet(context)），
+  /// 这里不依赖 BuildContext，保持 AppState 本身跟 UI 层解耦。
+  FontPreference resolveFontPreference(bool isTablet) =>
+      fontPreference ?? (isTablet ? FontPreference.large : FontPreference.normal);
 
   Future<void> setFontPreference(FontPreference pref) async {
     if (fontPreference == pref) return;

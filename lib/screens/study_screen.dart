@@ -154,14 +154,14 @@ class _StudyScreenState extends State<StudyScreen> {
                       padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
                       child: Column(
                         children: [
-                          Text(poem.title, style: TextStyle(fontSize: context.sp(19), color: c.ink)),
+                          Text(poem.title, style: TextStyle(fontSize: context.rsp(19), color: c.ink)),
                           const SizedBox(height: 3),
-                          Text(poem.meta, style: TextStyle(fontSize: context.sp(11.5), color: c.inkSoft)),
+                          Text(poem.meta, style: TextStyle(fontSize: context.rsp(11.5), color: c.inkSoft)),
                           const SizedBox(height: 10),
                           VerseText(
                             poem: poem,
                             textAlign: TextAlign.center,
-                            fontSize: context.sp(15),
+                            fontSize: context.rsp(15),
                             showPinyin: _showPinyin,
                             onGlossTap: (idx) {
                               final g = poem.gloss[idx - 1];
@@ -181,7 +181,7 @@ class _StudyScreenState extends State<StudyScreen> {
                                 alignment: Alignment.centerLeft,
                                 child: RichText(
                                   text: TextSpan(
-                                    style: TextStyle(fontSize: context.sp(12.5), color: c.inkSoft, height: 1.6),
+                                    style: TextStyle(fontSize: context.rsp(12.5), color: c.inkSoft, height: 1.6),
                                     children: [
                                       TextSpan(
                                           text: '${_peekGloss!['idx']}. ${_peekGloss!['w']}',

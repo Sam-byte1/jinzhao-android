@@ -147,7 +147,7 @@ class _VerseTextState extends State<VerseText> {
     final poem = widget.poem;
     final pyLines = pinyinLines[poem.id];
     final lines = poem.lines;
-    final scale = Responsive.typeScale(context);
+    final scale = Responsive.readingScale(context);
     final crossAlign =
         widget.textAlign == TextAlign.center ? CrossAxisAlignment.center : CrossAxisAlignment.start;
 

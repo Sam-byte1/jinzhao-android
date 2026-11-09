@@ -181,7 +181,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                   Text(poem.title,
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                          fontSize: context.sp(23),
+                          fontSize: context.rsp(23),
                           fontWeight: FontWeight.w800,
                           color: const Color(0xFFFFFBF0),
                           shadows: const [
@@ -192,7 +192,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                   Text(poem.meta,
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                          fontSize: context.sp(12),
+                          fontSize: context.rsp(12),
                           fontWeight: FontWeight.w700,
                           color: const Color(0xFFFFFBF0),
                           shadows: const [
@@ -204,7 +204,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                     Text(poem.subtitle!,
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                            fontSize: context.sp(11),
+                            fontSize: context.rsp(11),
                             fontWeight: FontWeight.w600,
                             color: const Color(0xFFFFFBF0),
                             shadows: const [Shadow(blurRadius: 6, color: Colors.black87)])),
@@ -257,7 +257,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                 decoration: BoxDecoration(color: c.bgSunk, borderRadius: BorderRadius.circular(10)),
                 child: Text(poem.preface!,
                     style: TextStyle(
-                        fontSize: context.sp(11.5), color: c.inkFaint, fontStyle: FontStyle.italic, height: 1.6)),
+                        fontSize: context.rsp(11.5), color: c.inkFaint, fontStyle: FontStyle.italic, height: 1.6)),
               ),
             Align(
               alignment: Alignment.centerRight,
@@ -276,7 +276,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
             VerseText(
               poem: poem,
               showPinyin: _showPinyin,
-              fontSize: context.sp(16),
+              fontSize: context.rsp(16),
               textAlign: TextAlign.center,
               onGlossTap: _jumpToGloss,
             ),
@@ -289,7 +289,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
 
   Widget _buildGlossPane(AppColors c, Poem poem) {
     if (poem.gloss.isEmpty) {
-      return Center(child: Text('这首诗的词语解释还在整理中', style: TextStyle(color: c.inkFaint, fontSize: context.sp(12))));
+      return Center(child: Text('这首诗的词语解释还在整理中', style: TextStyle(color: c.inkFaint, fontSize: context.rsp(12))));
     }
     return Responsive.centered(
       ListView.separated(
@@ -312,15 +312,15 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
               children: [
                 RichText(
                   text: TextSpan(children: [
-                    TextSpan(text: '$idx ', style: TextStyle(fontSize: context.sp(10.5), color: c.gold)),
+                    TextSpan(text: '$idx ', style: TextStyle(fontSize: context.rsp(10.5), color: c.gold)),
                     TextSpan(
                         text: g.word,
                         style: TextStyle(
-                            fontSize: context.sp(14), color: c.sealDeep, fontWeight: FontWeight.w600)),
+                            fontSize: context.rsp(14), color: c.sealDeep, fontWeight: FontWeight.w600)),
                   ]),
                 ),
                 const SizedBox(height: 4),
-                Text(g.def, style: TextStyle(fontSize: context.sp(13), color: c.inkSoft, height: 1.6)),
+                Text(g.def, style: TextStyle(fontSize: context.rsp(13), color: c.inkSoft, height: 1.6)),
               ],
             ),
           );
@@ -347,7 +347,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
             if (content == null)
               Text(
                 '${tag == '白话文' ? '白话翻译' : '创作背景'}还在整理中，敬请期待。',
-                style: TextStyle(fontSize: context.sp(13.5), color: c.inkSoft, height: 1.95),
+                style: TextStyle(fontSize: context.rsp(13.5), color: c.inkSoft, height: 1.95),
               )
             else if (paragraphs != null)
               Column(
@@ -356,12 +356,12 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                   for (final p in paragraphs)
                     Padding(
                       padding: const EdgeInsets.only(bottom: 10),
-                      child: Text(p, style: TextStyle(fontSize: context.sp(13.5), color: c.inkSoft, height: 1.8)),
+                      child: Text(p, style: TextStyle(fontSize: context.rsp(13.5), color: c.inkSoft, height: 1.8)),
                     ),
                 ],
               )
             else
-              Text(content, style: TextStyle(fontSize: context.sp(13.5), color: c.inkSoft, height: 1.95)),
+              Text(content, style: TextStyle(fontSize: context.rsp(13.5), color: c.inkSoft, height: 1.95)),
           ],
         ),
       ),
