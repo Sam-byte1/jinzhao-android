@@ -8,7 +8,6 @@ import '../utils/responsive.dart';
 import '../utils/text_format.dart';
 import '../widgets/feel_sheet.dart';
 import '../widgets/illustration.dart';
-import '../widgets/read_aloud_button.dart';
 import '../widgets/verse_text.dart';
 import 'study_screen.dart';
 
@@ -261,22 +260,19 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                     style: TextStyle(
                         fontSize: context.sp(11.5), color: c.inkFaint, fontStyle: FontStyle.italic, height: 1.6)),
               ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                ReadAloudButton(key: ValueKey(poem.id), text: poem.lines.join('，')),
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text('注音', style: TextStyle(fontSize: context.sp(11.5), color: c.inkSoft)),
-                    Switch(
-                      value: _showPinyin,
-                      activeTrackColor: c.seal,
-                      onChanged: (v) => setState(() => _showPinyin = v),
-                    ),
-                  ],
-                ),
-              ],
+            Align(
+              alignment: Alignment.centerRight,
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text('注音', style: TextStyle(fontSize: context.sp(11.5), color: c.inkSoft)),
+                  Switch(
+                    value: _showPinyin,
+                    activeTrackColor: c.seal,
+                    onChanged: (v) => setState(() => _showPinyin = v),
+                  ),
+                ],
+              ),
             ),
             VerseText(
               poem: poem,
