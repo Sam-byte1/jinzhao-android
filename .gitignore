@@ -1,4 +1,5 @@
 # Miscellaneous
+.tokenize/
 *.class
 *.log
 *.pyc
