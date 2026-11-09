@@ -47,6 +47,7 @@ class Poem {
   final String? background;
   final String contentStatus;
   final String? illuKey;
+  final bool authoritative;
 
   Poem({
     required this.seq,
@@ -72,6 +73,7 @@ class Poem {
     this.background,
     required this.contentStatus,
     this.illuKey,
+    required this.authoritative,
   });
 
   bool get isResearched => contentStatus == 'researched';
@@ -116,6 +118,7 @@ class Poem {
       background: json['background'] as String?,
       contentStatus: json['contentStatus'] as String? ?? 'pending',
       illuKey: json['illuKey'] as String?,
+      authoritative: json['authoritative'] as bool? ?? false,
     );
   }
 }

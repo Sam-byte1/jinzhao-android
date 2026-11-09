@@ -87,48 +87,12 @@ class AppState extends ChangeNotifier {
       );
       final checkinJson = data['checkins'] as Map<String, dynamic>? ?? {};
       checkins = checkinJson.map((k, v) => MapEntry(k, v as String?));
-    } else {
-      _seedDemoState();
     }
     for (final p in poems) {
       progress.putIfAbsent(p.id, () => PoemProgress());
     }
     loaded = true;
     notifyListeners();
-  }
-
-  void _seedDemoState() {
-    final now = DateTime.now();
-    String daysAgoKey(int n) {
-      final d = now.subtract(Duration(days: n));
-      return '${d.year}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
-    }
-
-    String daysAgoLabel(int n) {
-      final d = now.subtract(Duration(days: n));
-      return '${d.year}年${d.month}月${d.day}日';
-    }
-
-    progress['qyc-xue'] = PoemProgress(
-      favorite: true,
-      favoriteDate: daysAgoLabel(6),
-      studyCount: 2,
-      lastStudyDate: daysAgoLabel(1),
-      notes: [
-        FeelNote(
-          id: 1,
-          date: daysAgoLabel(6),
-          text: '第一次完整读完，被"数风流人物，还看今朝"击中了。',
-        ),
-      ],
-    );
-    progress['qlcz'] = PoemProgress(
-      studyCount: 1,
-      lastStudyDate: daysAgoLabel(3),
-    );
-    checkins[daysAgoKey(6)] = '读完《沁园春·雪》，查了背景资料。';
-    checkins[daysAgoKey(3)] = '重读《七律·长征》。';
-    checkins[daysAgoKey(1)] = '';
   }
 
   Future<void> _persist() async {
@@ -228,6 +192,7 @@ class AppState extends ChangeNotifier {
   int get studiedCount =>
       poems.where((p) => progressFor(p.id).studyCount > 0).length;
   int get researchedCount => poems.where((p) => p.isResearched).length;
+  int get authoritativeCount => poems.where((p) => p.authoritative).length;
 
   List<MapEntry<Poem, FeelNote>> get allNotesWithPoem {
     final list = <MapEntry<Poem, FeelNote>>[];

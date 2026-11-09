@@ -5,6 +5,7 @@ import '../utils/chinese_number.dart';
 import '../utils/responsive.dart';
 import '../widgets/feel_sheet.dart';
 import '../widgets/illustration.dart';
+import '../widgets/read_aloud_button.dart';
 import '../widgets/verse_text.dart';
 
 /// 常读常新：沉浸式逐篇阅读，读到最后一首不退出——直接循环回第一首继续读。
@@ -115,6 +116,8 @@ class _StudyScreenState extends State<StudyScreen> {
                           onChanged: (v) => setState(() => _showPinyin = v),
                         ),
                       ),
+                      const SizedBox(width: 6),
+                      ReadAloudButton(key: ValueKey(poem.id), text: poem.lines.join('，')),
                       const Spacer(),
                       if (!progress.favorite)
                         GestureDetector(

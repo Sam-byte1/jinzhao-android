@@ -8,6 +8,7 @@ import '../utils/responsive.dart';
 import '../utils/text_format.dart';
 import '../widgets/feel_sheet.dart';
 import '../widgets/illustration.dart';
+import '../widgets/read_aloud_button.dart';
 import '../widgets/verse_text.dart';
 import 'study_screen.dart';
 
@@ -86,23 +87,28 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                 _buildHero(c, poem),
                 Container(
                   color: c.bg,
-                  child: TabBar(
-                    controller: _tab,
-                    isScrollable: true,
-                    labelColor: const Color(0xFFFBF5E6),
-                    unselectedLabelColor: c.inkSoft,
-                    labelStyle: const TextStyle(fontSize: 12.5),
-                    indicator: BoxDecoration(color: c.seal, borderRadius: BorderRadius.circular(99)),
-                    indicatorSize: TabBarIndicatorSize.tab,
-                    dividerColor: Colors.transparent,
-                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                    labelPadding: const EdgeInsets.symmetric(horizontal: 13),
-                    tabs: const [
-                      Tab(text: '原文'),
-                      Tab(text: '词语解释'),
-                      Tab(text: '白话译文'),
-                      Tab(text: '创作背景'),
-                    ],
+                  width: double.infinity,
+                  child: Responsive.centered(
+                    TabBar(
+                      controller: _tab,
+                      isScrollable: true,
+                      tabAlignment: TabAlignment.center,
+                      labelColor: const Color(0xFFFBF5E6),
+                      unselectedLabelColor: c.inkSoft,
+                      labelStyle: TextStyle(fontSize: context.sp(12.5)),
+                      indicator: BoxDecoration(color: c.seal, borderRadius: BorderRadius.circular(99)),
+                      indicatorSize: TabBarIndicatorSize.tab,
+                      dividerColor: Colors.transparent,
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                      labelPadding: const EdgeInsets.symmetric(horizontal: 13),
+                      tabs: const [
+                        Tab(text: '原文'),
+                        Tab(text: '词语解释'),
+                        Tab(text: '白话译文'),
+                        Tab(text: '创作背景'),
+                      ],
+                    ),
+                    maxWidth: Responsive.maxReadingWidth,
                   ),
                 ),
                 Expanded(
@@ -255,19 +261,22 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                     style: TextStyle(
                         fontSize: context.sp(11.5), color: c.inkFaint, fontStyle: FontStyle.italic, height: 1.6)),
               ),
-            Align(
-              alignment: Alignment.centerRight,
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text('注音', style: TextStyle(fontSize: context.sp(11.5), color: c.inkSoft)),
-                  Switch(
-                    value: _showPinyin,
-                    activeTrackColor: c.seal,
-                    onChanged: (v) => setState(() => _showPinyin = v),
-                  ),
-                ],
-              ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                ReadAloudButton(key: ValueKey(poem.id), text: poem.lines.join('，')),
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text('注音', style: TextStyle(fontSize: context.sp(11.5), color: c.inkSoft)),
+                    Switch(
+                      value: _showPinyin,
+                      activeTrackColor: c.seal,
+                      onChanged: (v) => setState(() => _showPinyin = v),
+                    ),
+                  ],
+                ),
+              ],
             ),
             VerseText(
               poem: poem,

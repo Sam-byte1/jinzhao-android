@@ -61,7 +61,7 @@ class PoemCard extends StatelessWidget {
                         height: 6,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: poem.isResearched ? c.seal : c.border,
+                          color: poem.authoritative ? c.seal : c.border,
                         ),
                       ),
                     ],
