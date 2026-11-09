@@ -2,9 +2,21 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/widgets.dart' show BuildContext, InheritedNotifier;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'poem.dart';
+
+/// 字体大小偏好：在设备自身的响应式缩放基础上再叠加一档，
+/// 默认档保持原来的"随屏幕宽度自动缩放"效果不变。
+enum FontPreference {
+  normal('默认'),
+  medium('中号'),
+  large('大号');
+
+  final String label;
+  const FontPreference(this.label);
+}
 
 class FeelNote {
   final int id;
@@ -67,11 +79,13 @@ Future<List<Poem>> loadPoemsFromAssets() async {
 /// 持久化到 SharedPreferences。
 class AppState extends ChangeNotifier {
   static const _prefsKey = 'mzd-poem-app-v2';
+  static const _fontPrefsKey = 'mzd-poem-app-font-pref';
 
   List<Poem> poems = [];
   Map<String, PoemProgress> progress = {};
   Map<String, String?> checkins = {}; // dateKey(yyyy-MM-dd) -> note
   bool loaded = false;
+  FontPreference fontPreference = FontPreference.normal;
 
   SharedPreferences? _prefs;
 
@@ -88,10 +102,24 @@ class AppState extends ChangeNotifier {
       final checkinJson = data['checkins'] as Map<String, dynamic>? ?? {};
       checkins = checkinJson.map((k, v) => MapEntry(k, v as String?));
     }
+    final savedFontPref = _prefs!.getString(_fontPrefsKey);
+    if (savedFontPref != null) {
+      fontPreference = FontPreference.values.firstWhere(
+        (f) => f.name == savedFontPref,
+        orElse: () => FontPreference.normal,
+      );
+    }
     for (final p in poems) {
       progress.putIfAbsent(p.id, () => PoemProgress());
     }
     loaded = true;
+    notifyListeners();
+  }
+
+  Future<void> setFontPreference(FontPreference pref) async {
+    if (fontPreference == pref) return;
+    fontPreference = pref;
+    await _prefs?.setString(_fontPrefsKey, pref.name);
     notifyListeners();
   }
 
@@ -202,5 +230,18 @@ class AppState extends ChangeNotifier {
       }
     }
     return list;
+  }
+}
+
+/// 让 AppState 在整个组件树里都能通过 context 直接拿到，
+/// 不用层层传参——目前主要给 Responsive.typeScale 读取字体偏好用。
+class AppScope extends InheritedNotifier<AppState> {
+  const AppScope({super.key, required AppState state, required super.child})
+      : super(notifier: state);
+
+  static AppState of(BuildContext context) {
+    final scope = context.dependOnInheritedWidgetOfExactType<AppScope>();
+    assert(scope != null, 'AppScope 没有包裹在组件树里');
+    return scope!.notifier!;
   }
 }

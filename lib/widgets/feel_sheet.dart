@@ -44,7 +44,6 @@ Future<void> showEditNoteSheet(
               Text(
                 '编辑感受',
                 style: TextStyle(
-                  fontFamily: 'serif',
                   fontSize: 16,
                   color: c.ink,
                 ),
@@ -150,7 +149,6 @@ Future<void> showFeelSheet(BuildContext context, AppState state, Poem poem) {
                   Text(
                     '写感受 · ${poem.title}',
                     style: TextStyle(
-                      fontFamily: 'serif',
                       fontSize: 16,
                       color: c.ink,
                     ),

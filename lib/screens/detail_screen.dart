@@ -181,7 +181,6 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                   Text(poem.title,
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                          fontFamily: 'serif',
                           fontSize: context.sp(23),
                           fontWeight: FontWeight.w800,
                           color: const Color(0xFFFFFBF0),

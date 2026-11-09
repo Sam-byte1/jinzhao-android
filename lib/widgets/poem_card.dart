@@ -44,7 +44,6 @@ class PoemCard extends StatelessWidget {
                         child: Text(
                           poem.title,
                           style: TextStyle(
-                              fontFamily: 'serif',
                               fontSize: context.sp(16),
                               color: c.ink,
                               fontWeight: FontWeight.w600),

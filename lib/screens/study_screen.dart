@@ -154,7 +154,7 @@ class _StudyScreenState extends State<StudyScreen> {
                       padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
                       child: Column(
                         children: [
-                          Text(poem.title, style: TextStyle(fontFamily: 'serif', fontSize: context.sp(19), color: c.ink)),
+                          Text(poem.title, style: TextStyle(fontSize: context.sp(19), color: c.ink)),
                           const SizedBox(height: 3),
                           Text(poem.meta, style: TextStyle(fontSize: context.sp(11.5), color: c.inkSoft)),
                           const SizedBox(height: 10),

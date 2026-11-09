@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             color: c.gold,
                             fontWeight: FontWeight.w600)),
                     const SizedBox(height: 4),
-                    Text('诗词', style: TextStyle(fontFamily: 'serif', fontSize: context.sp(24), color: c.ink)),
+                    Text('诗词', style: TextStyle(fontSize: context.sp(24), color: c.ink)),
                     const SizedBox(height: 2),
                     Text('$total首作品 · 一篇一篇慢慢读', style: TextStyle(fontSize: context.sp(12.5), color: c.inkSoft)),
                   ],

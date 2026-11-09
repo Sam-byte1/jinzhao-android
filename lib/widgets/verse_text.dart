@@ -206,7 +206,7 @@ class _VerseTextState extends State<VerseText> {
     return RichText(
       textAlign: widget.textAlign,
       text: TextSpan(
-        style: TextStyle(fontFamily: 'serif', fontSize: widget.fontSize, height: 1.9, color: c.ink),
+        style: TextStyle(fontSize: widget.fontSize, height: 1.9, color: c.ink),
         children: spans,
       ),
     );
@@ -262,7 +262,6 @@ class _VerseTextState extends State<VerseText> {
           Text(
             t.char,
             style: TextStyle(
-              fontFamily: 'serif',
               fontSize: widget.fontSize,
               color: isPunct && !highlighted ? c.inkFaint : c.ink,
               height: 1.1,

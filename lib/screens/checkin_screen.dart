@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/app_state.dart';
 import '../theme/app_colors.dart';
+import '../utils/responsive.dart';
 
 String _dateKey(DateTime d) =>
     '${d.year}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
@@ -63,7 +64,8 @@ class _CheckinScreenState extends State<CheckinScreen> {
 
         final logs = checkins.keys.toList()..sort((a, b) => b.compareTo(a));
 
-        return ListView(
+        return Responsive.centered(
+          ListView(
           padding: const EdgeInsets.fromLTRB(0, 0, 0, 24),
           children: [
             Padding(
@@ -72,11 +74,11 @@ class _CheckinScreenState extends State<CheckinScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('学习足迹',
-                      style: TextStyle(fontSize: 11.5, letterSpacing: 2, color: c.gold, fontWeight: FontWeight.w600)),
+                      style: TextStyle(fontSize: context.sp(11.5), letterSpacing: 2, color: c.gold, fontWeight: FontWeight.w600)),
                   const SizedBox(height: 4),
-                  Text('打卡', style: TextStyle(fontFamily: 'serif', fontSize: 24, color: c.ink)),
+                  Text('打卡', style: TextStyle(fontSize: context.sp(24), color: c.ink)),
                   const SizedBox(height: 2),
-                  Text('不必每天打卡，记录就好', style: TextStyle(fontSize: 12.5, color: c.inkSoft)),
+                  Text('不必每天打卡，记录就好', style: TextStyle(fontSize: context.sp(12.5), color: c.inkSoft)),
                 ],
               ),
             ),
@@ -97,13 +99,13 @@ class _CheckinScreenState extends State<CheckinScreen> {
                             onPressed: () => setState(() => _cursor = DateTime(_cursor.year, _cursor.month - 1)),
                           ),
                           Text('${_cursor.year}年${_cursor.month}月',
-                              style: TextStyle(fontFamily: 'serif', fontSize: 15, color: c.ink)),
+                              style: TextStyle(fontSize: context.sp(15), color: c.ink)),
                           IconButton(
                             icon: Icon(Icons.chevron_right, size: 18, color: c.inkSoft),
                             onPressed: () => setState(() => _cursor = DateTime(_cursor.year, _cursor.month + 1)),
                           ),
                         ]),
-                        Text('本月已打卡 $monthCount 天', style: TextStyle(fontSize: 11, color: c.inkSoft)),
+                        Text('本月已打卡 $monthCount 天', style: TextStyle(fontSize: context.sp(11), color: c.inkSoft)),
                       ],
                     ),
                     GridView.count(
@@ -114,9 +116,9 @@ class _CheckinScreenState extends State<CheckinScreen> {
                       crossAxisSpacing: 4,
                       children: [
                         for (final w in ['一', '二', '三', '四', '五', '六', '日'])
-                          Center(child: Text(w, style: TextStyle(fontSize: 10, color: c.inkFaint))),
+                          Center(child: Text(w, style: TextStyle(fontSize: context.sp(10), color: c.inkFaint))),
                         for (var i = 0; i < leadingBlanks; i++) const SizedBox(),
-                        for (var d = 1; d <= daysInMonth; d++) _dayCell(c, d, checkins, selectedKey),
+                        for (var d = 1; d <= daysInMonth; d++) _dayCell(context, c, d, checkins, selectedKey),
                       ],
                     ),
                   ],
@@ -135,7 +137,7 @@ class _CheckinScreenState extends State<CheckinScreen> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text(_dateLabel(_selected), style: TextStyle(fontSize: 13, color: c.ink)),
+                        Text(_dateLabel(_selected), style: TextStyle(fontSize: context.sp(13), color: c.ink)),
                         GestureDetector(
                           onTap: () async {
                             if (checkedToday) {
@@ -153,7 +155,7 @@ class _CheckinScreenState extends State<CheckinScreen> {
                             ),
                             child: Text(checkedToday ? '已打卡' : '打卡',
                                 style: TextStyle(
-                                    fontSize: 11.5, color: checkedToday ? const Color(0xFFFBF5E6) : c.inkSoft)),
+                                    fontSize: context.sp(11.5), color: checkedToday ? const Color(0xFFFBF5E6) : c.inkSoft)),
                           ),
                         ),
                       ],
@@ -162,7 +164,7 @@ class _CheckinScreenState extends State<CheckinScreen> {
                     TextField(
                       controller: _noteCtrl,
                       maxLines: 2,
-                      style: TextStyle(color: c.ink, fontSize: 12.5),
+                      style: TextStyle(color: c.ink, fontSize: context.sp(12.5)),
                       decoration: InputDecoration(
                         hintText: '今天学了什么、有什么感触？（选填）',
                         hintStyle: TextStyle(color: c.inkFaint),
@@ -176,7 +178,7 @@ class _CheckinScreenState extends State<CheckinScreen> {
                       alignment: Alignment.centerRight,
                       child: TextButton(
                         onPressed: () => widget.state.setCheckin(selectedKey, _noteCtrl.text.trim()),
-                        child: Text('保存', style: TextStyle(color: c.ink, fontSize: 11.5)),
+                        child: Text('保存', style: TextStyle(color: c.ink, fontSize: context.sp(11.5))),
                       ),
                     ),
                   ],
@@ -185,12 +187,12 @@ class _CheckinScreenState extends State<CheckinScreen> {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(18, 16, 18, 8),
-              child: Text('打卡记录', style: TextStyle(fontSize: 11.5, color: c.inkFaint, letterSpacing: 1)),
+              child: Text('打卡记录', style: TextStyle(fontSize: context.sp(11.5), color: c.inkFaint, letterSpacing: 1)),
             ),
             if (logs.isEmpty)
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 18),
-                child: Center(child: Text('还没有打卡记录', style: TextStyle(color: c.inkFaint, fontSize: 12))),
+                child: Center(child: Text('还没有打卡记录', style: TextStyle(color: c.inkFaint, fontSize: context.sp(12)))),
               )
             else
               Padding(
@@ -210,12 +212,12 @@ class _CheckinScreenState extends State<CheckinScreen> {
                               SizedBox(
                                 width: 56,
                                 child: Text('${k.split('-')[1]}/${k.split('-')[2]}',
-                                    style: TextStyle(fontFamily: 'serif', fontSize: 13, color: c.sealDeep)),
+                                    style: TextStyle(fontSize: context.sp(13), color: c.sealDeep)),
                               ),
                               Expanded(
                                 child: Text(
                                   (checkins[k]?.isNotEmpty ?? false) ? checkins[k]! : '（无备注）',
-                                  style: TextStyle(fontSize: 12, color: c.inkSoft, height: 1.6),
+                                  style: TextStyle(fontSize: context.sp(12), color: c.inkSoft, height: 1.6),
                                 ),
                               ),
                             ],
@@ -226,12 +228,14 @@ class _CheckinScreenState extends State<CheckinScreen> {
                 ),
               ),
           ],
+          ),
+          maxWidth: Responsive.maxContentWidth,
         );
       },
     );
   }
 
-  Widget _dayCell(AppColors c, int day, Map<String, String?> checkins, String selectedKey) {
+  Widget _dayCell(BuildContext context, AppColors c, int day, Map<String, String?> checkins, String selectedKey) {
     final d = DateTime(_cursor.year, _cursor.month, day);
     final key = _dateKey(d);
     final isToday = key == _dateKey(DateTime.now());
@@ -248,7 +252,7 @@ class _CheckinScreenState extends State<CheckinScreen> {
         alignment: Alignment.center,
         child: Text('$day',
             style: TextStyle(
-                fontSize: 11.5,
+                fontSize: context.sp(11.5),
                 color: checked ? c.sealDeep : c.inkSoft,
                 fontWeight: checked ? FontWeight.w600 : FontWeight.normal)),
       ),

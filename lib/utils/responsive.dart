@@ -1,14 +1,29 @@
 import 'package:flutter/widgets.dart';
+import '../models/app_state.dart';
 
 /// 平板适配：字号缩放 + 阅读区限宽。
 /// 断点参照 Material Design 的 medium(600dp)/expanded(840dp) 分档，
-/// 对应手机、竖屏平板、横屏平板三档。
+/// 对应手机、竖屏平板、横屏平板三档；在这个基础上再叠加用户自选的
+/// 字体大小偏好（默认/中号/大号，设置入口在"我的"页面）。
 class Responsive {
-  static double typeScale(BuildContext context) {
+  static double _deviceBase(BuildContext context) {
     final w = MediaQuery.of(context).size.width;
-    if (w >= 840) return 1.3;
-    if (w >= 600) return 1.15;
+    if (w >= 840) return 1.4;
+    if (w >= 600) return 1.2;
     return 1.0;
+  }
+
+  static double typeScale(BuildContext context) {
+    final base = _deviceBase(context);
+    final pref = AppScope.of(context).fontPreference;
+    switch (pref) {
+      case FontPreference.normal:
+        return base;
+      case FontPreference.medium:
+        return base + 0.15;
+      case FontPreference.large:
+        return base + 0.3;
+    }
   }
 
   static bool isTablet(BuildContext context) =>

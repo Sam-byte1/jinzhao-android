@@ -28,7 +28,6 @@ class _JinzhaoAppState extends State<JinzhaoApp> {
     return ThemeData(
       brightness: brightness,
       scaffoldBackgroundColor: c.bg,
-      fontFamily: 'serif',
       colorScheme: ColorScheme.fromSeed(
         seedColor: c.seal,
         brightness: brightness,
@@ -40,25 +39,28 @@ class _JinzhaoAppState extends State<JinzhaoApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: '今朝 · 毛泽东诗词',
-      debugShowCheckedModeBanner: false,
-      theme: _buildTheme(AppColors.light, Brightness.light),
-      darkTheme: _buildTheme(AppColors.dark, Brightness.dark),
-      themeMode: ThemeMode.system,
-      home: FutureBuilder<void>(
-        future: _ready,
-        builder: (context, snapshot) {
-          if (snapshot.connectionState != ConnectionState.done) {
-            return const Scaffold(body: Center(child: CircularProgressIndicator()));
-          }
-          if (snapshot.hasError) {
-            return Scaffold(
-              body: Center(child: Text('加载失败：${snapshot.error}')),
-            );
-          }
-          return RootShell(state: _state);
-        },
+    return AppScope(
+      state: _state,
+      child: MaterialApp(
+        title: '今朝 · 毛泽东诗词',
+        debugShowCheckedModeBanner: false,
+        theme: _buildTheme(AppColors.light, Brightness.light),
+        darkTheme: _buildTheme(AppColors.dark, Brightness.dark),
+        themeMode: ThemeMode.system,
+        home: FutureBuilder<void>(
+          future: _ready,
+          builder: (context, snapshot) {
+            if (snapshot.connectionState != ConnectionState.done) {
+              return const Scaffold(body: Center(child: CircularProgressIndicator()));
+            }
+            if (snapshot.hasError) {
+              return Scaffold(
+                body: Center(child: Text('加载失败：${snapshot.error}')),
+              );
+            }
+            return RootShell(state: _state);
+          },
+        ),
       ),
     );
   }
