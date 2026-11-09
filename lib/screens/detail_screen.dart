@@ -4,6 +4,7 @@ import '../models/app_state.dart';
 import '../models/poem.dart';
 import '../theme/app_colors.dart';
 import '../utils/chinese_number.dart';
+import '../utils/responsive.dart';
 import '../utils/text_format.dart';
 import '../widgets/feel_sheet.dart';
 import '../widgets/illustration.dart';
@@ -174,23 +175,23 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                 children: [
                   Text(poem.title,
                       textAlign: TextAlign.center,
-                      style: const TextStyle(
+                      style: TextStyle(
                           fontFamily: 'serif',
-                          fontSize: 23,
+                          fontSize: context.sp(23),
                           fontWeight: FontWeight.w800,
-                          color: Color(0xFFFFFBF0),
-                          shadows: [
+                          color: const Color(0xFFFFFBF0),
+                          shadows: const [
                             Shadow(blurRadius: 10, color: Colors.black87),
                             Shadow(blurRadius: 2, color: Colors.black87),
                           ])),
                   const SizedBox(height: 4),
                   Text(poem.meta,
                       textAlign: TextAlign.center,
-                      style: const TextStyle(
-                          fontSize: 12,
+                      style: TextStyle(
+                          fontSize: context.sp(12),
                           fontWeight: FontWeight.w700,
-                          color: Color(0xFFFFFBF0),
-                          shadows: [
+                          color: const Color(0xFFFFFBF0),
+                          shadows: const [
                             Shadow(blurRadius: 8, color: Colors.black87),
                             Shadow(blurRadius: 2, color: Colors.black87),
                           ])),
@@ -198,11 +199,11 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
                     const SizedBox(height: 2),
                     Text(poem.subtitle!,
                         textAlign: TextAlign.center,
-                        style: const TextStyle(
-                            fontSize: 11,
+                        style: TextStyle(
+                            fontSize: context.sp(11),
                             fontWeight: FontWeight.w600,
-                            color: Color(0xFFFFFBF0),
-                            shadows: [Shadow(blurRadius: 6, color: Colors.black87)])),
+                            color: const Color(0xFFFFFBF0),
+                            shadows: const [Shadow(blurRadius: 6, color: Colors.black87)])),
                   ],
                   if (poem.disputedAuthorship)
                     Container(
@@ -240,79 +241,86 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
   Widget _buildTextPane(AppColors c, Poem poem) {
     return SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(18, 16, 18, 10),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          if (poem.preface != null)
-            Container(
-              width: double.infinity,
-              margin: const EdgeInsets.only(bottom: 10),
-              padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 9),
-              decoration: BoxDecoration(color: c.bgSunk, borderRadius: BorderRadius.circular(10)),
-              child: Text(poem.preface!,
-                  style: TextStyle(fontSize: 11.5, color: c.inkFaint, fontStyle: FontStyle.italic, height: 1.6)),
+      child: Responsive.centered(
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            if (poem.preface != null)
+              Container(
+                width: double.infinity,
+                margin: const EdgeInsets.only(bottom: 10),
+                padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 9),
+                decoration: BoxDecoration(color: c.bgSunk, borderRadius: BorderRadius.circular(10)),
+                child: Text(poem.preface!,
+                    style: TextStyle(
+                        fontSize: context.sp(11.5), color: c.inkFaint, fontStyle: FontStyle.italic, height: 1.6)),
+              ),
+            Align(
+              alignment: Alignment.centerRight,
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text('注音', style: TextStyle(fontSize: context.sp(11.5), color: c.inkSoft)),
+                  Switch(
+                    value: _showPinyin,
+                    activeTrackColor: c.seal,
+                    onChanged: (v) => setState(() => _showPinyin = v),
+                  ),
+                ],
+              ),
             ),
-          Align(
-            alignment: Alignment.centerRight,
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text('注音', style: TextStyle(fontSize: 11.5, color: c.inkSoft)),
-                Switch(
-                  value: _showPinyin,
-                  activeTrackColor: c.seal,
-                  onChanged: (v) => setState(() => _showPinyin = v),
-                ),
-              ],
+            VerseText(
+              poem: poem,
+              showPinyin: _showPinyin,
+              fontSize: context.sp(16),
+              onGlossTap: _jumpToGloss,
             ),
-          ),
-          VerseText(
-            poem: poem,
-            showPinyin: _showPinyin,
-            onGlossTap: _jumpToGloss,
-          ),
-          const SizedBox(height: 56), // 给悬浮收藏星留出空间，避免被盖住最后一行
-        ],
+            const SizedBox(height: 56), // 给悬浮收藏星留出空间，避免被盖住最后一行
+          ],
+        ),
       ),
     );
   }
 
   Widget _buildGlossPane(AppColors c, Poem poem) {
     if (poem.gloss.isEmpty) {
-      return Center(child: Text('这首诗的词语解释还在整理中', style: TextStyle(color: c.inkFaint, fontSize: 12)));
+      return Center(child: Text('这首诗的词语解释还在整理中', style: TextStyle(color: c.inkFaint, fontSize: context.sp(12))));
     }
-    return ListView.separated(
-      controller: _glossScroll,
-      padding: const EdgeInsets.fromLTRB(18, 10, 18, 70),
-      itemCount: poem.gloss.length,
-      separatorBuilder: (_, _) => Divider(height: 1, color: c.border),
-      itemBuilder: (context, i) {
-        final idx = i + 1;
-        final key = _glossKeys.putIfAbsent(idx, () => GlobalKey());
-        final g = poem.gloss[i];
-        final highlighted = _highlightGloss == idx;
-        return AnimatedContainer(
-          key: key,
-          duration: const Duration(milliseconds: 300),
-          color: highlighted ? c.sealWash : Colors.transparent,
-          padding: const EdgeInsets.symmetric(vertical: 9),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              RichText(
-                text: TextSpan(children: [
-                  TextSpan(text: '$idx ', style: TextStyle(fontSize: 10.5, color: c.gold)),
-                  TextSpan(
-                      text: g.word,
-                      style: TextStyle(fontSize: 14, color: c.sealDeep, fontWeight: FontWeight.w600)),
-                ]),
-              ),
-              const SizedBox(height: 4),
-              Text(g.def, style: TextStyle(fontSize: 13, color: c.inkSoft, height: 1.6)),
-            ],
-          ),
-        );
-      },
+    return Responsive.centered(
+      ListView.separated(
+        controller: _glossScroll,
+        padding: const EdgeInsets.fromLTRB(18, 10, 18, 70),
+        itemCount: poem.gloss.length,
+        separatorBuilder: (_, _) => Divider(height: 1, color: c.border),
+        itemBuilder: (context, i) {
+          final idx = i + 1;
+          final key = _glossKeys.putIfAbsent(idx, () => GlobalKey());
+          final g = poem.gloss[i];
+          final highlighted = _highlightGloss == idx;
+          return AnimatedContainer(
+            key: key,
+            duration: const Duration(milliseconds: 300),
+            color: highlighted ? c.sealWash : Colors.transparent,
+            padding: const EdgeInsets.symmetric(vertical: 9),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                RichText(
+                  text: TextSpan(children: [
+                    TextSpan(text: '$idx ', style: TextStyle(fontSize: context.sp(10.5), color: c.gold)),
+                    TextSpan(
+                        text: g.word,
+                        style: TextStyle(
+                            fontSize: context.sp(14), color: c.sealDeep, fontWeight: FontWeight.w600)),
+                  ]),
+                ),
+                const SizedBox(height: 4),
+                Text(g.def, style: TextStyle(fontSize: context.sp(13), color: c.inkSoft, height: 1.6)),
+              ],
+            ),
+          );
+        },
+      ),
     );
   }
 
@@ -320,34 +328,37 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
     final paragraphs = content != null && tag == '白话文' ? splitIntoParagraphs(content) : null;
     return SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(18, 16, 18, 70),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
-            decoration: BoxDecoration(border: Border.all(color: c.gold), borderRadius: BorderRadius.circular(5)),
-            child: Text(tag, style: TextStyle(fontSize: 11, color: c.gold)),
-          ),
-          const SizedBox(height: 10),
-          if (content == null)
-            Text(
-              '${tag == '白话文' ? '白话翻译' : '创作背景'}还在整理中，敬请期待。',
-              style: TextStyle(fontSize: 13.5, color: c.inkSoft, height: 1.95),
-            )
-          else if (paragraphs != null)
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                for (final p in paragraphs)
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 10),
-                    child: Text(p, style: TextStyle(fontSize: 13.5, color: c.inkSoft, height: 1.8)),
-                  ),
-              ],
-            )
-          else
-            Text(content, style: TextStyle(fontSize: 13.5, color: c.inkSoft, height: 1.95)),
-        ],
+      child: Responsive.centered(
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
+              decoration:
+                  BoxDecoration(border: Border.all(color: c.gold), borderRadius: BorderRadius.circular(5)),
+              child: Text(tag, style: TextStyle(fontSize: context.sp(11), color: c.gold)),
+            ),
+            const SizedBox(height: 10),
+            if (content == null)
+              Text(
+                '${tag == '白话文' ? '白话翻译' : '创作背景'}还在整理中，敬请期待。',
+                style: TextStyle(fontSize: context.sp(13.5), color: c.inkSoft, height: 1.95),
+              )
+            else if (paragraphs != null)
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  for (final p in paragraphs)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 10),
+                      child: Text(p, style: TextStyle(fontSize: context.sp(13.5), color: c.inkSoft, height: 1.8)),
+                    ),
+                ],
+              )
+            else
+              Text(content, style: TextStyle(fontSize: context.sp(13.5), color: c.inkSoft, height: 1.95)),
+          ],
+        ),
       ),
     );
   }
@@ -356,43 +367,46 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
     return Container(
       padding: EdgeInsets.fromLTRB(14, 10, 14, 10 + MediaQuery.of(context).padding.bottom),
       decoration: BoxDecoration(color: c.bg, border: Border(top: BorderSide(color: c.border))),
-      child: Column(
-        children: [
-          SizedBox(
-            width: double.infinity,
-            child: OutlinedButton(
-              onPressed: () => widget.state.recordStudy(poem.id),
-              style: OutlinedButton.styleFrom(
-                foregroundColor: c.sealDeep,
-                side: BorderSide(color: c.seal),
-                backgroundColor: c.sealWash,
-                padding: const EdgeInsets.symmetric(vertical: 11),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
+      child: Responsive.centered(
+        Column(
+          children: [
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton(
+                onPressed: () => widget.state.recordStudy(poem.id),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: c.sealDeep,
+                  side: BorderSide(color: c.seal),
+                  backgroundColor: c.sealWash,
+                  padding: const EdgeInsets.symmetric(vertical: 11),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
+                ),
+                child: Text('学习完${chineseCount(progress.studyCount + 1)}次打卡',
+                    style: TextStyle(fontSize: context.sp(13), fontWeight: FontWeight.w600)),
               ),
-              child: Text('学习完${chineseCount(progress.studyCount + 1)}次打卡',
-                  style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600)),
             ),
-          ),
-          const SizedBox(height: 8),
-          Row(
-            children: [
-              Expanded(
-                child: _secondaryButton(c, '写感受', () => showFeelSheet(context, widget.state, poem)),
-              ),
-              const SizedBox(width: 7),
-              Expanded(
-                child: _primaryButton(c, '常读常新', () {
-                  final idx = widget.state.poems.indexWhere((p) => p.id == poem.id);
-                  Navigator.of(context, rootNavigator: true).push(
-                    MaterialPageRoute(
-                      builder: (_) => StudyScreen(state: widget.state, startIndex: idx < 0 ? 0 : idx),
-                    ),
-                  );
-                }),
-              ),
-            ],
-          ),
-        ],
+            const SizedBox(height: 8),
+            Row(
+              children: [
+                Expanded(
+                  child: _secondaryButton(c, '写感受', () => showFeelSheet(context, widget.state, poem)),
+                ),
+                const SizedBox(width: 7),
+                Expanded(
+                  child: _primaryButton(c, '常读常新', () {
+                    final idx = widget.state.poems.indexWhere((p) => p.id == poem.id);
+                    Navigator.of(context, rootNavigator: true).push(
+                      MaterialPageRoute(
+                        builder: (_) => StudyScreen(state: widget.state, startIndex: idx < 0 ? 0 : idx),
+                      ),
+                    );
+                  }),
+                ),
+              ],
+            ),
+          ],
+        ),
+        maxWidth: Responsive.maxReadingWidth,
       ),
     );
   }
@@ -407,7 +421,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
         padding: const EdgeInsets.symmetric(vertical: 11),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
       ),
-      child: Text(label, style: const TextStyle(fontSize: 12.5)),
+      child: Text(label, style: TextStyle(fontSize: context.sp(12.5))),
     );
   }
 
@@ -419,7 +433,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
         padding: const EdgeInsets.symmetric(vertical: 11),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
       ),
-      child: Text(label, style: TextStyle(fontSize: 12.5, fontWeight: FontWeight.w600, color: c.bg)),
+      child: Text(label, style: TextStyle(fontSize: context.sp(12.5), fontWeight: FontWeight.w600, color: c.bg)),
     );
   }
 }

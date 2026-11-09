@@ -4,6 +4,7 @@ import 'package:lpinyin/lpinyin.dart';
 import '../data/pinyin_lines.dart';
 import '../models/poem.dart';
 import '../theme/app_colors.dart';
+import '../utils/responsive.dart';
 
 const _punctuation = {
   '，', '。', '；', '：', '！', '？', '、',
@@ -146,6 +147,7 @@ class _VerseTextState extends State<VerseText> {
     final poem = widget.poem;
     final pyLines = pinyinLines[poem.id];
     final lines = poem.lines;
+    final scale = Responsive.typeScale(context);
     final crossAlign =
         widget.textAlign == TextAlign.center ? CrossAxisAlignment.center : CrossAxisAlignment.start;
 
@@ -162,17 +164,18 @@ class _VerseTextState extends State<VerseText> {
         }
         final marks = _markGloss(tokens.map((t) => t.char).toList(), poem.gloss);
         return Padding(
-          padding: const EdgeInsets.only(bottom: 6),
+          padding: EdgeInsets.only(bottom: 6 * scale),
           child: widget.showPinyin
-              ? _buildPinyinLine(c, tokens, marks)
-              : _buildPlainLine(c, tokens, marks),
+              ? _buildPinyinLine(c, tokens, marks, scale)
+              : _buildPlainLine(c, tokens, marks, scale),
         );
       }),
     );
   }
 
-  Widget _buildPlainLine(AppColors c, List<_Token> tokens, List<int> marks) {
+  Widget _buildPlainLine(AppColors c, List<_Token> tokens, List<int> marks, double scale) {
     final runs = _groupRuns(tokens, marks);
+    final badgeSize = 10 * scale;
     final spans = <InlineSpan>[];
     for (final run in runs) {
       final text = run.tokens.map((t) => t.char).join();
@@ -195,7 +198,7 @@ class _VerseTextState extends State<VerseText> {
           child: GestureDetector(
             onTap: () => widget.onGlossTap?.call(run.glossIdx),
             child: Text('${run.glossIdx}',
-                style: TextStyle(fontSize: 10, color: c.sealDeep, fontWeight: FontWeight.w700)),
+                style: TextStyle(fontSize: badgeSize, color: c.sealDeep, fontWeight: FontWeight.w700)),
           ),
         ));
       }
@@ -209,12 +212,13 @@ class _VerseTextState extends State<VerseText> {
     );
   }
 
-  Widget _buildPinyinLine(AppColors c, List<_Token> tokens, List<int> marks) {
+  Widget _buildPinyinLine(AppColors c, List<_Token> tokens, List<int> marks, double scale) {
     final runs = _groupRuns(tokens, marks);
+    final badgeSize = 10 * scale;
     final items = <Widget>[];
     for (final run in runs) {
       final group = Row(mainAxisSize: MainAxisSize.min, children: [
-        for (final t in run.tokens) _rubyChar(c, t, highlighted: run.glossIdx != 0),
+        for (final t in run.tokens) _rubyChar(c, t, scale, highlighted: run.glossIdx != 0),
       ]);
       if (run.glossIdx == 0) {
         items.add(group);
@@ -231,7 +235,7 @@ class _VerseTextState extends State<VerseText> {
                 padding: const EdgeInsets.only(top: 2, left: 1),
                 child: Text('${run.glossIdx}',
                     style:
-                        TextStyle(fontSize: 10, color: c.sealDeep, fontWeight: FontWeight.w700)),
+                        TextStyle(fontSize: badgeSize, color: c.sealDeep, fontWeight: FontWeight.w700)),
               ),
             ]),
           ),
@@ -241,17 +245,18 @@ class _VerseTextState extends State<VerseText> {
     return Wrap(crossAxisAlignment: WrapCrossAlignment.end, children: items);
   }
 
-  Widget _rubyChar(AppColors c, _Token t, {required bool highlighted}) {
+  Widget _rubyChar(AppColors c, _Token t, double scale, {required bool highlighted}) {
     final isPunct = t.pinyin == null;
+    final pinyinSize = 9.5 * scale;
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 1),
+      padding: EdgeInsets.symmetric(horizontal: 1 * scale),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           SizedBox(
-            height: 12,
+            height: 12 * scale,
             child: t.pinyin != null
-                ? Text(t.pinyin!, style: TextStyle(fontSize: 9.5, color: c.inkSoft))
+                ? Text(t.pinyin!, style: TextStyle(fontSize: pinyinSize, color: c.inkSoft))
                 : null,
           ),
           Text(

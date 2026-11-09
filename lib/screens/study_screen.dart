@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/app_state.dart';
 import '../theme/app_colors.dart';
 import '../utils/chinese_number.dart';
+import '../utils/responsive.dart';
 import '../widgets/feel_sheet.dart';
 import '../widgets/illustration.dart';
 import '../widgets/verse_text.dart';
@@ -97,7 +98,7 @@ class _StudyScreenState extends State<StudyScreen> {
                         ),
                       ),
                       const SizedBox(width: 8),
-                      Text('${_idx + 1}/$total', style: TextStyle(fontSize: 11, color: c.inkSoft)),
+                      Text('${_idx + 1}/$total', style: TextStyle(fontSize: context.sp(11), color: c.inkSoft)),
                     ],
                   ),
                 ),
@@ -105,7 +106,7 @@ class _StudyScreenState extends State<StudyScreen> {
                   padding: const EdgeInsets.fromLTRB(16, 6, 10, 0),
                   child: Row(
                     children: [
-                      Text('注音', style: TextStyle(fontSize: 11, color: c.inkSoft)),
+                      Text('注音', style: TextStyle(fontSize: context.sp(11), color: c.inkSoft)),
                       Transform.scale(
                         scale: 0.78,
                         child: Switch(
@@ -137,127 +138,139 @@ class _StudyScreenState extends State<StudyScreen> {
                     ],
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(16),
-                    child: SizedBox(height: 130, width: double.infinity, child: PoemIllustration(poem: poem)),
+                Responsive.centered(
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(16),
+                      child: SizedBox(height: 130, width: double.infinity, child: PoemIllustration(poem: poem)),
+                    ),
                   ),
+                  maxWidth: Responsive.maxReadingWidth,
                 ),
                 Expanded(
-                  child: SingleChildScrollView(
-                    padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
-                    child: Column(
-                      children: [
-                        Text(poem.title, style: TextStyle(fontFamily: 'serif', fontSize: 19, color: c.ink)),
-                        const SizedBox(height: 3),
-                        Text(poem.meta, style: TextStyle(fontSize: 11.5, color: c.inkSoft)),
-                        const SizedBox(height: 10),
-                        VerseText(
-                          poem: poem,
-                          textAlign: TextAlign.center,
-                          fontSize: 15,
-                          showPinyin: _showPinyin,
-                          onGlossTap: (idx) {
-                            final g = poem.gloss[idx - 1];
-                            setState(() => _peekGloss = {'idx': idx, 'w': g.word, 'd': g.def});
-                          },
-                        ),
-                        if (_peekGloss != null)
-                          Container(
-                            margin: const EdgeInsets.only(top: 10),
-                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-                            decoration: BoxDecoration(
-                              color: c.bgCard,
-                              borderRadius: BorderRadius.circular(12),
-                              border: Border.all(color: c.border),
-                            ),
-                            child: Align(
-                              alignment: Alignment.centerLeft,
-                              child: RichText(
-                                text: TextSpan(
-                                  style: TextStyle(fontSize: 12.5, color: c.inkSoft, height: 1.6),
-                                  children: [
-                                    TextSpan(
-                                        text: '${_peekGloss!['idx']}. ${_peekGloss!['w']}',
-                                        style: TextStyle(color: c.sealDeep, fontWeight: FontWeight.w600)),
-                                    TextSpan(text: '  ${_peekGloss!['d']}'),
-                                  ],
+                  child: Responsive.centered(
+                    SingleChildScrollView(
+                      padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
+                      child: Column(
+                        children: [
+                          Text(poem.title, style: TextStyle(fontFamily: 'serif', fontSize: context.sp(19), color: c.ink)),
+                          const SizedBox(height: 3),
+                          Text(poem.meta, style: TextStyle(fontSize: context.sp(11.5), color: c.inkSoft)),
+                          const SizedBox(height: 10),
+                          VerseText(
+                            poem: poem,
+                            textAlign: TextAlign.center,
+                            fontSize: context.sp(15),
+                            showPinyin: _showPinyin,
+                            onGlossTap: (idx) {
+                              final g = poem.gloss[idx - 1];
+                              setState(() => _peekGloss = {'idx': idx, 'w': g.word, 'd': g.def});
+                            },
+                          ),
+                          if (_peekGloss != null)
+                            Container(
+                              margin: const EdgeInsets.only(top: 10),
+                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                              decoration: BoxDecoration(
+                                color: c.bgCard,
+                                borderRadius: BorderRadius.circular(12),
+                                border: Border.all(color: c.border),
+                              ),
+                              child: Align(
+                                alignment: Alignment.centerLeft,
+                                child: RichText(
+                                  text: TextSpan(
+                                    style: TextStyle(fontSize: context.sp(12.5), color: c.inkSoft, height: 1.6),
+                                    children: [
+                                      TextSpan(
+                                          text: '${_peekGloss!['idx']}. ${_peekGloss!['w']}',
+                                          style: TextStyle(color: c.sealDeep, fontWeight: FontWeight.w600)),
+                                      TextSpan(text: '  ${_peekGloss!['d']}'),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
+                        ],
+                      ),
+                    ),
+                    maxWidth: Responsive.maxReadingWidth,
+                  ),
+                ),
+                Responsive.centered(
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 10, 16, 0),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          flex: 3,
+                          child: OutlinedButton(
+                            onPressed: () => widget.state.recordStudy(poem.id),
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: c.sealDeep,
+                              side: BorderSide(color: c.seal),
+                              backgroundColor: c.sealWash,
+                              padding: const EdgeInsets.symmetric(vertical: 10),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
+                            ),
+                            child: Text('学习完${chineseCount(progress.studyCount + 1)}次打卡',
+                                style: TextStyle(fontSize: context.sp(12), fontWeight: FontWeight.w600)),
                           ),
+                        ),
+                        const SizedBox(width: 7),
+                        Expanded(
+                          flex: 2,
+                          child: OutlinedButton(
+                            onPressed: () => showFeelSheet(context, widget.state, poem),
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: c.inkSoft,
+                              side: BorderSide(color: c.border),
+                              backgroundColor: c.bgCard,
+                              padding: const EdgeInsets.symmetric(vertical: 10),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
+                            ),
+                            child: Text('写感受', style: TextStyle(fontSize: context.sp(12))),
+                          ),
+                        ),
                       ],
                     ),
                   ),
+                  maxWidth: Responsive.maxReadingWidth,
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 10, 16, 0),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        flex: 3,
-                        child: OutlinedButton(
-                          onPressed: () => widget.state.recordStudy(poem.id),
+                Responsive.centered(
+                  Padding(
+                    padding: EdgeInsets.fromLTRB(16, 10, 16, 10 + MediaQuery.of(context).padding.bottom),
+                    child: Row(
+                      children: [
+                        OutlinedButton(
+                          onPressed: _idx > 0 ? () => _go(-1) : null,
                           style: OutlinedButton.styleFrom(
-                            foregroundColor: c.sealDeep,
-                            side: BorderSide(color: c.seal),
-                            backgroundColor: c.sealWash,
-                            padding: const EdgeInsets.symmetric(vertical: 10),
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
-                          ),
-                          child: Text('学习完${chineseCount(progress.studyCount + 1)}次打卡',
-                              style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600)),
-                        ),
-                      ),
-                      const SizedBox(width: 7),
-                      Expanded(
-                        flex: 2,
-                        child: OutlinedButton(
-                          onPressed: () => showFeelSheet(context, widget.state, poem),
-                          style: OutlinedButton.styleFrom(
-                            foregroundColor: c.inkSoft,
+                            foregroundColor: c.ink,
                             side: BorderSide(color: c.border),
                             backgroundColor: c.bgCard,
-                            padding: const EdgeInsets.symmetric(vertical: 10),
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
                           ),
-                          child: const Text('写感受', style: TextStyle(fontSize: 12)),
+                          child: Text('‹ 上一篇', style: TextStyle(fontSize: context.sp(14))),
                         ),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsets.fromLTRB(16, 10, 16, 10 + MediaQuery.of(context).padding.bottom),
-                  child: Row(
-                    children: [
-                      OutlinedButton(
-                        onPressed: _idx > 0 ? () => _go(-1) : null,
-                        style: OutlinedButton.styleFrom(
-                          foregroundColor: c.ink,
-                          side: BorderSide(color: c.border),
-                          backgroundColor: c.bgCard,
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
-                        ),
-                        child: const Text('‹ 上一篇'),
-                      ),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: FilledButton(
-                          onPressed: () => _go(1),
-                          style: FilledButton.styleFrom(
-                            backgroundColor: c.ink,
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
-                          ),
-                          child: Text(
-                            _idx == total - 1 ? '常读常新 ↺' : '下一篇 ›',
-                            style: TextStyle(color: c.bg, fontWeight: FontWeight.w600),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: FilledButton(
+                            onPressed: () => _go(1),
+                            style: FilledButton.styleFrom(
+                              backgroundColor: c.ink,
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
+                            ),
+                            child: Text(
+                              _idx == total - 1 ? '常读常新 ↺' : '下一篇 ›',
+                              style: TextStyle(fontSize: context.sp(14), color: c.bg, fontWeight: FontWeight.w600),
+                            ),
                           ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
+                  maxWidth: Responsive.maxReadingWidth,
                 ),
               ],
             ),

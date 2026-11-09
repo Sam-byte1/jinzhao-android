@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/app_state.dart';
 import '../models/poem.dart';
 import '../theme/app_colors.dart';
+import '../utils/responsive.dart';
 import 'illustration.dart';
 
 class PoemCard extends StatelessWidget {
@@ -15,6 +16,7 @@ class PoemCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final c = AppColors.of(context);
     final studied = progress.studyCount > 0;
+    final thumbSize = 52 * Responsive.typeScale(context);
     return InkWell(
       borderRadius: BorderRadius.circular(16),
       onTap: onTap,
@@ -29,7 +31,7 @@ class PoemCard extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(12),
-              child: SizedBox(width: 52, height: 52, child: PoemIllustration(poem: poem)),
+              child: SizedBox(width: thumbSize, height: thumbSize, child: PoemIllustration(poem: poem)),
             ),
             const SizedBox(width: 12),
             Expanded(
@@ -43,7 +45,7 @@ class PoemCard extends StatelessWidget {
                           poem.title,
                           style: TextStyle(
                               fontFamily: 'serif',
-                              fontSize: 16,
+                              fontSize: context.sp(16),
                               color: c.ink,
                               fontWeight: FontWeight.w600),
                           overflow: TextOverflow.ellipsis,
@@ -51,7 +53,7 @@ class PoemCard extends StatelessWidget {
                       ),
                       if (progress.favorite) ...[
                         const SizedBox(width: 4),
-                        Icon(Icons.star_rounded, size: 14, color: c.gold),
+                        Icon(Icons.star_rounded, size: context.sp(14), color: c.gold),
                       ],
                       const SizedBox(width: 6),
                       Container(
@@ -65,7 +67,7 @@ class PoemCard extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 3),
-                  Text(poem.meta, style: TextStyle(fontSize: 11.5, color: c.inkSoft)),
+                  Text(poem.meta, style: TextStyle(fontSize: context.sp(11.5), color: c.inkSoft)),
                 ],
               ),
             ),
@@ -79,7 +81,7 @@ class PoemCard extends StatelessWidget {
               child: Text(
                 studied ? '读过${progress.studyCount}次' : '未读',
                 style: TextStyle(
-                  fontSize: 10.5,
+                  fontSize: context.sp(10.5),
                   fontWeight: FontWeight.w600,
                   color: studied ? c.sealDeep : c.inkFaint,
                 ),
