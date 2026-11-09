@@ -31,8 +31,9 @@ class _ReadAloudButtonState extends State<ReadAloudButton> {
 
   Future<void> _init() async {
     await _tts.setLanguage('zh-CN');
-    await _tts.setSpeechRate(0.42); // 古诗词语速放慢一些，比日常说话更清楚
+    await _tts.setSpeechRate(0.48); // 比系统默认略慢一点点；太慢反而更机械，不自然
     await _tts.setPitch(1.0);
+    await _pickBestVoice();
     _tts.setCompletionHandler(() {
       if (mounted) {
         setState(() {
@@ -51,6 +52,36 @@ class _ReadAloudButtonState extends State<ReadAloudButton> {
       _resumeOffset = start;
     });
     if (mounted) setState(() => _ready = true);
+  }
+
+  /// 同一台设备上安装了多个中文语音时，默认选到的不一定是音质最好的那个。
+  /// 不同引擎（系统自带/厂商自带/第三方）给语音起名的规则并不统一，
+  /// 这里只能靠经验规则挑一个大概率更自然的，挑不出来就用引擎默认值，
+  /// 不强求、不报错。
+  Future<void> _pickBestVoice() async {
+    try {
+      final voices = await _tts.getVoices;
+      if (voices is! List) return;
+      final zhVoices = voices
+          .whereType<Map>()
+          .where((v) => (v['locale'] ?? '').toString().toLowerCase().startsWith('zh'))
+          .toList();
+      if (zhVoices.isEmpty) return;
+      // 经验规则：名字里带 local/embedded/compact 的通常是离线精简包，音质较差；
+      // 优先挑不带这些关键词的（往往是云端/完整音库）。
+      const lowQualityHints = ['local', 'embedded', 'compact'];
+      final better = zhVoices.where((v) {
+        final name = (v['name'] ?? '').toString().toLowerCase();
+        return !lowQualityHints.any((h) => name.contains(h));
+      }).toList();
+      final pick = (better.isNotEmpty ? better : zhVoices).first;
+      await _tts.setVoice({
+        'name': (pick['name'] ?? '').toString(),
+        'locale': (pick['locale'] ?? '').toString(),
+      });
+    } catch (_) {
+      // 拿不到语音列表或设置失败就算了，用引擎默认语音，不影响朗读功能本身。
+    }
   }
 
   @override

@@ -249,7 +249,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
       padding: const EdgeInsets.fromLTRB(18, 16, 18, 10),
       child: Responsive.centered(
         Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             if (poem.preface != null)
               Container(
@@ -282,6 +282,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
               poem: poem,
               showPinyin: _showPinyin,
               fontSize: context.sp(16),
+              textAlign: TextAlign.center,
               onGlossTap: _jumpToGloss,
             ),
             const SizedBox(height: 56), // 给悬浮收藏星留出空间，避免被盖住最后一行
