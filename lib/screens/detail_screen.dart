@@ -6,7 +6,7 @@ import '../theme/app_colors.dart';
 import '../utils/chinese_number.dart';
 import '../utils/text_format.dart';
 import '../widgets/feel_sheet.dart';
-import '../widgets/illustration.dart';
+import '../widgets/poem_banner.dart';
 import '../widgets/verse_text.dart';
 import 'study_screen.dart';
 
@@ -158,7 +158,7 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
       child: Stack(
         fit: StackFit.expand,
         children: [
-          PoemIllustration(poem: poem),
+          PoemBanner(poem: poem),
           Positioned(
             left: 14,
             top: 10,

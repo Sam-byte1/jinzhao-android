@@ -8,6 +8,16 @@ class GlossEntry {
   }
 }
 
+class PoemImage {
+  final String asset;
+  final String? caption;
+  PoemImage({required this.asset, this.caption});
+
+  factory PoemImage.fromJson(Map<String, dynamic> json) {
+    return PoemImage(asset: json['asset'] as String, caption: json['caption'] as String?);
+  }
+}
+
 class PoemVariant {
   final String label;
   final List<List<String>> stanzas;
@@ -47,6 +57,7 @@ class Poem {
   final String? background;
   final String contentStatus;
   final String? illuKey;
+  final List<PoemImage> images;
 
   Poem({
     required this.seq,
@@ -72,6 +83,7 @@ class Poem {
     this.background,
     required this.contentStatus,
     this.illuKey,
+    this.images = const [],
   });
 
   bool get isResearched => contentStatus == 'researched';
@@ -116,6 +128,9 @@ class Poem {
       background: json['background'] as String?,
       contentStatus: json['contentStatus'] as String? ?? 'pending',
       illuKey: json['illuKey'] as String?,
+      images: (json['images'] as List? ?? [])
+          .map((i) => PoemImage.fromJson(i as Map<String, dynamic>))
+          .toList(),
     );
   }
 }
