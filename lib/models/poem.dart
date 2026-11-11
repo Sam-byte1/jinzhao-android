@@ -58,6 +58,7 @@ class Poem {
   final String contentStatus;
   final String? illuKey;
   final List<PoemImage> images;
+  final bool authoritative;
 
   Poem({
     required this.seq,
@@ -84,6 +85,7 @@ class Poem {
     required this.contentStatus,
     this.illuKey,
     this.images = const [],
+    this.authoritative = false,
   });
 
   bool get isResearched => contentStatus == 'researched';
@@ -131,6 +133,7 @@ class Poem {
       images: (json['images'] as List? ?? [])
           .map((i) => PoemImage.fromJson(i as Map<String, dynamic>))
           .toList(),
+      authoritative: json['authoritative'] as bool? ?? false,
     );
   }
 }

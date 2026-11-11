@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
         final studiedCount = state.studiedCount;
         final nextIdx = poems.indexWhere((p) => state.progressFor(p.id).studyCount == 0);
         final allStudied = studiedCount == total && total > 0;
-        final shown = _filter == 'researched' ? poems.where((p) => p.isResearched).toList() : poems;
+        final shown = _filter == 'researched' ? poems.where((p) => p.authoritative).toList() : poems;
 
         return Column(
           children: [
@@ -137,7 +137,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Padding(
               padding: const EdgeInsets.fromLTRB(18, 10, 18, 0),
               child: Row(children: [
-                _filterChip(c, 'researched', '已出版 (${state.researchedCount})'),
+                _filterChip(c, 'researched', '已出版 (${state.authoritativeCount})'),
                 const SizedBox(width: 6),
                 _filterChip(c, 'all', '全部 (${poems.length})'),
               ]),

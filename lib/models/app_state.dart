@@ -228,6 +228,7 @@ class AppState extends ChangeNotifier {
   int get studiedCount =>
       poems.where((p) => progressFor(p.id).studyCount > 0).length;
   int get researchedCount => poems.where((p) => p.isResearched).length;
+  int get authoritativeCount => poems.where((p) => p.authoritative).length;
 
   List<MapEntry<Poem, FeelNote>> get allNotesWithPoem {
     final list = <MapEntry<Poem, FeelNote>>[];
