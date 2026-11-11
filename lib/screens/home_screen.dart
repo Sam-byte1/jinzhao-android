@@ -4,6 +4,7 @@ import '../models/poem.dart';
 import '../theme/app_colors.dart';
 import '../widgets/poem_card.dart';
 import 'detail_screen.dart';
+import 'search_screen.dart';
 import 'study_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -49,16 +50,39 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Padding(
               padding: const EdgeInsets.fromLTRB(18, 22, 18, 6),
-              child: Column(
+              child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('今朝 · 读毛泽东诗词',
-                      style: TextStyle(
-                          fontSize: 11.5, letterSpacing: 2, color: c.gold, fontWeight: FontWeight.w600)),
-                  const SizedBox(height: 4),
-                  Text('诗词', style: TextStyle(fontFamily: 'serif', fontSize: 24, color: c.ink)),
-                  const SizedBox(height: 2),
-                  Text('$total首作品 · 一篇一篇慢慢读', style: TextStyle(fontSize: 12.5, color: c.inkSoft)),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('今朝 · 读毛泽东诗词',
+                            style: TextStyle(
+                                fontSize: 11.5, letterSpacing: 2, color: c.gold, fontWeight: FontWeight.w600)),
+                        const SizedBox(height: 4),
+                        Text('诗词', style: TextStyle(fontFamily: 'serif', fontSize: 24, color: c.ink)),
+                        const SizedBox(height: 2),
+                        Text('$total首作品 · 一篇一篇慢慢读', style: TextStyle(fontSize: 12.5, color: c.inkSoft)),
+                      ],
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 2),
+                    child: InkWell(
+                      onTap: () => Navigator.of(context, rootNavigator: true).push(
+                        MaterialPageRoute(builder: (_) => SearchScreen(state: state)),
+                      ),
+                      borderRadius: BorderRadius.circular(20),
+                      child: Container(
+                        width: 38,
+                        height: 38,
+                        decoration: BoxDecoration(
+                            color: c.bgCard, shape: BoxShape.circle, border: Border.all(color: c.border)),
+                        child: Icon(Icons.search, size: 19, color: c.ink),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
