@@ -4,9 +4,9 @@
 
 **毛泽东写诗词这件事，贯穿了他的一生。** 从少年时"埋骨何须桑梓地，人生无处不青山"的立志，到长征路上"更喜岷山千里雪，三军过后尽开颜"的豪情，再到晚年的沉吟咏叹，几十年间他把治国、征战、人生起伏都写进了诗词里，格律深厚又气象宏大，是读中国近现代史很难绕开的一批文本。今朝就是为了认真读这些诗词做的一个原生 Flutter / Android 应用：126 首毛泽东诗词全收录——远不止教科书里常见的 39 首权威篇目，连早年习作、联句残篇、战争年代的即兴之作也一并收齐，逐首都配有逐字注音、词语解释、白话译文、创作背景，陪你一篇一篇慢慢读，也允许你一读再读。
 
-[下载手机测试版 APK](https://github.com/Sam-byte1/jinzhao-android/releases/tag/v0.21.0) · [下载平板测试版 APK](https://github.com/Sam-byte1/jinzhao-android/releases/tag/tablet-v0.21.0) · [反馈问题](https://github.com/Sam-byte1/jinzhao-android/issues) · [MIT 许可证](LICENSE)
+[下载手机测试版 APK](https://github.com/Sam-byte1/jinzhao-android/releases/tag/v0.21.1) · [下载平板测试版 APK](https://github.com/Sam-byte1/jinzhao-android/releases/tag/tablet-v0.21.0) · [反馈问题](https://github.com/Sam-byte1/jinzhao-android/issues) · [MIT 许可证](LICENSE)
 
-> **当前为早期测试版（V0.21.0）。** 安装包为本地 debug 签名，未上架 Google Play，也未经过任何应用商店审核。从 Release 页面下载后，Android 会提示"未知来源"或"此应用可能对你的设备有害"，这是正常现象，不代表代码本身有问题；请自行判断是否信任来源后再安装。仅在模拟器与少量 Apple Silicon Mac 跑的模拟器上验证过，尚未经过大规模真机测试。
+> **当前为早期测试版（V0.21.1）。** 安装包为本地 debug 签名，未上架 Google Play，也未经过任何应用商店审核。从 Release 页面下载后，Android 会提示"未知来源"或"此应用可能对你的设备有害"，这是正常现象，不代表代码本身有问题；请自行判断是否信任来源后再安装。仅在模拟器与少量 Apple Silicon Mac 跑的模拟器上验证过，尚未经过大规模真机测试。
 
 ## 毛泽东诗词，值得专门做一个 App
 
@@ -83,7 +83,7 @@
 
 ## 下载与安装
 
-1. 在 [Releases](https://github.com/Sam-byte1/jinzhao-android/releases) 选择最新测试版——手机用户选不带 `tablet-` 前缀的版本（如 `v0.21.0`），平板用户选 `tablet-` 前缀的版本（如 `tablet-v0.21.0`）。
+1. 在 [Releases](https://github.com/Sam-byte1/jinzhao-android/releases) 选择最新测试版——手机用户选不带 `tablet-` 前缀的版本（如 `v0.21.1`），平板用户选 `tablet-` 前缀的版本（如 `tablet-v0.21.0`）。
 2. 下载对应版本的 `.apk` 安装包。
 3. 在手机上打开下载的 APK；系统会提示"未知来源"或安全警告，确认信任来源后继续安装。
 4. 安装完成后从桌面图标打开即可，无需注册、无需联网。
